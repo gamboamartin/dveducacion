@@ -27,15 +27,15 @@ use config\views;
 
 <body>
 
-    <section id="nav" class="container-fluid">
-        <div class="row border-1">
-            <div class="col-md-4  izquierda rsp-centro">MENU</div>
-            <div class="col-md-4  centro rsp-centro">LOGO</div>
-            <div class="col-md-4  derecha rsp-centro">PERFIL</div>
+    <section id="nav" class="container-fluid border-red">
+        <div class="row border-azul">
+            <div class="col-md-4  izquierda rsp-centro ">MENU</div>
+            <div class="col-md-4  centro rsp-centro ">LOGO</div>
+            <div class="col-md-4  derecha rsp-centro ">PERFIL</div>
         </div>
 
     </section>
-    
+
 
 
     <?php  include($data->include_action); ?>

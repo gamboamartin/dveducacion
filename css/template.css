@@ -13,3 +13,18 @@
 .centro{
     text-align: center;
 }
+
+.bg-negro{
+    background: #000;
+}
+.border-red{
+    border: 1px solid #f30;
+}
+
+.border-azul{
+    border: 1px solid #0a58ca;
+}
+
+.border-verde{
+    border: 1px solid #00FA20;
+}

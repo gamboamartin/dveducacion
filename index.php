@@ -28,3 +28,4 @@ $conf_generales = $data->conf_generales;
 if($conf_generales->muestra_index) {
     include "principal.php";
 }
+

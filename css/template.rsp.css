@@ -3,7 +3,12 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    .rsp-centro{
-        text-align: center;
+
+    .navbar a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center; /* If you want the text to be left-aligned on small screens */
     }
+
 }

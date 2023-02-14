@@ -1,15 +1,11 @@
 <?php
 use config\views;
 
-
 /** @var stdClass $data */
 /** @var base\controller\ $controlador */
 
-
-
-
-
 ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -19,7 +15,10 @@ use config\views;
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link href="<?php (new \config\generales())->url_base ?>css/template.css" rel="stylesheet">
-    <link href="<?php (new \config\generales())->url_base ?>css/template.rsp.css" rel="stylesheet">
+    <link href="}<?php (new \config\generales())->url_base ?>css/template.rsp.css" rel="stylesheet">
+
+    <link href="css/template.css" rel="stylesheet">
+    <link href="css/template.rsp.css.css" rel="stylesheet">
 
     <?php echo $data->css_custom->css; ?>
 
@@ -31,12 +30,10 @@ use config\views;
         <div class="row border-azul">
             <div class="col-md-4  izquierda rsp-centro ">MENU</div>
             <div class="col-md-4  centro rsp-centro ">LOGO</div>
-            <div class="col-md-4  derecha rsp-centro ">PERFIL</div>
+            <div class="col-md-4  derecha rsp-centro "> <a class="linkdv" href="https://escuela.dveducacion.com/">PERFIL</a></div>z|
         </div>
 
     </section>
-
-
 
     <?php  include($data->include_action); ?>
 
@@ -53,4 +50,3 @@ use config\views;
 
 </body>
 </html>
-

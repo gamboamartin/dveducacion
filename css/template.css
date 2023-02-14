@@ -1,16 +1,17 @@
 #nav{
     padding-top: 50px;
     padding-bottom: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: aliceblue;
 }
-
-.derecha{
-    text-align: right;
-}
-
-.izquierda{
-    text-align: left;
-}
-.centro{
+.navbar a{
+    color: black;
+    float: left;
+    text-decoration: none;
+    font-size: 17px;
+    width: 33.33%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
     text-align: center;
 }
 
@@ -28,3 +29,16 @@
 .border-verde{
     border: 1px solid #00FA20;
 }
+
+.port1{
+    background-image: url("/css/img/portada.jpg");
+    height: calc(1000px - 500px);
+}
+
+
+.port2{
+    background-image: url("/css/img/picture.jpg");
+    height: 500px;
+    width: 100%;
+}
+

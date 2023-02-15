@@ -98,13 +98,13 @@
 }
 
 .port1{
-    background-image: url("/css/img/portada.jpg");
+    background-image: url("img/portada.jpg");
     height: calc(1000px - 500px);
     background-color: #0a58ca;
 }
 
 .port2{
-    background-image: url("/css/img/picture.jpg");
+    background-image: url("img/picture.jpg");
     height: 500px;
     width: 100%;
     background-color: #0a58ca;

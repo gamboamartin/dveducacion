@@ -17,27 +17,65 @@
 <body>
 
 <section id="nav" class="container-fluid border-red navbar">
-    <div class="row border-azul ">
-        <div><a href="#">Menu</a></div>
-        <div class="border-verde"><a href="#">Logo</a></div>
-        <div> <a href="https://escuela.dveducacion.com/">Perfil</a></div>
-    </div>
+    <div class="row border-azul">
 
+        <div class="dropdown border-verde menudv menudvrsp">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+                <a href="#">Básico</a>
+                <a href="#">Intermedio</a>
+                <a href="#">Avanzado</a>
+                <a href="#">Nutracéuticos</a>
+                <a href="#quien">Quienes somos</a>
+                <a href="#nuest">Nuestro equipo</a>
+                <a href="#test">Testimonio</a>
+                <a href="#preg">Pregunstas frecuentes</a>
+                <a href="#">Contáctanos</a>
+            </div>
+        </div>
+        <!--<div><a href="#">Menu</a></div>-->
+        <div ><img class="menudvrsp menudv border-verde" id="imgmenu"  src="../../css/img/img1.jpg"></div>
+        <div class="menudv menudvrsp border-verde"> <a href="https://escuela.dveducacion.com/">Perfil</a></div>
+    </div>
 </section>
 
 <section id="portimg" class="container-fluid border-red">
     <div class="row border-azul">
         <div class="grid-block port1">
-            imgs
+
+            <center><img id="imgpr" src="../../css/img/img1.jpg"></center>
 
         </div>
     </div>
-</section>
 
-<section id="portimg" class="container-fluid border-red">
-    <div class="row border-azul">
+    <div id="quien" class="row border-azul">
         <div class="grid-block port2">
-            imgs
+            <h1>Quienes somos</h1>
+
+
+
+        </div>
+    </div>
+
+    <div id="nuest" class="row border-azul">
+        <div class="grid-block port2">
+            <h1>Nuestro equipo</h1>
+
+
+
+        </div>
+    </div>
+
+    <div id="test" class="row border-azul">
+        <div class="grid-block port1">
+            <h1>Testimonios</h1>
+
+        </div>
+    </div>
+
+    <div id="preg" class="row border-azul">
+        <div class="grid-block port2">
+            <H1>Pregunstas frecuentes</H1>
 
         </div>
     </div>

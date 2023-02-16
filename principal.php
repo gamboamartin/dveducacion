@@ -16,7 +16,7 @@ use config\views;
 
     <link href="<?php (new \config\generales())->url_base ?>css/template.css" rel="stylesheet">
     <link href="<?php (new \config\generales())->url_base ?>css/template.rsp.css" rel="stylesheet">
-
+    <link href="<?php (new \config\generales())->url_base ?>css/styles.css" rel="stylesheet">
 
 
     <?php echo $data->css_custom->css; ?>
@@ -25,11 +25,11 @@ use config\views;
 
 <body>
 
-<section id="nav" class="container-fluid border-red navbar">
+<section id="nav" class="container-fluid navbar border-red">
     <div class="row border-azul">
 
-        <div class="dropdown border-verde menudv menudvrsp">
-            <button class="dropbtn">Menu</button>
+        <div class="dropdown menudv menudvrsp">
+            <button class="dropbtn montserratitalic">Menú</button>
             <div class="dropdown-content">
                 <a href="#">Básico</a>
                 <a href="#">Intermedio</a>
@@ -42,9 +42,44 @@ use config\views;
                 <a href="#">Contáctanos</a>
             </div>
         </div>
-        <!--<div><a href="#">Menu</a></div>-->
-        <div ><img class="menudvrsp menudv border-verde" id="imgmenu"  src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg"></div>
-        <div class="menudv menudvrsp border-verde"> <a href="https://escuela.dveducacion.com/">Perfil</a></div>
+        <!--<div class="menudvrsp menudv border-verde"><img class="border-azul"  src="<?php //echo (new config\generales())->url_base; ?>css/img/logo.jpg" height="75px" width="auto"></div>-->
+        <img id="imgmen" class="menudvrsp menudv border-verde"  src="<?php echo (new config\generales())->url_base; ?>css/img/logo.jpg">
+        <div class="menudv menudvrsp border-verde navbar"> <a href="https://escuela.dveducacion.com/">Perfil</a></div>
+    </div>
+</section>
+
+<section id="portimg" class="container-fluid border-red">
+    <div class="row border-azul">
+        <div class="grid-block port1">
+
+            <center><img class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg"></center>
+
+        </div>
+    </div>
+
+    <div id="quien" class="row border-azul">
+        <div class="grid-block port2">
+            <h1>Quienes somos</h1>
+        </div>
+    </div>
+
+    <div id="nuest" class="row border-azul">
+        <div class="grid-block port1">
+            <h1>Nuestro equipo</h1>
+        </div>
+    </div>
+
+    <div id="test" class="row border-azul">
+        <div class="grid-block port2">
+            <h1>Testimonios</h1>
+
+        </div>
+    </div>
+
+    <div id="preg" class="row border-azul">
+        <div class="grid-block port1">
+            <H1>Pregunstas frecuentes</H1>
+        </div>
     </div>
 </section>
 

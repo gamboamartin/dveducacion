@@ -25,16 +25,16 @@ use config\views;
 
 <body>
 
-<section id="nav" class="container-fluid navbar border-red">
-    <div class="row border-azul">
+<section id="nav" class="container-fluid navbar menudvrsp">
+    <div class="row menudvrsp">
 
         <div class="dropdown menudv menudvrsp">
             <button class="dropbtn montserratitalic">Menú</button>
             <div class="dropdown-content">
-                <a href="#">Básico</a>
-                <a href="#">Intermedio</a>
-                <a href="#">Avanzado</a>
-                <a href="#">Nutracéuticos</a>
+                <a class="linkmenu" href="#">Básico</a>
+                <a class="linkmenu" href="#">Intermedio</a>
+                <a class="linkmenu" href="#">Avanzado</a>
+                <a class="linkmenu" href="#">Nutracéuticos</a>
                 <a href="#quien">Quienes somos</a>
                 <a href="#nuest">Nuestro equipo</a>
                 <a href="#test">Testimonio</a>
@@ -43,29 +43,112 @@ use config\views;
             </div>
         </div>
         <!--<div class="menudvrsp menudv border-verde"><img class="border-azul"  src="<?php //echo (new config\generales())->url_base; ?>css/img/logo.jpg" height="75px" width="auto"></div>-->
-        <img id="imgmen" class="menudvrsp menudv border-verde"  src="<?php echo (new config\generales())->url_base; ?>css/img/logo.jpg">
-        <div class="menudv menudvrsp border-verde navbar"> <a href="https://escuela.dveducacion.com/">Perfil</a></div>
+        <img class="menudvrsp menudv imgmenu"  src="<?php echo (new config\generales())->url_base; ?>css/img/logo.jpg" width="auto" height="75px">
+        <div class="menudv menudvrsp navbar "> <a href="https://escuela.dveducacion.com/" >Perfil</a></div>
     </div>
-</section>
+</section>-->
 
-<section id="portimg" class="container-fluid border-red">
-    <div class="row border-azul">
-        <div class="grid-block port1">
+<section id="portimg" class="container-fluid">
+    <div class="row">
+        <div class="grid-block img">
+            <div>
+                <div class="encabezado div">
+                    <p class="encabezado">Es hora de optimizar tu salud </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-            <center><img class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg"></center>
+    <div class="row border-red">
+        <div class="grid-block">
+            <div class="border-azul">
+                    <p>hola</p>
+            </div>
+        </div>
+    </div>
 
+
+    <div class="row">
+        <div class="grid-block">
+            <div>
+                <h1>Nosotros</h1>
+            </div>
         </div>
     </div>
 
     <div id="quien" class="row border-azul">
         <div class="grid-block port2">
             <h1>Quienes somos</h1>
+            <div class="border-red acomodoimg acomodoimgrsp">
+                <center><img id="Myimagen" class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg" onclick="openImg()"></center>
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img01">
+                    <!-- Modal Caption (Image Text) -->
+                    <div id="caption"></div>
+                    <script src="js/prueba.js"></script>
+                </div>
+            </div>
+
+            <div class="border-red acomodoimg acomodoimgrsp">
+                <center><img id="Myimagen" class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg" onclick="openImg()"></center>
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img01">
+                    <!-- Modal Caption (Image Text) -->
+                    <div id="caption"></div>
+                    <script src="js/prueba.js"></script>
+                </div>
+            </div>
+
+            <div class="border-red acomodoimg acomodoimgrsp">
+                <center><img id="Myimagen" class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg" onclick="openImg()"></center>
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img01">
+                    <!-- Modal Caption (Image Text) -->
+                    <div id="caption"></div>
+                    <script src="js/prueba.js"></script>
+                </div>
+            </div>
+
+            <div class="border-red acomodoimg acomodoimgrsp">
+                <center><img id="Myimagen" class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg" onclick="openImg()"></center>
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img01">
+                    <!-- Modal Caption (Image Text) -->
+                    <div id="caption"></div>
+                    <script src="js/prueba.js"></script>
+                </div>
+            </div>
+
         </div>
     </div>
 
     <div id="nuest" class="row border-azul">
         <div class="grid-block port1">
             <h1>Nuestro equipo</h1>
+            <div class="dnec dnecrsp" top-right><img class="nec necrsp border-azul" src="<?php echo (new config\generales())->url_base; ?>css/img/circulobicolor.svg"></div>
+        </div>
+    </div>
+
+    <div id="test" class="row border-azul">
+        <div class="grid-block port2">
+            <h1>Recursos Gratis</h1>
+
         </div>
     </div>
 
@@ -78,7 +161,15 @@ use config\views;
 
     <div id="preg" class="row border-azul">
         <div class="grid-block port1">
-            <H1>Pregunstas frecuentes</H1>
+            <H1>Preguntas frecuentes</H1>
+
+            <p>Preguntas frecuentes</p>
+                <div id="btn" class="border-azul">
+                    <div class="btndiv"><center><button class="btncursos"><a href="#">Basico</a></button></center></div>
+                    <div class="btndiv"><center><button class="btncursos"><a href="#">Intermedio</a></button></center></div>
+                    <div class="btndiv"><center><button class="btncursos"><a href="#">Avanzado</a></button></center></div>
+                    <div class="btndiv"><center><button class="btncursos"><a href="#">Recursos Gratis</a></button></center></div>
+                </div>
         </div>
     </div>
 </section>

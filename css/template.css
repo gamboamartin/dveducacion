@@ -17,13 +17,28 @@
     font-style: normal;
     font-weight: 700;
 }
-
+::-webkit-scrollbar {
+    display: none;
+}
 h1{
     font-family: Montserrat;
     color: #003366;
 }
 p{
     font-family: Confortaa;
+}
+/*Div's*/
+.div2{
+    width: 50%;
+    float: left;
+}
+.div3{
+    width: 33.33%;
+    float: left;
+}
+.div4{
+    width: 25%;
+    float: left;
 }
 /*Navbar*/
 #nav{
@@ -52,6 +67,12 @@ p{
     text-align: center;
     width: 100%;
     padding-top: 15px;
+}
+.conten{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    font-family: MontserratIta;
 }
 
 /*prueba imagen modal*/
@@ -195,34 +216,43 @@ p{
     display: block;
 }
 
-#btn{
-    padding-top: 15px;
-    padding-bottom: 5px;
-    width: 100%;
-    background-color: white;
-    font-family: MontserratIta;
-}
-.btndiv{
-    width: 25%;
-    float: left;
-}
 .btncursos{
     border-radius: 25px;
     width: 80%;
     height: 150px;
     box-shadow: black;
     text-decoration: none;
+    background-color: white;
+}
+.btnarticulo{
+    border-radius: 15px;
+    width: 60%;
+    height: 150px;
+    box-shadow: black;
+    text-decoration: none;
+    background-color: white;
 }
 .btncursos a{
     text-decoration: none;
+}
+
+.dipositivas{
+    width: 100%;
+    height: 500px;
+}
+.my_scroll_div{
+    overflow-y: auto;
+    max-height: 500px;
+    width: 100%;
 }
 
 .encabezado div{
     width: 100%;
 }
 .encabezado{
-    font-size: 60px;
-    color: gray;
+    padding-left: 40px;
+    font-size: 65px;
+    color: #594e4e;
     width: 65%;
 }
 
@@ -243,14 +273,11 @@ p{
 .img img{
     width: 100%;
 }
-.acomodoimg{
-    float: left;
-    width: 25%;
-}
+
 .port1{
-    /*background-color: white;*/
+    background-image: url("img/portada.jpg");
     height: auto;
-    width: 100%;
+    width: 1637px;
     display: block;
     top: 0;
 }
@@ -264,14 +291,16 @@ p{
 
 .dnec{
     width: 700px;
-    height: 700px;
+    height: auto;
     float: right;
     overflow: hidden
 }
 .nec{
-    width: 1400px;
-    height: 1400px;
-    /*transition-property: ;*/
+    width: 600px;
+    height: auto;
+    float: right;
+    overflow: hidden;
+    padding-right: -10px;
 }
 
 /*Bordes*/

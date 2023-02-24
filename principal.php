@@ -35,15 +35,15 @@ use config\views;
                 <a class="linkmenu" href="#">Intermedio</a>
                 <a class="linkmenu" href="#">Avanzado</a>
                 <a class="linkmenu" href="#">Nutracéuticos</a>
-                <a href="#quien">Quienes somos</a>
-                <a href="#nuest">Nuestro equipo</a>
-                <a href="#test">Testimonio</a>
-                <a href="#preg">Pregunstas frecuentes</a>
+                <a href="#">Quienes somos</a>
+                <a href="#">Nuestro equipo</a>
+                <a href="#">Testimonio</a>
+                <a href="#">Pregunstas frecuentes</a>
                 <a href="#">Contáctanos</a>
             </div>
         </div>
         <!--<div class="menudvrsp menudv border-verde"><img class="border-azul"  src="<?php //echo (new config\generales())->url_base; ?>css/img/logo.jpg" height="75px" width="auto"></div>-->
-        <img class="menudvrsp menudv imgmenu"  src="<?php echo (new config\generales())->url_base; ?>css/img/logo.jpg" width="auto" height="75px">
+        <img class="menudvrsp menudv imgmenu"  src="<?php echo (new config\generales())->url_base; ?>css/img/logo.jpg">
         <div class="menudv menudvrsp navbar "> <a href="https://escuela.dveducacion.com/" >Perfil</a></div>
     </div>
 </section>-->
@@ -59,27 +59,73 @@ use config\views;
         </div>
     </div>
 
-    <div class="row border-red">
-        <div class="grid-block">
-            <div class="border-azul">
-                    <p>hola</p>
+    <div class="row grid-block">
+        <div class="dipositivas">
+            <div class="my_scroll_div">
+
+                <div class="conten">
+                    <div class="div2 border-azul">
+                        <p class="border-verde">¿Qué es la Medicina Funcional y Ortomolecular?</p>
+                        <p class="border-verde">La medicina funcional determina cómo y por qué ocurre la enfermedad y
+                            optimiza la salud al atender las causas de la enfermedad para cada individuo.</p>
+                    </div>
+                    <img class="div2 border-verde" src="<?php echo (new config\generales())->url_base; ?>css/img/curso1.png">
+                </div>
+                <div class="conten">
+                    <div class="div2 border-azul">
+                        <p class="border-verde">¿Por qué estudiar en DV Educación?</p>
+                        <p class="border-verde">La nutrición ortomolecular se utiliza para ayudar en la absorción de
+                            vitaminas y nutrientes por parte del organismo, y así inﬂuir positivamente en la salud.</p>
+                    </div>
+                    <img class="div2" src="<?php echo (new config\generales())->url_base; ?>css/img/joven1.png">
+                </div>
+                <div class="conten">
+                    <div class="div2 border-azul">
+                        <p class="border-verde">¿Por qué estudiar en DV Educación?</p>
+                        <p class="border-verde">La nutrición ortomolecular se utiliza para ayudar en la absorción de
+                            vitaminas y nutrientes por parte del organismo, y así inﬂuir positivamente en la salud.</p>
+                    </div>
+                    <img class="div2" src="<?php echo (new config\generales())->url_base; ?>css/img/doc1.png">
+                </div>
+
             </div>
         </div>
     </div>
 
+    <div class="row grid-block">
+        <div class="conten">
+            <div>
+                <div class="div3"><center><button class="btnarticulo"><a href="#">articulo 1</a></button></center></div>
+                <div class="div3"><center><button class="btnarticulo"><a href="#">articulo 2</a></button></center></div>
+                <div class="div3"><center><button class="btnarticulo"><a href="#">articulo 3</a></button></center></div>
+            </div>
+        </div>
+    </div>
 
     <div class="row">
-        <div class="grid-block">
+        <div class="grid-block border-azul">
             <div>
-                <h1>Nosotros</h1>
+                <div class="conten">
+                    <div class="div2 border-azul">
+                        <p class="border-verde">Conoce algunas de las opiniones de nuestros alumnos y exalumnos</p>
+                    </div>
+                    <img class="div2 border-verde" src="<?php echo (new config\generales())->url_base; ?>css/img/curso1.png">
+                </div>
             </div>
+        </div>
+    </div>
+
+    <div class="row grid-block">
+        <div class="conten">
+            <h2>Creado por una equipo que no se conforma con menos que excelencia.</h2>
+            <p>Conozca a nuestros equipo internos y al consejo de expertos</p>
         </div>
     </div>
 
     <div id="quien" class="row border-azul">
         <div class="grid-block port2">
             <h1>Quienes somos</h1>
-            <div class="border-red acomodoimg acomodoimgrsp">
+            <div class="border-red div4 acomodoimgrsp">
                 <center><img id="Myimagen" class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg" onclick="openImg()"></center>
                 <!-- The Modal -->
                 <div id="myModal" class="modal">
@@ -93,7 +139,7 @@ use config\views;
                 </div>
             </div>
 
-            <div class="border-red acomodoimg acomodoimgrsp">
+            <div class="border-red div4 acomodoimgrsp">
                 <center><img id="Myimagen" class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg" onclick="openImg()"></center>
                 <!-- The Modal -->
                 <div id="myModal" class="modal">
@@ -107,7 +153,7 @@ use config\views;
                 </div>
             </div>
 
-            <div class="border-red acomodoimg acomodoimgrsp">
+            <div class="border-red div4 acomodoimgrsp">
                 <center><img id="Myimagen" class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg" onclick="openImg()"></center>
                 <!-- The Modal -->
                 <div id="myModal" class="modal">
@@ -121,7 +167,7 @@ use config\views;
                 </div>
             </div>
 
-            <div class="border-red acomodoimg acomodoimgrsp">
+            <div class="border-red div4 acomodoimgrsp">
                 <center><img id="Myimagen" class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg" onclick="openImg()"></center>
                 <!-- The Modal -->
                 <div id="myModal" class="modal">
@@ -141,7 +187,7 @@ use config\views;
     <div id="nuest" class="row border-azul">
         <div class="grid-block port1">
             <h1>Nuestro equipo</h1>
-            <div class="dnec dnecrsp" top-right><img class="nec necrsp border-azul" src="<?php echo (new config\generales())->url_base; ?>css/img/circulobicolor.svg"></div>
+            <div class="dnec dnecrsp border-red" top-right><img class="nec necrsp border-azul" src="<?php echo (new config\generales())->url_base; ?>css/img/izqarriba.svg"></div>
         </div>
     </div>
 
@@ -164,11 +210,11 @@ use config\views;
             <H1>Preguntas frecuentes</H1>
 
             <p>Preguntas frecuentes</p>
-                <div id="btn" class="border-azul">
-                    <div class="btndiv"><center><button class="btncursos"><a href="#">Basico</a></button></center></div>
-                    <div class="btndiv"><center><button class="btncursos"><a href="#">Intermedio</a></button></center></div>
-                    <div class="btndiv"><center><button class="btncursos"><a href="#">Avanzado</a></button></center></div>
-                    <div class="btndiv"><center><button class="btncursos"><a href="#">Recursos Gratis</a></button></center></div>
+                <div class="conten border-azul">
+                    <div class="div4"><center><button class="btncursos"><a href="#">Basico</a></button></center></div>
+                    <div class="div4"><center><button class="btncursos"><a href="#">Intermedio</a></button></center></div>
+                    <div class="div4"><center><button class="btncursos"><a href="#">Avanzado</a></button></center></div>
+                    <div class="div4"><center><button class="btncursos"><a href="#">Recursos Gratis</a></button></center></div>
                 </div>
         </div>
     </div>

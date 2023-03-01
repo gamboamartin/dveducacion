@@ -108,7 +108,7 @@ p{
 }
 .dropdown-content a {
     float: none;/
-    color: black;
+color: black;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 25px;
@@ -262,7 +262,7 @@ p{
     height:100%;
     background-size: 100% 100%;
     background-repeat:no-repeat;
-    background-image: url("img/chicagua.jpg");
+    background-image: url("img/chicaguaa.jpg");
     background-size: cover;
 }
 .img img{

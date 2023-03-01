@@ -25,7 +25,7 @@ use config\views;
 
 <body>
 
-<section id="nav" class="container-fluid navbar">
+<section id="nav" class="container-fluid navbar menudvrsp">
     <div class="row">
         <div class="dropdown menudv col-md-4">
             <div class="row">
@@ -49,216 +49,203 @@ use config\views;
         </div>
         <!--<div class="menudvrsp menudv border-verde"><img class="border-azul"  src="<?php //echo (new config\generales())->url_base; ?>css/img/logo.jpg" height="75px" width="auto"></div>-->
         <div class="col-md-4">
-        <img class="imgmenu" src="<?php echo (new config\generales())->url_base; ?>css/img/logo.jpg">
+            <img class="imgmenu" src="<?php echo (new config\generales())->url_base; ?>css/img/logo.jpg">
         </div>
         <div class="menudv navbar col-md-4"> <a href="https://escuela.dveducacion.com/">Perfil</a></div>
     </div>
 </section>-->
 
-<section class="container-fluid">
-    <div class="row">
-        <div class="grid-block img">
+<section id="portimg" class="container-fluid grid-block img vh-100">
+    <div class="titular">
+        <p class="encabezado">Es hora de optimizar tu salud </p>
+    </div>
+</section>
+
+<div class="row grid-block">
+    <div class="dipositivas">
+        <div class="my_scroll_div">
+
+            <div class="conten">
+                <div class="div2 border-azul">
+                    <p class="border-verde">¿Qué es la Medicina Funcional y Ortomolecular?</p>
+                    <p class="border-verde">La medicina funcional determina cómo y por qué ocurre la enfermedad y
+                        optimiza la salud al atender las causas de la enfermedad para cada individuo.</p>
+                </div>
+                <img class="div2 border-verde" src="<?php echo (new config\generales())->url_base; ?>css/img/confe1.png">
+            </div>
+            <div class="conten">
+                <div class="div2 border-azul">
+                    <p class="border-verde">¿Por qué estudiar en DV Educación?</p>
+                    <p class="border-verde">La nutrición ortomolecular se utiliza para ayudar en la absorción de
+                        vitaminas y nutrientes por parte del organismo, y así inﬂuir positivamente en la salud.</p>
+                </div>
+                <img class="div2" src="<?php echo (new config\generales())->url_base; ?>css/img/joven1.png">
+            </div>
+            <div class="conten">
+                <div class="div2 border-azul">
+                    <p class="border-verde">¿Por qué estudiar en DV Educación?</p>
+                    <p class="border-verde">La nutrición ortomolecular se utiliza para ayudar en la absorción de
+                        vitaminas y nutrientes por parte del organismo, y así inﬂuir positivamente en la salud.</p>
+                </div>
+                <img class="div2" src="<?php echo (new config\generales())->url_base; ?>css/img/doc1.png">
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="row grid-block">
+    <div class="conten">
+        <div>
+            <div class="div3"><center><button type="button" class="btnarticulo"></button></center></div>
+            <div class="div3"><center><button type="button" class="btnarticulo"></button></center></div>
+            <div class="div3"><center><button type="button" class="btnarticulo"></button></center></div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="grid-block">
+        <div>
+            <div class="conten">
+                <div class="div2">
+                    <h3 class="border-verde">Conoce algunas de las opiniones de nuestros alumnos y ex alumnos</h3>
+                </div>
+                <img class="div2 border-verde" src="<?php echo (new config\generales())->url_base; ?>css/img/confe1.png">
+                <div class="dnec dnecrsp border-red" top-right><img class="nec necrsp border-azul" src="<?php echo (new config\generales())->url_base; ?>css/img/circulobi.svg"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="row grid-block border-azul">
+    <div class="conten">
+        <h2 class="border-azul">Creado por una equipo que no se conforma con menos que excelencia.</h2>
+        <p>Conozca a nuestros equipo internos y al consejo de expertos</p>
+
+        <div class="conten">
             <div>
-                <div class="titular">
-                    <p class="encabezado">Es hora de optimizar tu salud </p>
-                </div>
+                <div class="div3"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
+                <div class="div3"><center><button type="button" class="btncursos"><img src="css/img/curso2.svg" class="imgcurso"></button></center></div>
+                <div class="div3"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
             </div>
         </div>
     </div>
+</div>
 
-    <div class="row">
-
-        <div class="row border-azul">
-            <div class="col-md-6">
-                <p class="border-verde">¿Qué es la Medicina Funcional y Ortomolecular?</p>
-                <p class="border-verde">La medicina funcional determina cómo y por qué ocurre la enfermedad y
-                    optimiza la salud al atender las causas de la enfermedad para cada individuo.</p>
-            </div>
-            <div class="col-md-6">
-                <img class="imgcurso border-verde" src="<?php echo (new config\generales())->url_base; ?>css/img/confe1.png">
-            </div>
-        </div>
-        <div class="row">
-
-
-        </div>
-
-        <div class="dipositivas border-azul">
-            <div class="my_scroll_div">
-
-                <div class="row">
-                    <div class="div2 border-azul">
-                        <p class="border-verde">¿Por qué estudiar en DV Educación?</p>
-                        <p class="border-verde">La nutrición ortomolecular se utiliza para ayudar en la absorción de
-                            vitaminas y nutrientes por parte del organismo, y así inﬂuir positivamente en la salud.</p>
-                    </div>
-                    <img class="div2" src="<?php echo (new config\generales())->url_base; ?>css/img/joven1.png">
-                </div>
-                <div class="row">
-                    <div class="div2 border-azul">
-                        <p class="border-verde">¿Por qué estudiar en DV Educación?</p>
-                        <p class="border-verde">La nutrición ortomolecular se utiliza para ayudar en la absorción de
-                            vitaminas y nutrientes por parte del organismo, y así inﬂuir positivamente en la salud.</p>
-                    </div>
-                    <img class="div2" src="<?php echo (new config\generales())->url_base; ?>css/img/doc1.png">
-                </div>
-
-            </div>
-        </div>
+<div class="conten">
+    <div class="div4">
+        <center><h1>FIN HOME</h1></center>
     </div>
-
-    <div class="row grid-block">
-        <div class="row">
-            <div>
-                <div class="div3"><center><button type="button" class="btnarticulo"></button></center></div>
-                <div class="div3"><center><button type="button" class="btnarticulo"></button></center></div>
-                <div class="div3"><center><button type="button" class="btnarticulo"></button></center></div>
-            </div>
-        </div>
+    <div class="div4">
+        <center><h1>FIN HOME</h1></center>
     </div>
-
-    <div class="row">
-        <div class="grid-block">
-            <div>
-                <div class="row">
-                    <div class="div2">
-                        <h3 class="border-verde">Conoce algunas de las opiniones de nuestros alumnos y ex alumnos</h3>
-                    </div>
-                    <img class="div2 border-verde" src="<?php echo (new config\generales())->url_base; ?>css/img/confe1.png">
-                    <!--<div class="dnec dnecrsp border-red" top-right><img class="nec necrsp border-azul" src="<?php echo (new config\generales())->url_base; ?>css/img/circulobi.svg"></div>-->
-                </div>
-            </div>
-            </div>
-        </div>
+    <div class="div4">
+        <center><h1>FIN HOME</h1></center>
     </div>
-
-    <div class="row grid-block border-azul">
-        <div class="row">
-            <h2 class="border-azul">Creado por una equipo que no se conforma con menos que excelencia.</h2>
-            <p>Conozca a nuestros equipo internos y al consejo de expertos</p>
-
-            <div class="row">
-                <div>
-                    <div class="div3"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
-                    <div class="div3"><center><button type="button" class="btncursos"><img src="css/img/curso2.svg" class="imgcurso"></button></center></div>
-                    <div class="div3"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
-                </div>
-            </div>
-        </div>
+    <div class="div4">
+        <center><h1>FIN HOME</h1></center>
     </div>
+</div>
 
-    <div class="row">
-        <div class="div4">
-            <center><h1>FIN HOME</h1></center>
+<div id="quien" class="row border-azul">
+    <div class="grid-block port2">
+        <h1>Quienes somos</h1>
+        <div class="border-red div4 acomodoimgrsp">
+            <center><img id="Myimagen" class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg" onclick="openImg()"></center>
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+                <script src="js/prueba.js"></script>
+            </div>
         </div>
-        <div class="div4">
-            <center><h1>FIN HOME</h1></center>
+
+        <div class="border-red div4 acomodoimgrsp">
+            <center><img id="Myimagen" class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg" onclick="openImg()"></center>
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+                <script src="js/prueba.js"></script>
+            </div>
         </div>
-        <div class="div4">
-            <center><h1>FIN HOME</h1></center>
+
+        <div class="border-red div4 acomodoimgrsp">
+            <center><img id="Myimagen" class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg" onclick="openImg()"></center>
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+                <script src="js/prueba.js"></script>
+            </div>
         </div>
-        <div class="div4">
-            <center><h1>FIN HOME</h1></center>
+
+        <div class="border-red div4 acomodoimgrsp">
+            <center><img id="Myimagen" class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg" onclick="openImg()"></center>
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+                <script src="js/prueba.js"></script>
+            </div>
         </div>
+
     </div>
+</div>
 
-    <div id="quien" class="row border-azul">
-        <div class="grid-block port2">
-            <h1>Quienes somos</h1>
-            <div class="border-red div4 acomodoimgrsp">
-                <center><img id="Myimagen" class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg" onclick="openImg()"></center>
-                <div id="myModal" class="modal">
-                    <span class="close">&times;</span>
-                    <img class="modal-content" id="img01">
-                    <div id="caption"></div>
-                    <script src="js/prueba.js"></script>
-                </div>
-            </div>
+<div id="nuest" class="row border-azul">
+    <div class="grid-block port1">
+        <h1>Nuestro equipo</h1>
+        <div class="dnec dnecrsp border-red" top-right><img class="nec necrsp border-azul"
+                                                            src="<?php echo (new config\generales())->url_base; ?>css/img/circulobi.svg"></div>
+    </div>
+</div>
 
-            <div class="border-red div4 acomodoimgrsp">
-                <center><img id="Myimagen" class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg" onclick="openImg()"></center>
-                <div id="myModal" class="modal">
-                    <span class="close">&times;</span>
-                    <img class="modal-content" id="img01">
-                    <div id="caption"></div>
-                    <script src="js/prueba.js"></script>
-                </div>
-            </div>
+<div id="test" class="row border-azul">
+    <div class="grid-block port2">
+        <h1>Recursos Gratis</h1>
 
-            <div class="border-red div4 acomodoimgrsp">
-                <center><img id="Myimagen" class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg" onclick="openImg()"></center>
-                <div id="myModal" class="modal">
-                    <span class="close">&times;</span>
-                    <img class="modal-content" id="img01">
-                    <div id="caption"></div>
-                    <script src="js/prueba.js"></script>
-                </div>
-            </div>
+    </div>
+</div>
 
-            <div class="border-red div4 acomodoimgrsp">
-                <center><img id="Myimagen" class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg" onclick="openImg()"></center>
-                <div id="myModal" class="modal">
-                    <span class="close">&times;</span>
-                    <img class="modal-content" id="img01">
-                    <div id="caption"></div>
-                    <script src="js/prueba.js"></script>
-                </div>
-            </div>
+<div id="test" class="row border-azul">
+    <div class="grid-block port2">
+        <h1>Testimonios</h1>
+
+    </div>
+</div>
+
+<div id="preg" class="row border-azul">
+    <div class="grid-block port1">
+        <H1>Preguntas frecuentes</H1>
+
+        <p>Preguntas frecuentes</p>
+        <div class="conten border-azul">
+            <div class="div4"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
+            <div class="div4"><center><button type="button" class="btncursos"><img src="css/img/curso2.svg" class="imgcurso"></button></center></div>
+            <div class="div4"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
+            <div class="div4"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
 
         </div>
     </div>
-
-    <div id="nuest" class="row border-azul">
-        <div class="grid-block port1">
-            <h1>Nuestro equipo</h1>
-            <!--<div class="dnec dnecrsp border-red" top-right><img class="nec necrsp border-azul"
-                   src="<?php echo (new config\generales())->url_base; ?>css/img/circulobi.svg"></div>-->
-        </div>
-    </div>
-
-    <div id="test" class="row border-azul">
-        <div class="grid-block port2">
-            <h1>Recursos Gratis</h1>
-
-        </div>
-    </div>
-
-    <div id="test" class="row border-azul">
-        <div class="grid-block port2">
-            <h1>Testimonios</h1>
-
-        </div>
-    </div>
-
-    <div id="preg" class="row border-azul">
-        <div class="grid-block port1">
-            <H1>Preguntas frecuentes</H1>
-
-            <p>Preguntas frecuentes</p>
-                <div class="row border-azul">
-                    <div class="div4"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
-                    <div class="div4"><center><button type="button" class="btncursos"><img src="css/img/curso2.svg" class="imgcurso"></button></center></div>
-                    <div class="div4"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
-                    <div class="div4"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
-
-                </div>
-        </div>
-    </div>
+</div>
 
 </section>
 
-    <?php  include($data->include_action); ?>
+<?php  include($data->include_action); ?>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    <?php
-    if($data->js_view_aplica_include){
-        include $data->js_view;
-    }
-    else{
-        echo $data->js_view;
-    }
-    ?>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<?php
+if($data->js_view_aplica_include){
+    include $data->js_view;
+}
+else{
+    echo $data->js_view;
+}
+?>
 
 </body>
 </html>

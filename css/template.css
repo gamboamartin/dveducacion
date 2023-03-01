@@ -68,13 +68,13 @@ p{
     text-align: center;
 }
 .menudv{
+    display: flex;
+    align-items: center;
     color: #003366;
-    float: left;
     text-decoration: none;
     font-size: 20px;
-    width: 33.33%;
     text-align: center;
-    height: auto;
+
 }
 .navbar a{
     color: #003366;
@@ -86,10 +86,9 @@ p{
 /*Menu desplegable*/
 .dropdown {
     float: left;
-    width: 33.33%;
     height: auto;
-    padding-top: 35px;
     display: block;
+    margin: auto;
 }
 .dropbtn {
     font-size: 20px;
@@ -321,4 +320,10 @@ p{
 .border-verde{
     border: 1px solid #00FA20;
     /*background-color: #94ff86;*/
+}
+
+.imgmenu{
+    width: 45%;
+    display: block;
+    margin: auto;
 }

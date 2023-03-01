@@ -27,23 +27,31 @@ use config\views;
 
 <section id="nav" class="container-fluid navbar menudvrsp">
     <div class="row">
-        <div class="dropdown menudv border-azul">
-            <button class="dropbtn montserratitalic border-verde">Menú</button>
-            <div class="dropdown-content">
-                <a class="linkmenu" href="#">Básico</a>
-                <a class="linkmenu" href="#">Intermedio</a>
-                <a class="linkmenu" href="#">Avanzado</a>
-                <a class="linkmenu" href="#">Nutracéuticos</a>
-                <a href="#">Quienes somos</a>
-                <a href="#">Nuestro equipo</a>
-                <a href="#">Testimonio</a>
-                <a href="#">Pregunstas frecuentes</a>
-                <a href="#">Contáctanos</a>
+        <div class="dropdown menudv col-md-4">
+            <div class="row">
+                <div class="col-md-12">
+                    <button class="dropbtn montserratitalic">Menú</button>
+                </div>
+                <div class="col-md-12">
+                    <div class="dropdown-content">
+                        <a class="linkmenu" href="#">Básico</a>
+                        <a class="linkmenu" href="#">Intermedio</a>
+                        <a class="linkmenu" href="#">Avanzado</a>
+                        <a class="linkmenu" href="#">Nutracéuticos</a>
+                        <a href="#">Quienes somos</a>
+                        <a href="#">Nuestro equipo</a>
+                        <a href="#">Testimonio</a>
+                        <a href="#">Pregunstas frecuentes</a>
+                        <a href="#">Contáctanos</a>
+                    </div>
+                </div>
             </div>
         </div>
         <!--<div class="menudvrsp menudv border-verde"><img class="border-azul"  src="<?php //echo (new config\generales())->url_base; ?>css/img/logo.jpg" height="75px" width="auto"></div>-->
-        <img class="menudv imgmenu border-azul" src="<?php echo (new config\generales())->url_base; ?>css/img/logo.jpg">
-        <div class="menudv navbar"> <a href="https://escuela.dveducacion.com/">Perfil</a></div>
+        <div class="col-md-4">
+        <img class="imgmenu" src="<?php echo (new config\generales())->url_base; ?>css/img/logo.jpg">
+        </div>
+        <div class="menudv navbar col-md-4"> <a href="https://escuela.dveducacion.com/">Perfil</a></div>
     </div>
 </section>-->
 

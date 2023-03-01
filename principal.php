@@ -25,7 +25,7 @@ use config\views;
 
 <body>
 
-<section id="nav" class="container-fluid navbar menudvrsp">
+<section id="nav" class="container-fluid navbar">
     <div class="row">
         <div class="dropdown menudv col-md-4">
             <div class="row">
@@ -55,7 +55,7 @@ use config\views;
     </div>
 </section>-->
 
-<section id="portimg" class="container-fluid">
+<section class="container-fluid">
     <div class="row">
         <div class="grid-block img">
             <div>
@@ -66,19 +66,27 @@ use config\views;
         </div>
     </div>
 
-    <div class="row grid-block">
-        <div class="dipositivas">
+    <div class="row">
+
+        <div class="row border-azul">
+            <div class="col-md-6">
+                <p class="border-verde">¿Qué es la Medicina Funcional y Ortomolecular?</p>
+                <p class="border-verde">La medicina funcional determina cómo y por qué ocurre la enfermedad y
+                    optimiza la salud al atender las causas de la enfermedad para cada individuo.</p>
+            </div>
+            <div class="col-md-6">
+                <img class="imgcurso border-verde" src="<?php echo (new config\generales())->url_base; ?>css/img/confe1.png">
+            </div>
+        </div>
+        <div class="row">
+
+
+        </div>
+
+        <div class="dipositivas border-azul">
             <div class="my_scroll_div">
 
-                <div class="conten">
-                    <div class="div2 border-azul">
-                        <p class="border-verde">¿Qué es la Medicina Funcional y Ortomolecular?</p>
-                        <p class="border-verde">La medicina funcional determina cómo y por qué ocurre la enfermedad y
-                            optimiza la salud al atender las causas de la enfermedad para cada individuo.</p>
-                    </div>
-                    <img class="div2 border-verde" src="<?php echo (new config\generales())->url_base; ?>css/img/confe1.png">
-                </div>
-                <div class="conten">
+                <div class="row">
                     <div class="div2 border-azul">
                         <p class="border-verde">¿Por qué estudiar en DV Educación?</p>
                         <p class="border-verde">La nutrición ortomolecular se utiliza para ayudar en la absorción de
@@ -86,7 +94,7 @@ use config\views;
                     </div>
                     <img class="div2" src="<?php echo (new config\generales())->url_base; ?>css/img/joven1.png">
                 </div>
-                <div class="conten">
+                <div class="row">
                     <div class="div2 border-azul">
                         <p class="border-verde">¿Por qué estudiar en DV Educación?</p>
                         <p class="border-verde">La nutrición ortomolecular se utiliza para ayudar en la absorción de
@@ -100,7 +108,7 @@ use config\views;
     </div>
 
     <div class="row grid-block">
-        <div class="conten">
+        <div class="row">
             <div>
                 <div class="div3"><center><button type="button" class="btnarticulo"></button></center></div>
                 <div class="div3"><center><button type="button" class="btnarticulo"></button></center></div>
@@ -112,12 +120,12 @@ use config\views;
     <div class="row">
         <div class="grid-block">
             <div>
-                <div class="conten">
+                <div class="row">
                     <div class="div2">
                         <h3 class="border-verde">Conoce algunas de las opiniones de nuestros alumnos y ex alumnos</h3>
                     </div>
                     <img class="div2 border-verde" src="<?php echo (new config\generales())->url_base; ?>css/img/confe1.png">
-                    <div class="dnec dnecrsp border-red" top-right><img class="nec necrsp border-azul" src="<?php echo (new config\generales())->url_base; ?>css/img/circulobi.svg"></div>
+                    <!--<div class="dnec dnecrsp border-red" top-right><img class="nec necrsp border-azul" src="<?php echo (new config\generales())->url_base; ?>css/img/circulobi.svg"></div>-->
                 </div>
             </div>
             </div>
@@ -125,11 +133,11 @@ use config\views;
     </div>
 
     <div class="row grid-block border-azul">
-        <div class="conten">
+        <div class="row">
             <h2 class="border-azul">Creado por una equipo que no se conforma con menos que excelencia.</h2>
             <p>Conozca a nuestros equipo internos y al consejo de expertos</p>
 
-            <div class="conten">
+            <div class="row">
                 <div>
                     <div class="div3"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
                     <div class="div3"><center><button type="button" class="btncursos"><img src="css/img/curso2.svg" class="imgcurso"></button></center></div>
@@ -139,7 +147,7 @@ use config\views;
         </div>
     </div>
 
-    <div class="conten">
+    <div class="row">
         <div class="div4">
             <center><h1>FIN HOME</h1></center>
         </div>
@@ -203,8 +211,8 @@ use config\views;
     <div id="nuest" class="row border-azul">
         <div class="grid-block port1">
             <h1>Nuestro equipo</h1>
-            <div class="dnec dnecrsp border-red" top-right><img class="nec necrsp border-azul"
-                   src="<?php echo (new config\generales())->url_base; ?>css/img/circulobi.svg"></div>
+            <!--<div class="dnec dnecrsp border-red" top-right><img class="nec necrsp border-azul"
+                   src="<?php echo (new config\generales())->url_base; ?>css/img/circulobi.svg"></div>-->
         </div>
     </div>
 
@@ -227,7 +235,7 @@ use config\views;
             <H1>Preguntas frecuentes</H1>
 
             <p>Preguntas frecuentes</p>
-                <div class="conten border-azul">
+                <div class="row border-azul">
                     <div class="div4"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
                     <div class="div4"><center><button type="button" class="btncursos"><img src="css/img/curso2.svg" class="imgcurso"></button></center></div>
                     <div class="div4"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>

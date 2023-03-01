@@ -55,16 +55,11 @@ use config\views;
     </div>
 </section>-->
 
-<section id="portimg" class="container-fluid">
-    <div class="row">
-        <div class="grid-block img">
-            <div>
-                <div class="titular">
-                    <p class="encabezado">Es hora de optimizar tu salud </p>
-                </div>
-            </div>
-        </div>
+<section id="portimg" class="container-fluid grid-block img vh-100">
+    <div class="titular">
+        <p class="encabezado">Es hora de optimizar tu salud </p>
     </div>
+</section>
 
     <div class="row grid-block">
         <div class="dipositivas">

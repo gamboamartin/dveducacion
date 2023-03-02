@@ -55,32 +55,35 @@ use config\views;
     </div>
 </section>-->
 
-<section class="container-fluid">
+<section class="container-fluid grid-block">
     <div class="row">
-        <div class="grid-block img">
-            <div>
-                <div class="titular">
-                    <p class="encabezado">Es hora de optimizar tu salud </p>
-                </div>
+        <div class="img">
+            <div class="titular">
+                <p class="encabezado">Es hora de optimizar tu salud </p>
             </div>
         </div>
     </div>
 
     <div class="row">
 
-        <div class="row border-azul">
+        <div class="row border-azul imgfondo vh-100">
             <div class="col-md-6">
-                <p class="border-verde">¿Qué es la Medicina Funcional y Ortomolecular?</p>
-                <p class="border-verde">La medicina funcional determina cómo y por qué ocurre la enfermedad y
+                <h1 class="h-titular border-verde">¿Qué es la Medicina Funcional y Ortomolecular?</h1>
+                <p class="p-titular border-verde">La medicina funcional determina cómo y por qué ocurre la enfermedad y
                     optimiza la salud al atender las causas de la enfermedad para cada individuo.</p>
             </div>
             <div class="col-md-6">
                 <img class="imgcurso border-verde" src="<?php echo (new config\generales())->url_base; ?>css/img/confe1.png">
             </div>
+
         </div>
-        <div class="row">
-
-
+        <div class="row border-azul">
+            <div class="col-md-6">
+                <h1 class="h-titular border-verde">¿Por qué estudiar en DV Educación?</h1>
+                <p class="p-titular border-verde">La nutrición ortomolecular se utiliza para ayudar en la absorción de
+                    vitaminas y nutrientes por parte del organismo, y así inﬂuir positivamente en la salud.</p>
+            </div>
+                <img class="col-md-6 border-verde" src="<?php echo (new config\generales())->url_base; ?>css/img/joven1.png">
         </div>
 
         <div class="dipositivas border-azul">
@@ -88,17 +91,13 @@ use config\views;
 
                 <div class="row">
                     <div class="div2 border-azul">
-                        <p class="border-verde">¿Por qué estudiar en DV Educación?</p>
-                        <p class="border-verde">La nutrición ortomolecular se utiliza para ayudar en la absorción de
-                            vitaminas y nutrientes por parte del organismo, y así inﬂuir positivamente en la salud.</p>
+                        <p class="border-verde">texto</p>
                     </div>
                     <img class="div2" src="<?php echo (new config\generales())->url_base; ?>css/img/joven1.png">
                 </div>
                 <div class="row">
                     <div class="div2 border-azul">
-                        <p class="border-verde">¿Por qué estudiar en DV Educación?</p>
-                        <p class="border-verde">La nutrición ortomolecular se utiliza para ayudar en la absorción de
-                            vitaminas y nutrientes por parte del organismo, y así inﬂuir positivamente en la salud.</p>
+                        <p class="border-verde">texto</p>
                     </div>
                     <img class="div2" src="<?php echo (new config\generales())->url_base; ?>css/img/doc1.png">
                 </div>
@@ -141,7 +140,7 @@ use config\views;
                 <div>
                     <div class="div3"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
                     <div class="div3"><center><button type="button" class="btncursos"><img src="css/img/curso2.svg" class="imgcurso"></button></center></div>
-                    <div class="div3"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
+                    <div class="div3"><center><button type="button" class="btncursos"><img src="css/img/curso3.svg" class="imgcurso"></button></center></div>
                 </div>
             </div>
         </div>
@@ -238,7 +237,7 @@ use config\views;
             <div class="row border-azul">
                 <div class="div4"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
                 <div class="div4"><center><button type="button" class="btncursos"><img src="css/img/curso2.svg" class="imgcurso"></button></center></div>
-                <div class="div4"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
+                <div class="div4"><center><button type="button" class="btncursos"><img src="css/img/curso3.svg" class="imgcurso"></button></center></div>
                 <div class="div4"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
 
             </div>

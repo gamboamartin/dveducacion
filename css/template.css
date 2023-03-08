@@ -39,18 +39,21 @@ p{
 }
 .p-titular{
     font-family: Confortaa;
-    font-size: 30px;
+    font-size: 25px;
     color: #594e4e;
 }
 .h-titular{
     font-family: MontserratIta;
     color: #003366;
-    font-size: 45px;
+    font-size: 55px;
+}
+
+.padmar{
+    padding: 25px;
 }
 /*Div's*/
 
-.div2{
-    width: 50%;
+.divcont{
     float: left;
 }
 .div3{
@@ -227,7 +230,6 @@ color: black;
 .imgcurso{
     width: 100%;
     height: auto;
-    z-index: 1;
 }
 .btncursos{
     border-radius: 25px;
@@ -286,7 +288,7 @@ color: black;
     background-size: 100% 100%;
     background-repeat:no-repeat;
     background-image: url("img/fondo2.jpg");
-    background-size: cover;
+    /*background-size: cover;*/
 }
 .img imgfondo{
     width: 100%;

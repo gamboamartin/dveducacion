@@ -65,9 +65,8 @@ use config\views;
     </div>
 
     <div class="row">
-
         <div class="row border-azul imgfondo vh-100">
-            <div class="col-md-6">
+            <div class="col-md-6 padmar">
                 <h1 class="h-titular border-verde">¿Qué es la Medicina Funcional y Ortomolecular?</h1>
                 <p class="p-titular border-verde">La medicina funcional determina cómo y por qué ocurre la enfermedad y
                     optimiza la salud al atender las causas de la enfermedad para cada individuo.</p>
@@ -90,16 +89,16 @@ use config\views;
             <div class="my_scroll_div">
 
                 <div class="row">
-                    <div class="div2 border-azul">
+                    <div class="col-md-6 border-azul">
                         <p class="border-verde">texto</p>
                     </div>
-                    <img class="div2" src="<?php echo (new config\generales())->url_base; ?>css/img/joven1.png">
+                    <img class="col-md-6" src="<?php echo (new config\generales())->url_base; ?>css/img/joven1.png">
                 </div>
                 <div class="row">
-                    <div class="div2 border-azul">
+                    <div class="col-md-6 border-azul">
                         <p class="border-verde">texto</p>
                     </div>
-                    <img class="div2" src="<?php echo (new config\generales())->url_base; ?>css/img/doc1.png">
+                    <img class="col-md-6" src="<?php echo (new config\generales())->url_base; ?>css/img/doc1.png">
                 </div>
 
             </div>
@@ -109,9 +108,9 @@ use config\views;
     <div class="row grid-block">
         <div class="row">
             <div>
-                <div class="div3"><center><button type="button" class="btnarticulo"></button></center></div>
-                <div class="div3"><center><button type="button" class="btnarticulo"></button></center></div>
-                <div class="div3"><center><button type="button" class="btnarticulo"></button></center></div>
+                <div class="col-md-4 divcont border-azul"><center><button type="button" class="btnarticulo"></button></center></div>
+                <div class="col-md-4 divcont border-azul"><center><button type="button" class="btnarticulo"></button></center></div>
+                <div class="col-md-4 divcont border-azul"><center><button type="button" class="btnarticulo"></button></center></div>
             </div>
         </div>
     </div>
@@ -120,10 +119,10 @@ use config\views;
         <div class="grid-block">
             <div>
                 <div class="row">
-                    <div class="div2">
+                    <div class="col-md-6">
                         <h3 class="border-verde">Conoce algunas de las opiniones de nuestros alumnos y ex alumnos</h3>
                     </div>
-                    <img class="div2 border-verde" src="<?php echo (new config\generales())->url_base; ?>css/img/confe1.png">
+                    <img class="col-md-6 border-verde" src="<?php echo (new config\generales())->url_base; ?>css/img/confe1.png">
                     <!--<div class="dnec dnecrsp border-red" top-right><img class="nec necrsp border-azul" src="<?php echo (new config\generales())->url_base; ?>css/img/circulobi.svg"></div>-->
                 </div>
             </div>
@@ -133,14 +132,14 @@ use config\views;
 
     <div class="row grid-block border-azul">
         <div class="row">
-            <h2 class="border-azul">Creado por una equipo que no se conforma con menos que excelencia.</h2>
+            <h2>Creado por una equipo que no se conforma con menos que excelencia.</h2>
             <p>Conozca a nuestros equipo internos y al consejo de expertos</p>
 
             <div class="row">
                 <div>
-                    <div class="div3"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
-                    <div class="div3"><center><button type="button" class="btncursos"><img src="css/img/curso2.svg" class="imgcurso"></button></center></div>
-                    <div class="div3"><center><button type="button" class="btncursos"><img src="css/img/curso3.svg" class="imgcurso"></button></center></div>
+                    <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
+                    <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso2.svg" class="imgcurso"></button></center></div>
+                    <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso3.svg" class="imgcurso"></button></center></div>
                 </div>
             </div>
         </div>
@@ -160,11 +159,18 @@ use config\views;
             <center><h1>FIN HOME</h1></center>
         </div>
     </div>
+</section>
+
+<section class="container-fluid grid-block">
+
+    <div class="row grid-block border-azul">
+        <center><h1 class="col-md-4">Cuándo se úne un equipo multidiciplinario</h1></center>
+    </div>
 
     <div id="quien" class="row border-azul">
         <div class="grid-block port2">
             <h1>Quienes somos</h1>
-            <div class="border-red div4 acomodoimgrsp">
+            <div class="border-red col-md-3 divcont">
                 <center><img id="Myimagen" class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg" onclick="openImg()"></center>
                 <div id="myModal" class="modal">
                     <span class="close">&times;</span>
@@ -174,7 +180,7 @@ use config\views;
                 </div>
             </div>
 
-            <div class="border-red div4 acomodoimgrsp">
+            <div class="border-red col-md-3 divcont">
                 <center><img id="Myimagen" class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg" onclick="openImg()"></center>
                 <div id="myModal" class="modal">
                     <span class="close">&times;</span>
@@ -184,7 +190,7 @@ use config\views;
                 </div>
             </div>
 
-            <div class="border-red div4 acomodoimgrsp">
+            <div class="border-red col-md-3 divcont">
                 <center><img id="Myimagen" class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg" onclick="openImg()"></center>
                 <div id="myModal" class="modal">
                     <span class="close">&times;</span>
@@ -194,7 +200,7 @@ use config\views;
                 </div>
             </div>
 
-            <div class="border-red div4 acomodoimgrsp">
+            <div class="border-red col-md-3 divcont">
                 <center><img id="Myimagen" class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg" onclick="openImg()"></center>
                 <div id="myModal" class="modal">
                     <span class="close">&times;</span>
@@ -235,10 +241,10 @@ use config\views;
 
             <p>Preguntas frecuentes</p>
             <div class="row border-azul">
-                <div class="div4"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
-                <div class="div4"><center><button type="button" class="btncursos"><img src="css/img/curso2.svg" class="imgcurso"></button></center></div>
-                <div class="div4"><center><button type="button" class="btncursos"><img src="css/img/curso3.svg" class="imgcurso"></button></center></div>
-                <div class="div4"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
+                <div class="col-md-3 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
+                <div class="col-md-3 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso2.svg" class="imgcurso"></button></center></div>
+                <div class="col-md-3 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso3.svg" class="imgcurso"></button></center></div>
+                <div class="col-md-3 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
 
             </div>
         </div>

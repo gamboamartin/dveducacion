@@ -56,7 +56,9 @@ p{
 .divcont{
     float: left;
 }
-
+.d30{
+    width: 35%;
+}
 /*Navbar*/
 #nav{
     padding-top: 15px;
@@ -249,7 +251,6 @@ color: black;
     width: 50%;
     height: 100vh;
     overflow-y: scroll;
-    scroll-snap-type: y mandatory;
 }
 .slider-container img {
     flex: 0 0 100%;
@@ -257,24 +258,12 @@ color: black;
     object-fit: cover;
     scroll-snap-align: center;
 }
-.slider-container img {
-    flex: 0 0 100%;
-    width: 100%;
-    object-fit: cover;
-    scroll-snap-align: center;
-}
 
-
-
-.my_scroll_div{
-    overflow-y: auto;
-    max-height: 500px;
-    width: 100%;
-}
 .titular{
-    width: 70%;
     padding: 60px;
-    font-size: 65px;
+}
+.titulos{
+
 }
 .encabezado{
     padding-left: 40px;
@@ -308,8 +297,6 @@ color: black;
 .img imgfondo{
     width: 100%;
 }
-
-
 
 .port1{
     background-image: url("img/portada.jpg");

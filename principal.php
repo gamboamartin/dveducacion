@@ -53,12 +53,12 @@ use config\views;
         </div>
         <div class="menudv navbar col-md-4"> <a href="https://escuela.dveducacion.com/">Perfil</a></div>
     </div>
-</section>-->
+</section>
 
-<section class="container-fluid grid-block">
+<section id="home" class="container-fluid grid-block">
     <div class="row">
         <div class="img">
-            <div class="titular">
+            <div class="col-md-7 titular">
                 <p class="encabezado">Es hora de optimizar tu salud </p>
             </div>
         </div>
@@ -76,7 +76,7 @@ use config\views;
             </div>
 
         </div>
-        <div class="row">
+        <div class="row padmar">
             <div class="col-md-6 padmar">
                 <h1 class="h-titular">¿Por qué estudiar en DV Educación?</h1>
                 <p class="p-titular">La nutrición ortomolecular se utiliza para ayudar en la absorción de
@@ -85,69 +85,62 @@ use config\views;
             <div class="slider-container col-md-6 padmar">
                 <img class="slider-item" src="<?php echo (new config\generales())->url_base; ?>css/img/joven1.png">
                 <img class="slider-item" src="<?php echo (new config\generales())->url_base; ?>css/img/doc1.png">
-
-                </div>
             </div>
         </div>
     </div>
 
-    <div class="row grid-block">
-        <div class="row">
-            <div>
-                <div class="col-md-4 divcont border-azul"><center><button type="button" class="btnarticulo"></button></center></div>
-                <div class="col-md-4 divcont border-azul"><center><button type="button" class="btnarticulo"></button></center></div>
-                <div class="col-md-4 divcont border-azul"><center><button type="button" class="btnarticulo"></button></center></div>
-            </div>
-        </div>
+    <div class="row grid-block padmar">
+        <div class="col-md-4 divcont"><center><button type="button" class="btnarticulo"></button></center></div>
+        <div class="col-md-4 divcont"><center><button type="button" class="btnarticulo"></button></center></div>
+        <div class="col-md-4 divcont"><center><button type="button" class="btnarticulo"></button></center></div>
     </div>
 
     <div class="row">
         <div class="grid-block">
-            <div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3 class="border-verde">Conoce algunas de las opiniones de nuestros alumnos y ex alumnos</h3>
-                    </div>
-                    <img class="col-md-6 border-verde" src="<?php echo (new config\generales())->url_base; ?>css/img/confe1.png">
-                    <!--<div class="dnec dnecrsp border-red" top-right><img class="nec necrsp border-azul" src="<?php echo (new config\generales())->url_base; ?>css/img/circulobi.svg"></div>-->
+            <div class="row">
+                <div class="col-md-4 padmar">
+                    <h1>Conoce algunas de las opiniones de nuestros alumnos y ex alumnos</h1>
+                </div>
+                <div class="col-md-8 padmar border-azul">
+                    <img class="imgcurso" src="<?php echo (new config\generales())->url_base; ?>css/img/curso1.svg">
                 </div>
             </div>
         </div>
-    </div>
     </div>
 
     <div class="row grid-block border-azul">
-        <div class="row">
-            <h2>Creado por una equipo que no se conforma con menos que excelencia.</h2>
+        <div class="row padmar">
+            <h1 class="col-md-8">Creado por una equipo que no se conforma con menos que excelencia.</h1>
             <p>Conozca a nuestros equipo internos y al consejo de expertos</p>
+        </div>
 
-            <div class="row">
-                <div>
-                    <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
-                    <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso2.svg" class="imgcurso"></button></center></div>
-                    <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso3.svg" class="imgcurso"></button></center></div>
-                </div>
+        <div class="row">
+            <div>
+                <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
+                <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso2.svg" class="imgcurso"></button></center></div>
+                <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso3.svg" class="imgcurso"></button></center></div>
             </div>
         </div>
     </div>
 
-    <div class="row">
-        <div class="div4">
-            <center><h1>FIN HOME</h1></center>
-        </div>
-        <div class="div4">
-            <center><h1>FIN HOME</h1></center>
-        </div>
-        <div class="div4">
-            <center><h1>FIN HOME</h1></center>
-        </div>
-        <div class="div4">
-            <center><h1>FIN HOME</h1></center>
-        </div>
-    </div>
 </section>
 
-<section class="container-fluid grid-block">
+<div class="row titular">
+    <div class="div4">
+        <center><h1>FIN HOME</h1></center>
+    </div>
+    <div class="div4">
+        <center><h1>FIN HOME</h1></center>
+    </div>
+    <div class="div4">
+        <center><h1>FIN HOME</h1></center>
+    </div>
+    <div class="div4">
+        <center><h1>FIN HOME</h1></center>
+    </div>
+</div>
+
+<section id="nosotros" class="container-fluid grid-block">
 
     <div class="row grid-block border-azul divequipo">
         <center><h1 class="col-md-4 border-verde">Cuándo se úne un equipo multidiciplinario</h1></center>

@@ -65,42 +65,28 @@ use config\views;
     </div>
 
     <div class="row">
-        <div class="row border-azul imgfondo vh-100">
+        <div class="row imgfondo vh-100">
             <div class="col-md-6 padmar">
-                <h1 class="h-titular border-verde">¿Qué es la Medicina Funcional y Ortomolecular?</h1>
-                <p class="p-titular border-verde">La medicina funcional determina cómo y por qué ocurre la enfermedad y
+                <h1 class="h-titular">¿Qué es la Medicina Funcional y Ortomolecular?</h1>
+                <p class="p-titular">La medicina funcional determina cómo y por qué ocurre la enfermedad y
                     optimiza la salud al atender las causas de la enfermedad para cada individuo.</p>
             </div>
-            <div class="col-md-6">
-                <img class="imgcurso border-verde" src="<?php echo (new config\generales())->url_base; ?>css/img/confe1.png">
+            <div class="col-md-6 padmar">
+                <img class="imgcurso" src="<?php echo (new config\generales())->url_base; ?>css/img/confe1.png">
             </div>
 
         </div>
-        <div class="row border-azul">
-            <div class="col-md-6">
-                <h1 class="h-titular border-verde">¿Por qué estudiar en DV Educación?</h1>
-                <p class="p-titular border-verde">La nutrición ortomolecular se utiliza para ayudar en la absorción de
+        <div class="row">
+            <div class="col-md-6 padmar">
+                <h1 class="h-titular">¿Por qué estudiar en DV Educación?</h1>
+                <p class="p-titular">La nutrición ortomolecular se utiliza para ayudar en la absorción de
                     vitaminas y nutrientes por parte del organismo, y así inﬂuir positivamente en la salud.</p>
             </div>
-                <img class="col-md-6 border-verde" src="<?php echo (new config\generales())->url_base; ?>css/img/joven1.png">
-        </div>
+            <div class="slider-container col-md-6 padmar">
+                <img class="slider-item" src="<?php echo (new config\generales())->url_base; ?>css/img/joven1.png">
+                <img class="slider-item" src="<?php echo (new config\generales())->url_base; ?>css/img/doc1.png">
 
-        <div class="dipositivas border-azul">
-            <div class="my_scroll_div">
-
-                <div class="row">
-                    <div class="col-md-6 border-azul">
-                        <p class="border-verde">texto</p>
-                    </div>
-                    <img class="col-md-6" src="<?php echo (new config\generales())->url_base; ?>css/img/joven1.png">
                 </div>
-                <div class="row">
-                    <div class="col-md-6 border-azul">
-                        <p class="border-verde">texto</p>
-                    </div>
-                    <img class="col-md-6" src="<?php echo (new config\generales())->url_base; ?>css/img/doc1.png">
-                </div>
-
             </div>
         </div>
     </div>
@@ -163,8 +149,8 @@ use config\views;
 
 <section class="container-fluid grid-block">
 
-    <div class="row grid-block border-azul">
-        <center><h1 class="col-md-4">Cuándo se úne un equipo multidiciplinario</h1></center>
+    <div class="row grid-block border-azul divequipo">
+        <center><h1 class="col-md-4 border-verde">Cuándo se úne un equipo multidiciplinario</h1></center>
     </div>
 
     <div id="quien" class="row border-azul">

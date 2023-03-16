@@ -38,7 +38,7 @@ use config\views;
                         <a class="linkmenu" href="#">Intermedio</a>
                         <a class="linkmenu" href="#">Avanzado</a>
                         <a class="linkmenu" href="#">Nutracéuticos</a>
-                        <a href="#">Quienes somos</a>
+                        <a href="#nosotros">Quienes somos</a>
                         <a href="#">Nuestro equipo</a>
                         <a href="#">Testimonio</a>
                         <a href="#">Pregunstas frecuentes</a>
@@ -66,30 +66,30 @@ use config\views;
 
     <div class="row">
         <div class="row imgfondo vh-100">
-            <div class="col-md-6 padmar">
+            <div class="col-md-6 borde25">
                 <h1 class="h-titular">¿Qué es la Medicina Funcional y Ortomolecular?</h1>
                 <p class="p-titular">La medicina funcional determina cómo y por qué ocurre la enfermedad y
                     optimiza la salud al atender las causas de la enfermedad para cada individuo.</p>
             </div>
-            <div class="col-md-6 padmar">
+            <div class="col-md-6 borde25">
                 <img class="imgcurso" src="<?php echo (new config\generales())->url_base; ?>css/img/confe1.png">
             </div>
 
         </div>
-        <div class="row padmar">
-            <div class="col-md-6 padmar">
+        <div class="row borde25">
+            <div class="col-md-6 borde25">
                 <h1 class="h-titular">¿Por qué estudiar en DV Educación?</h1>
                 <p class="p-titular">La nutrición ortomolecular se utiliza para ayudar en la absorción de
                     vitaminas y nutrientes por parte del organismo, y así inﬂuir positivamente en la salud.</p>
             </div>
-            <div class="slider-container col-md-6 padmar">
+            <div class="slider-container col-md-6 borde25">
                 <img class="slider-item" src="<?php echo (new config\generales())->url_base; ?>css/img/joven1.png">
                 <img class="slider-item" src="<?php echo (new config\generales())->url_base; ?>css/img/doc1.png">
             </div>
         </div>
     </div>
 
-    <div class="row grid-block padmar">
+    <div class="row grid-block titular">
         <div class="col-md-4 divcont"><center><button type="button" class="btnarticulo"></button></center></div>
         <div class="col-md-4 divcont"><center><button type="button" class="btnarticulo"></button></center></div>
         <div class="col-md-4 divcont"><center><button type="button" class="btnarticulo"></button></center></div>
@@ -98,10 +98,10 @@ use config\views;
     <div class="row">
         <div class="grid-block">
             <div class="row">
-                <div class="col-md-4 padmar">
+                <div class="col-md-4 borde25">
                     <h1>Conoce algunas de las opiniones de nuestros alumnos y ex alumnos</h1>
                 </div>
-                <div class="col-md-8 padmar border-azul">
+                <div class="col-md-8 borde25 border-azul">
                     <img class="imgcurso" src="<?php echo (new config\generales())->url_base; ?>css/img/curso1.svg">
                 </div>
             </div>
@@ -109,7 +109,7 @@ use config\views;
     </div>
 
     <div class="row grid-block border-azul">
-        <div class="row padmar">
+        <div class="row borde25">
             <h1 class="col-md-8">Creado por una equipo que no se conforma con menos que excelencia.</h1>
             <p>Conozca a nuestros equipo internos y al consejo de expertos</p>
         </div>
@@ -142,61 +142,90 @@ use config\views;
 
 <section id="nosotros" class="container-fluid grid-block">
 
-    <div class="row grid-block border-azul divequipo">
-        <center><h1 class="col-md-4 border-verde">Cuándo se úne un equipo multidiciplinario</h1></center>
+    <div class="row grid-block divequipo">
+        <center><h1 class="col-md-4 encabezados">Cuándo se úne un equipo multidiciplinario</h1></center>
     </div>
 
-    <div id="quien" class="row border-azul">
-        <div class="grid-block port2">
-            <h1>Quienes somos</h1>
+    <div class="row">
+        <div class="grid-block borde40">
             <div class="border-red col-md-3 divcont">
-                <center><img id="Myimagen" class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg" onclick="openImg()"></center>
+                <center><img id="Myimagen"  src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg"
+                             onclick="openImg1()"></center>
                 <div id="myModal" class="modal">
                     <span class="close">&times;</span>
                     <img class="modal-content" id="img01">
                     <div id="caption"></div>
                     <script src="js/prueba.js"></script>
                 </div>
+                <div><centre><h3 class="nombres border-azul">Miguel</h3></centre></div>
             </div>
 
             <div class="border-red col-md-3 divcont">
-                <center><img id="Myimagen" class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg" onclick="openImg()"></center>
+                <center><img id="Myimagen" class="imgfoto" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg"
+                             onclick="openImg2()"></center>
                 <div id="myModal" class="modal">
                     <span class="close">&times;</span>
-                    <img class="modal-content" id="img01">
+                    <img class="modal-content" id="img02">
                     <div id="caption"></div>
                     <script src="js/prueba.js"></script>
                 </div>
+                <div><centre><h3 class="nombres border-azul">Paola</h3></centre></div>
             </div>
 
             <div class="border-red col-md-3 divcont">
-                <center><img id="Myimagen" class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg" onclick="openImg()"></center>
+                <center><img id="Myimagen" class="imgfoto" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg"
+                             onclick="openImg3()"></center>
                 <div id="myModal" class="modal">
                     <span class="close">&times;</span>
-                    <img class="modal-content" id="img01">
+                    <img class="modal-content" id="img03">
                     <div id="caption"></div>
                     <script src="js/prueba.js"></script>
                 </div>
+                <div><centre><h3 class="nombres border-azul">Daniel</h3></centre></div>
             </div>
 
             <div class="border-red col-md-3 divcont">
-                <center><img id="Myimagen" class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg" onclick="openImg()"></center>
+                <center><img id="Myimagen" class="imgfoto" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg"
+                             onclick="openImg4()"></center>
                 <div id="myModal" class="modal">
                     <span class="close">&times;</span>
-                    <img class="modal-content" id="img01">
+                    <img class="modal-content" id="img04">
                     <div id="caption"></div>
                     <script src="js/prueba.js"></script>
                 </div>
+                <div><centre><h3 class="nombres border-azul">Margarita</h3></centre></div>
             </div>
-
+        </div>
+        <div class="row border-azul">
+            <center><p class="p-parafo borde40">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+                exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+                commodo consequat. Duis autem vel eum iriure dolor in hendrerit
+                in vulputate velit esse molestie consequat, vel illum dolore eu
+                feugiat nulla facilisis at vero eros et accumsan et iusto odio
+                dignissim qui blandit praesent luptatum zzril delenit augue duis
+                dolore te feugait nulla facilisi.</p></center>
         </div>
     </div>
 
     <div id="nuest" class="row border-azul">
+        <div class="grid-block">
+
+        </div>
+    </div>
+
+    <div class="row border-azul">
         <div class="grid-block port1">
-            <h1>Nuestro equipo</h1>
-            <!--<div class="dnec dnecrsp border-red" top-right><img class="nec necrsp border-azul"
-                   src="<?php echo (new config\generales())->url_base; ?>css/img/circulobi.svg"></div>-->
+            <center><h1 class="col-md-3 encabezados border-azul">Preguntas frecuentes</h1></center>
+            <p>Preguntas frecuentes</p>
+            <div class="row border-azul">
+                <div class="col-md-3 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
+                <div class="col-md-3 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso2.svg" class="imgcurso"></button></center></div>
+                <div class="col-md-3 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso3.svg" class="imgcurso"></button></center></div>
+                <div class="col-md-3 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
+
+            </div>
         </div>
     </div>
 
@@ -213,22 +242,6 @@ use config\views;
 
         </div>
     </div>
-
-    <div id="preg" class="row border-azul">
-        <div class="grid-block port1">
-            <H1>Preguntas frecuentes</H1>
-
-            <p>Preguntas frecuentes</p>
-            <div class="row border-azul">
-                <div class="col-md-3 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
-                <div class="col-md-3 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso2.svg" class="imgcurso"></button></center></div>
-                <div class="col-md-3 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso3.svg" class="imgcurso"></button></center></div>
-                <div class="col-md-3 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
-
-            </div>
-        </div>
-    </div>
-
 </section>
 
 <?php  include($data->include_action); ?>

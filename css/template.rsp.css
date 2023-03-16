@@ -18,18 +18,6 @@
         padding-bottom: 20px;
         padding-top: 20px;
     }
-    .div3{
-        width: 100%;
-        float: left;
-        padding-bottom: 20px;
-        padding-top: 20px;
-    }
-    .div4{
-        width: 100%;
-        float: left;
-        padding-bottom: 20px;
-        padding-top: 20px;
-    }
 
     .menudv{
         float: none;
@@ -83,7 +71,6 @@
         overflow: hidden;
         width: 100%;
         z-index: 2;
-
     }
     .linkmenu{
         font-size: 25px;
@@ -96,14 +83,6 @@
         display: block;
     }
 
-
-    .acomodoimgrsp{
-        float: none;
-        display: block;
-        width: 100%;
-        text-align: center;
-        background-color: white;
-    }
     .dnecrsp{
         width: 300px;
         height: 300px;
@@ -128,7 +107,15 @@
         text-align: center;
         width: 100%;
     }
-
+    .encabezados{
+        padding-left: 1px;
+        font-size: 40px;
+        text-align: center;
+        width: 100%;
+    }
+    .divequipo{
+        padding: 2px;
+    }
     .h-titular{
         font-size: 40px;
     }
@@ -138,13 +125,16 @@
         overflow-y: scroll;
         scroll-snap-type: y mandatory;
     }
-    .padmar{
+    .borde25{
         width: 100%;
         height: auto;
     }
     .imgcurso{
         width: 100%;
         height: auto;
+    }
+    .p-parafo{
+        font-size: 25px;
     }
 }
 .img img{

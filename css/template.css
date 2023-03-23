@@ -64,6 +64,9 @@ p{
 .borde40{
     padding: 40px;
 }
+.bordeinfe{
+    padding-bottom: 25px;
+}
 /*Div's*/
 
 .divcont{
@@ -173,11 +176,12 @@ p{
 .btnyoutube{
     border-radius: 5px;
     width: 100%;
-    height: auto;
+    height: 100%;
     text-decoration: none;
     background-color: white;
     box-shadow: 0px 8px 16px 0px rgb(0,0,0,0.2);
 }
+
 .slider-container {
     width: 50%;
     height: 100vh;

@@ -76,7 +76,7 @@ use config\views;
             </div>
 
         </div>
-        <div class="row borde25">
+        <div class="row">
             <div class="col-md-6 borde25">
                 <h1 class="h-titular">¿Por qué estudiar en DV Educación?</h1>
                 <p class="p-titular">La nutrición ortomolecular se utiliza para ayudar en la absorción de
@@ -97,24 +97,24 @@ use config\views;
 
     <div class="row">
         <div class="grid-block">
-            <div class="row">
+            <div class="row bordeinfe">
                 <div class="col-md-4 borde25">
                     <h1>Conoce algunas de las opiniones de nuestros alumnos y ex alumnos</h1>
                 </div>
                 <div class="col-md-8 borde25 border-azul">
-                    <button type="button" class="btnyoutube border-verde"></button>
+                    <button type="button" class="btnyoutube"><a href="https://www.youtube.com/" class="border-azul"></a></button>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="row grid-block border-azul">
+    <div class="row grid-block">
         <div class="row borde25">
             <h1 class="col-md-8 borde25">Creado por una equipo que no se conforma con menos que excelencia.</h1>
             <p class="p-titular">Conozca a nuestros equipo internos y al consejo de expertos</p>
         </div>
 
-        <div class="row">
+        <div class="row bordeinfe">
             <div>
                 <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
                 <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso2.svg" class="imgcurso"></button></center></div>
@@ -125,7 +125,7 @@ use config\views;
 
 </section>
 
-<div class="row titular">
+<div class="row titular border-azul">
     <div class="div4">
         <center><h1>FIN HOME</h1></center>
     </div>
@@ -149,7 +149,7 @@ use config\views;
     <div class="row">
         <div class="grid-block borde40">
             <div class="border-red col-md-3 divcont">
-                <center><img id="Myimagen"  src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg"
+                <center><img id="Myimagen"  src="<?php echo (new config\generales())->url_base; ?>css/img/185.jpg"
                              onclick="openImg1()"></center>
                 <div id="myModal" class="modal">
                     <span class="close">&times;</span>
@@ -173,7 +173,7 @@ use config\views;
             </div>
 
             <div class="border-red col-md-3 divcont">
-                <center><img id="Myimagen" class="imgfoto" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg"
+                <center><img id="Myimagen" class="imgfoto" src="<?php echo (new config\generales())->url_base; ?>css/img/137.jpg"
                              onclick="openImg3()"></center>
                 <div id="myModal" class="modal">
                     <span class="close">&times;</span>
@@ -185,7 +185,7 @@ use config\views;
             </div>
 
             <div class="border-red col-md-3 divcont">
-                <center><img id="Myimagen" class="imgfoto" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg"
+                <center><img id="Myimagen" class="imgfoto" src="<?php echo (new config\generales())->url_base; ?>css/img/016.jpg"
                              onclick="openImg4()"></center>
                 <div id="myModal" class="modal">
                     <span class="close">&times;</span>
@@ -196,7 +196,7 @@ use config\views;
                 <div><centre><h3 class="nombres border-azul">Margarita</h3></centre></div>
             </div>
         </div>
-        <div class="row border-azul">
+        <div class="row">
             <center><p class="p-parafo borde40">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
@@ -224,7 +224,7 @@ use config\views;
     </div>
 
     <div class="row border-azul">
-        <div class="grid-block border-verde">
+        <div class="grid-block">
             <center><h1 class="col-md-3 encabezados border-azul">Preguntas frecuentes</h1></center>
             <center><p class="p-titular ">Todo lo que necesitas saber sobre nuestros diplomados</p></center>
             <div class="borde40">
@@ -234,27 +234,12 @@ use config\views;
                 <center><p class="p-titular">¿Qué sigue después de realizar mi pago?</p></center>
             </div>
 
-            <div class="row">
+            <div class="row bordeinfe">
                 <div class="col-md-3 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
                 <div class="col-md-3 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso2.svg" class="imgcurso"></button></center></div>
                 <div class="col-md-3 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso3.svg" class="imgcurso"></button></center></div>
                 <div class="col-md-3 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
-
             </div>
-        </div>
-    </div>
-
-    <div id="test" class="row border-azul">
-        <div class="grid-block port2">
-            <h1>Recursos Gratis</h1>
-
-        </div>
-    </div>
-
-    <div id="test" class="row border-azul">
-        <div class="grid-block port2">
-            <h1>Testimonios</h1>
-
         </div>
     </div>
 </section>

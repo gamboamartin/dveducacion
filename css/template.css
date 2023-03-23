@@ -167,6 +167,14 @@ p{
     width: 60%;
     height: 150px;
     text-decoration: none;
+
+    box-shadow: 0px 8px 16px 0px rgb(0,0,0,0.2);
+}
+.btnyoutube{
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    text-decoration: none;
     background-color: white;
     box-shadow: 0px 8px 16px 0px rgb(0,0,0,0.2);
 }
@@ -211,6 +219,20 @@ p{
 .img img{
     width: 100%;
 }
+
+.port{
+    background-image: url("img/port.jpg");
+    padding-top:13px;
+    width: 100%;
+    height:100%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.port img{
+    width: 100%;
+}
+
 .imgfondo{
     width: 100%;
     height:100%;
@@ -227,8 +249,8 @@ p{
     height: auto;
     width: 1637px;
     display: block;
-    top: 0;
 }
+
 .dnec{
     width: 700px;
     height: auto;

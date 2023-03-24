@@ -70,13 +70,46 @@ use config\views;
                 <h1 class="h-titular">¿Qué es la Medicina Funcional y Ortomolecular?</h1>
                 <p class="p-titular">La medicina funcional determina cómo y por qué ocurre la enfermedad y
                     optimiza la salud al atender las causas de la enfermedad para cada individuo.</p>
+                <p class="p-titular">The Institute For Functional Medicine”</p>
+            </div>
+            <div class="col-md-6 borde25">
+                <img class="imgcurso" src="<?php echo (new config\generales())->url_base; ?>css/img/doc1.png">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 borde25">
+                <h1 class="h-titular">¿Por qué estudiar en DV Educación?</h1>
+                <p class="p-titular">Nuestros diplomados están diseñados desde la ciencia, bioquímica, nutrición
+                    funcional... mostrándote cómo utilizar la Medicina Funcional desde las bases
+                    hasta la clínica.</p>
+                <p class="p-titular">Empezando por optimizar tu salud y
+                    después la de tus pacientes y seres
+                    queridos</p>
+            </div>
+            <div class="col-md-6 borde25">
+                <img class="imgcurso" src="<?php echo (new config\generales())->url_base; ?>css/img/joven1.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 borde25">
+                <h1 class="h-titular">¿Beneficios de estudiar con DV Educación</h1>
+                <p class="p-titular">- Aval académico.</p>
+                <p class="p-titular">- Certiﬁcado de aprobación.</p>
+                <p class="p-titular">- Asistencia un ﬁn de semana al mes.</p>
+                <p class="p-titular">- Clases presencial y online.</p>
+                <p class="p-titular">- Contenido clases disponible online.</p>
+                <p class="p-titular">- Plataforma disponible 24/7.</p>
+                <p class="p-titular">- Acceso a nuestra comunidad.</p>
+                <p class="p-titular">- Conviértete en un experto desde</p>
+                <p class="p-titular">- el nivel básico al avanzado.</p>
             </div>
             <div class="col-md-6 borde25">
                 <img class="imgcurso" src="<?php echo (new config\generales())->url_base; ?>css/img/confe1.png">
             </div>
-
         </div>
-        <div class="row">
+    </div>
+        <!--<div class="row">
             <div class="col-md-6 borde25">
                 <h1 class="h-titular">¿Por qué estudiar en DV Educación?</h1>
                 <p class="p-titular">La nutrición ortomolecular se utiliza para ayudar en la absorción de
@@ -84,25 +117,28 @@ use config\views;
             </div>
             <div class="slider-container col-md-6 borde25">
                 <img class="slider-item" src="<?php echo (new config\generales())->url_base; ?>css/img/joven1.png">
-                <img class="slider-item" src="<?php echo (new config\generales())->url_base; ?>css/img/doc1.png">
+                <img class="slider-item" src="<?php echo (new config\generales())->url_base; ?>css/img/confe1.png">
             </div>
-        </div>
+        </div>-->
     </div>
 
-    <div class="row grid-block titular">
-        <div class="col-md-4 divcont"><center><button type="button" class="btnarticulo"></button></center></div>
-        <div class="col-md-4 divcont"><center><button type="button" class="btnarticulo"></button></center></div>
-        <div class="col-md-4 divcont"><center><button type="button" class="btnarticulo"></button></center></div>
+    <div class="row grid-block divequipo">
+        <center><h1 class="col-md-4 encabezados">Nuestros diplomados</h1></center>
+        <div class="borde40">
+            <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
+            <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso2.svg" class="imgcurso"></button></center></div>
+            <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso3.svg" class="imgcurso"></button></center></div>
+        </div>
     </div>
 
     <div class="row">
         <div class="grid-block">
             <div class="row bordeinfe">
-                <div class="col-md-4 borde25">
-                    <h1>Conoce algunas de las opiniones de nuestros alumnos y ex alumnos</h1>
+                <div class="col-md-3 borde25">
+                    <center><h1>Conoce algunas de las opiniones de nuestros alumnos y ex alumnos</h1></center>
                 </div>
-                <div class="col-md-8 borde25 border-azul">
-                    <button type="button" class="btnyoutube"><a href="https://www.youtube.com/" class="border-azul"></a></button>
+                <div class="col-md-9 borde25">
+                    <a type="button" class="btnyoutube" href="https://www.youtube.com/"></a>
                 </div>
             </div>
         </div>
@@ -110,16 +146,15 @@ use config\views;
 
     <div class="row grid-block">
         <div class="row borde25">
-            <h1 class="col-md-8 borde25">Creado por una equipo que no se conforma con menos que excelencia.</h1>
-            <p class="p-titular">Conozca a nuestros equipo internos y al consejo de expertos</p>
+            <h1 class="col-md-4 borde25">Recursos Gratis</h1>
+            <p class="p-titular">Suscribete a nuestra cuenta en Youtube y recibe una alerta de nuestro
+                contenido reciente diseñado para mantener a nuestra comunidad al día.</p>
         </div>
-
         <div class="row bordeinfe">
-            <div>
-                <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
-                <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso2.svg" class="imgcurso"></button></center></div>
-                <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso3.svg" class="imgcurso"></button></center></div>
-            </div>
+            <div class="col-md-3 divcont"><center><button type="button" class="btnarticulo"></button></center></div>
+            <div class="col-md-3 divcont"><center><button type="button" class="btnarticulo"></button></center></div>
+            <div class="col-md-3 divcont"><center><button type="button" class="btnarticulo"></button></center></div>
+            <div class="col-md-3 divcont"><center><button type="button" class="btnarticulo"></button></center></div>
         </div>
     </div>
 
@@ -142,8 +177,10 @@ use config\views;
 
 <section id="nosotros" class="container-fluid grid-block">
 
-    <div class="row grid-block divequipo">
-        <center><h1 class="col-md-4 encabezados">Cuándo se úne un equipo multidiciplinario</h1></center>
+    <div class="row grid-block port">
+        <div class="titular">
+            <h1 class="col-md-3 encabezados">Somos un equipo multidiciplinario</h1>
+        </div>
     </div>
 
     <div class="row">
@@ -169,7 +206,7 @@ use config\views;
                     <div id="caption"></div>
                     <script src="js/prueba.js"></script>
                 </div>
-                <div><centre><h3 class="nombres border-azul">Paola</h3></centre></div>
+                <div><centre><h3 class="nombres border-azul">Rodolfo</h3></centre></div>
             </div>
 
             <div class="border-red col-md-3 divcont">
@@ -196,36 +233,11 @@ use config\views;
                 <div><centre><h3 class="nombres border-azul">Margarita</h3></centre></div>
             </div>
         </div>
-        <div class="row">
-            <center><p class="p-parafo borde40">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
-                exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
-                commodo consequat. Duis autem vel eum iriure dolor in hendrerit
-                in vulputate velit esse molestie consequat, vel illum dolore eu
-                feugiat nulla facilisis at vero eros et accumsan et iusto odio
-                dignissim qui blandit praesent luptatum zzril delenit augue duis
-                dolore te feugait nulla facilisi.</p></center>
-        </div>
     </div>
 
-    <div id="nuest" class="row border-azul">
-        <div class="grid-block port">
-            <center><p class="p-parafo borde40">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                    diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                    aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
-                    exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
-                    commodo consequat. Duis autem vel eum iriure dolor in hendrerit
-                    in vulputate velit esse molestie consequat, vel illum dolore eu
-                    feugiat nulla facilisis at vero eros et accumsan et iusto odio
-                    dignissim qui blandit praesent luptatum zzril delenit augue duis
-                    dolore te feugait nulla facilisi.</p></center>
-        </div>
-    </div>
-
-    <div class="row border-azul">
-        <div class="grid-block">
-            <center><h1 class="col-md-3 encabezados border-azul">Preguntas frecuentes</h1></center>
+    <div class="row">
+        <div class="grid-block borde25">
+            <center><h1 class="col-md-3 encabezados bordeinfe">Preguntas frecuentes</h1></center>
             <center><p class="p-titular ">Todo lo que necesitas saber sobre nuestros diplomados</p></center>
             <div class="borde40">
                 <center><p class="p-titular">¿Qué incluye mi diplomado DV Educación?</p></center>
@@ -234,7 +246,7 @@ use config\views;
                 <center><p class="p-titular">¿Qué sigue después de realizar mi pago?</p></center>
             </div>
 
-            <div class="row bordeinfe">
+            <div class="row">
                 <div class="col-md-3 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
                 <div class="col-md-3 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso2.svg" class="imgcurso"></button></center></div>
                 <div class="col-md-3 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso3.svg" class="imgcurso"></button></center></div>

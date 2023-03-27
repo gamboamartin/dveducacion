@@ -17,6 +17,8 @@ use config\views;
     <link href="<?php (new \config\generales())->url_base ?>css/template.css" rel="stylesheet">
     <link href="<?php (new \config\generales())->url_base ?>css/template.rsp.css" rel="stylesheet">
     <link href="<?php (new \config\generales())->url_base ?>css/styles.css" rel="stylesheet">
+    <link href="<?php (new \config\generales())->url_base ?>" rel="stylesheet">
+    <script src="js/prueba.js"></script>
 
 
     <?php echo $data->css_custom->css; ?>
@@ -138,7 +140,7 @@ use config\views;
                     <center><h1>Conoce algunas de las opiniones de nuestros alumnos y ex alumnos</h1></center>
                 </div>
                 <div class="col-md-9 borde25">
-                    <a type="button" class="btnyoutube" href="https://www.youtube.com/"></a>
+                    <a type="button" class="btnyoutube" href="https://www.youtube.com/watch?v=Ra-ix20BlQ0&list=PLCWA4ksG1ZllCwnPpJqekYjUKoSqnEmIa"></a>
                 </div>
             </div>
         </div>
@@ -175,6 +177,11 @@ use config\views;
     </div>
 </div>
 
+<div>
+
+
+</div>
+
 <section id="nosotros" class="container-fluid grid-block">
 
     <div class="row grid-block port">
@@ -186,50 +193,26 @@ use config\views;
     <div class="row">
         <div class="grid-block borde40">
             <div class="border-red col-md-3 divcont">
-                <center><img id="Myimagen"  src="<?php echo (new config\generales())->url_base; ?>css/img/185.jpg"
-                             onclick="openImg1()"></center>
-                <div id="myModal" class="modal">
-                    <span class="close">&times;</span>
-                    <img class="modal-content" id="img01">
-                    <div id="caption"></div>
-                    <script src="js/prueba.js"></script>
+                <center><img class="imgpersonal" src="<?php echo (new config\generales())->url_base; ?>css/img/miguel.jpg" id="img-miguel" onclick="mostrarModalMiguel()"></center>
+                <div id="modal-miguel" style="display: none;">
+                    <p>Tu texto aquí</p>
+                    <button onclick="ocultarModalMiguel()">Cerrar</button>
                 </div>
                 <div><centre><h3 class="nombres border-azul">Miguel</h3></centre></div>
             </div>
 
             <div class="border-red col-md-3 divcont">
-                <center><img id="Myimagen" class="imgfoto" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg"
-                             onclick="openImg2()"></center>
-                <div id="myModal" class="modal">
-                    <span class="close">&times;</span>
-                    <img class="modal-content" id="img02">
-                    <div id="caption"></div>
-                    <script src="js/prueba.js"></script>
-                </div>
+                <center><img id="Myimagen" class="imgpersonal" src="<?php echo (new config\generales())->url_base; ?>css/img/rodolfo.jpg"></center>
                 <div><centre><h3 class="nombres border-azul">Rodolfo</h3></centre></div>
             </div>
 
             <div class="border-red col-md-3 divcont">
-                <center><img id="Myimagen" class="imgfoto" src="<?php echo (new config\generales())->url_base; ?>css/img/137.jpg"
-                             onclick="openImg3()"></center>
-                <div id="myModal" class="modal">
-                    <span class="close">&times;</span>
-                    <img class="modal-content" id="img03">
-                    <div id="caption"></div>
-                    <script src="js/prueba.js"></script>
-                </div>
+                <center><img id="Myimagen" class="imgpersonal" src="<?php echo (new config\generales())->url_base; ?>css/img/daniel.jpg"></center>
                 <div><centre><h3 class="nombres border-azul">Daniel</h3></centre></div>
             </div>
 
             <div class="border-red col-md-3 divcont">
-                <center><img id="Myimagen" class="imgfoto" src="<?php echo (new config\generales())->url_base; ?>css/img/016.jpg"
-                             onclick="openImg4()"></center>
-                <div id="myModal" class="modal">
-                    <span class="close">&times;</span>
-                    <img class="modal-content" id="img04">
-                    <div id="caption"></div>
-                    <script src="js/prueba.js"></script>
-                </div>
+                <center><img id="Myimagen" class="imgpersonal" src="<?php echo (new config\generales())->url_base; ?>css/img/margarita.jpg"></center>
                 <div><centre><h3 class="nombres border-azul">Margarita</h3></centre></div>
             </div>
         </div>

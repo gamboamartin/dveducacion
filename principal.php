@@ -44,7 +44,7 @@ use config\views;
                         <a href="#nosotros">Quienes somos</a>
                         <a href="#">Nuestro equipo</a>
                         <a href="#">Testimonio</a>
-                        <a href="#">Pregunstas frecuentes</a>
+                        <a href="#">Preguntas frecuentes</a>
                         <a href="#">Contáctanos</a>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ use config\views;
     </div>
 
     <div class="row">
-        <div class="row imgfondo vh-100">
+        <div class="row imgfondo">
             <div class="col-md-6 borde25">
                 <h1 class="h-titular">¿Qué es la Medicina Funcional y Ortomolecular?</h1>
                 <p class="p-titular">La medicina funcional determina cómo y por qué ocurre la enfermedad y
@@ -124,12 +124,25 @@ use config\views;
 
     <div class="row">
         <div class="grid-block">
-            <div class="row bordeinfe">
-                <div class="col-md-3 borde25">
+            <div class="row  borde25 bordeinfe">
+                <div class="col-md-4 borde25">
                     <center><h1>Conoce algunas de las opiniones de nuestros alumnos y ex alumnos</h1></center>
                 </div>
-                <div class="col-md-9 borde25">
-                    <a type="button" class="btnyoutube" href="https://www.youtube.com/watch?v=Ra-ix20BlQ0&list=PLCWA4ksG1ZllCwnPpJqekYjUKoSqnEmIa"></a>
+                <div class="col-md-8">
+                    <div class="row conteyoutube borde25 divcont">
+                        <div class="col-md-4">
+                            <a type="button" class="btnyoutube" href="https://www.youtube.com/watch?v=Ra-ix20BlQ0&list=PLCWA4ksG1ZllCwnPpJqekYjUKoSqnEmIa&index=1">
+                                <img class="imgtestimonio" src="css/img/tdv1.jpg"></a>
+                        </div>
+                        <div class="col-md-4">
+                            <a type="button" class="btnyoutube" href="https://www.youtube.com/watch?v=rWbEjw3k18M&list=PLCWA4ksG1ZllCwnPpJqekYjUKoSqnEmIa&index=2">
+                                <img class="imgtestimonio" src="css/img/tdv2.jpg"></a>
+                        </div>
+                        <div class="col-md-4">
+                            <a type="button" class="btnyoutube" href="https://www.youtube.com/watch?v=DdiPudfDTS0&list=PLCWA4ksG1ZllCwnPpJqekYjUKoSqnEmIa&index=3">
+                                <img class="imgtestimonio" src="css/img/tdv3.jpg"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -166,11 +179,6 @@ use config\views;
     </div>
 </div>
 
-<div>
-
-
-</div>
-
 <section id="nosotros" class="container-fluid grid-block">
 
     <div class="row grid-block port">
@@ -187,7 +195,6 @@ use config\views;
                 <div id="modal-miguel" style="display: none;">
                     <div>
                         <div class="col-md-6">
-                            <h1 class="border-azul" >Miguel: Educación</h1>
                             <p class="border-azul">Lic. En Desarrollo Educativo Institucional (Universidad La Salle), profesor de ciencias
                                 sociales y sociología durante 19 años, estudió la maestría en Filosofía y
                                 Ciencias Sociales (ITESO). Diplomado en Naturopatia.
@@ -235,6 +242,15 @@ use config\views;
                 </div>
                 <div><centre><h3 class="nombres">Margarita</h3></centre></div>
             </div>
+        </div>
+    </div>
+
+    <div class="row grid-block divequipo">
+        <center><h1 class="col-md-4 encabezados">Nuestros diplomados</h1></center>
+        <div class="borde40">
+            <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
+            <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso2.svg" class="imgcurso"></button></center></div>
+            <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso3.svg" class="imgcurso"></button></center></div>
         </div>
     </div>
 

@@ -17,8 +17,9 @@ use config\views;
     <link href="<?php (new \config\generales())->url_base ?>css/template.css" rel="stylesheet">
     <link href="<?php (new \config\generales())->url_base ?>css/template.rsp.css" rel="stylesheet">
     <link href="<?php (new \config\generales())->url_base ?>css/styles.css" rel="stylesheet">
+    <link href="<?php (new \config\generales())->url_base ?>css/modal.css" rel="stylesheet">
     <link href="<?php (new \config\generales())->url_base ?>" rel="stylesheet">
-    <script src="js/prueba.js"></script>
+    <script src="js/Modal.js"></script>
 
 
     <?php echo $data->css_custom->css; ?>
@@ -111,18 +112,6 @@ use config\views;
             </div>
         </div>
     </div>
-        <!--<div class="row">
-            <div class="col-md-6 borde25">
-                <h1 class="h-titular">¿Por qué estudiar en DV Educación?</h1>
-                <p class="p-titular">La nutrición ortomolecular se utiliza para ayudar en la absorción de
-                    vitaminas y nutrientes por parte del organismo, y así inﬂuir positivamente en la salud.</p>
-            </div>
-            <div class="slider-container col-md-6 borde25">
-                <img class="slider-item" src="<?php echo (new config\generales())->url_base; ?>css/img/joven1.png">
-                <img class="slider-item" src="<?php echo (new config\generales())->url_base; ?>css/img/confe1.png">
-            </div>
-        </div>-->
-    </div>
 
     <div class="row grid-block divequipo">
         <center><h1 class="col-md-4 encabezados">Nuestros diplomados</h1></center>
@@ -192,28 +181,59 @@ use config\views;
 
     <div class="row">
         <div class="grid-block borde40">
-            <div class="border-red col-md-3 divcont">
+            <!-- Miguel -->
+            <div class="col-md-3 divcont">
                 <center><img class="imgpersonal" src="<?php echo (new config\generales())->url_base; ?>css/img/miguel.jpg" id="img-miguel" onclick="mostrarModalMiguel()"></center>
                 <div id="modal-miguel" style="display: none;">
-                    <p>Tu texto aquí</p>
-                    <button onclick="ocultarModalMiguel()">Cerrar</button>
+                    <div>
+                        <div class="col-md-6">
+                            <h1 class="border-azul" >Miguel: Educación</h1>
+                            <p class="border-azul">Lic. En Desarrollo Educativo Institucional (Universidad La Salle), profesor de ciencias
+                                sociales y sociología durante 19 años, estudió la maestría en Filosofía y
+                                Ciencias Sociales (ITESO). Diplomado en Naturopatia.
+                                Director de Deporte y Cultura en preparatoria privada 4 años. Actual Director de DV Educación.</p>
+                        </div>
+                    </div>
+                    <button class="close" onclick="ocultarModalMiguel()">x</button>
                 </div>
-                <div><centre><h3 class="nombres border-azul">Miguel</h3></centre></div>
+                <div><centre><h3 class="nombres">Miguel</h3></centre></div>
             </div>
-
-            <div class="border-red col-md-3 divcont">
-                <center><img id="Myimagen" class="imgpersonal" src="<?php echo (new config\generales())->url_base; ?>css/img/rodolfo.jpg"></center>
-                <div><centre><h3 class="nombres border-azul">Rodolfo</h3></centre></div>
+            <!-- Rodolfo -->
+            <div class="col-md-3 divcont">
+                <center><img class="imgpersonal" src="<?php echo (new config\generales())->url_base; ?>css/img/rodolfo.jpg" id="img-rodolfo" onclick="mostrarModalRodolfo()"></center>
+                <div id="modal-rodolfo" style="display: none;">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                        euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+                        veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+                        ex ea commodo consequat. Duis autem vel</p>
+                    <button class="close" onclick="ocultarModalRodolfo()">x</button>
+                </div>
+                <div><centre><h3 class="nombres">Rodolfo</h3></centre></div>
             </div>
-
-            <div class="border-red col-md-3 divcont">
-                <center><img id="Myimagen" class="imgpersonal" src="<?php echo (new config\generales())->url_base; ?>css/img/daniel.jpg"></center>
-                <div><centre><h3 class="nombres border-azul">Daniel</h3></centre></div>
+            <!-- Daniel -->
+            <div class="col-md-3 divcont">
+                <center><img class="imgpersonal" src="<?php echo (new config\generales())->url_base; ?>css/img/daniel.jpg" id="img-daniel" onclick="mostrarModalDaniel()"></center>
+                <div id="modal-daniel" style="display: none;">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                        ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                        tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel
+                        eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum
+                        dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+                        blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                    <button class="close" onclick="ocultarModalDaniel()">x</button>
+                </div>
+                <div><centre><h3 class="nombres">Daniel</h3></centre></div>
             </div>
-
-            <div class="border-red col-md-3 divcont">
-                <center><img id="Myimagen" class="imgpersonal" src="<?php echo (new config\generales())->url_base; ?>css/img/margarita.jpg"></center>
-                <div><centre><h3 class="nombres border-azul">Margarita</h3></centre></div>
+            <!-- Margarita -->
+            <div class="col-md-3 divcont">
+                <center><img class="imgpersonal" src="<?php echo (new config\generales())->url_base; ?>css/img/margarita.jpg" id="img-margarita" onclick="mostrarModalMargarita()"></center>
+                <div id="modal-margarita" style="display: none;">
+                    <p>Lic. En contabilidad. Health Coach certiﬁcada por el Instituto de Medicina
+                        Funcional (EUA), con gran experiencia como Terapeuta Naturista, Gerontología, Medicina
+                        Estética y Nutrición. Como empresaria ha desarrollado varios productos de nutrición funcional.</p>
+                    <button class="close" onclick="ocultarModalMargarita()">x</button>
+                </div>
+                <div><centre><h3 class="nombres">Margarita</h3></centre></div>
             </div>
         </div>
     </div>

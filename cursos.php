@@ -52,7 +52,7 @@ use config\views;
     <div class="row border-azul">
         <div class="grid-block port1">
             <center><img id="imagen" class="imgpr" src="<?php echo (new config\generales())->url_base; ?>css/img/img1.jpg" onclick="openImg()"></center>
-            <script src="js/prueba.js"></script>
+            <script src="js/Modal.js"></script>
 
         </div>
     </div>

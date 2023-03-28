@@ -128,10 +128,7 @@
         overflow-y: scroll;
         scroll-snap-type: y mandatory;
     }
- /*   .borde25{
-        width: 100%;
-        height: auto;
-    }*/
+
     .imgcurso{
         width: 100%;
         height: auto;

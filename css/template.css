@@ -41,6 +41,11 @@ p{
     font-size: 25px;
     color: #594e4e;
 }
+.p-pregunta{
+    font-family: Confortaa;
+    font-size: 30px;
+    color: #594e4e;
+}
 .p-parafo{
     font-family: Confortaa;
     font-size: 30px;
@@ -66,6 +71,9 @@ p{
 }
 .bordeinfe{
     padding-bottom: 25px;
+}
+.conterecursos{
+    padding-bottom: 55px;
 }
 /*Div's*/
 
@@ -178,11 +186,11 @@ p{
 .conteyoutube{
     width: 100%;
     height: 100%;
-    border-radius: 5px;
+    border-radius: 25px;
     box-shadow: 0px 8px 16px 0px rgb(0,0,0,0.2);
 }
 .imgtestimonio{
-    width: 100%;
+    width: 103%;
     height: 100%;
 }
 .slider-container {
@@ -203,6 +211,12 @@ p{
     padding-left: 40px;
     font-size: 65px;
     color: #ffffff;
+    width: 65%;
+}
+.encabezado-nosotros{
+    padding-left: 40px;
+    font-size: 65px;
+    color: #003366;
     width: 65%;
 }
 .encabezados{
@@ -227,10 +241,10 @@ p{
     width: 100%;
 }
 
-.port{
+.nosotros{
     background-image: url("img/port.jpg");
     padding-top:13px;
-    width: 100%;
+    width: 103%;
     height:100%;
     background-size: 100% 100%;
     background-repeat:no-repeat;
@@ -296,7 +310,7 @@ p{
     right: 0px;
     width: 200px;
 }
-.divequipo{
+.diplomados{
     background-color: #f0f0f0;
     text-align: left;
     padding: 60px;
@@ -315,4 +329,9 @@ p{
     cursor: pointer;
     position: center;
 }
-
+.piepagina{
+    width: 107%;
+    height: 55px;
+    background-color: #003366;
+    align-items: end;
+}

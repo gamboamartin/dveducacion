@@ -18,7 +18,6 @@ use config\views;
     <link href="<?php (new \config\generales())->url_base ?>css/template.rsp.css" rel="stylesheet">
     <link href="<?php (new \config\generales())->url_base ?>css/styles.css" rel="stylesheet">
     <link href="<?php (new \config\generales())->url_base ?>css/modal.css" rel="stylesheet">
-    <link href="<?php (new \config\generales())->url_base ?>" rel="stylesheet">
     <script src="js/Modal.js"></script>
 
 
@@ -50,7 +49,6 @@ use config\views;
                 </div>
             </div>
         </div>
-        <!--<div class="menudvrsp menudv border-verde"><img class="border-azul"  src="<?php //echo (new config\generales())->url_base; ?>css/img/logo.jpg" height="75px" width="auto"></div>-->
         <div class="col-md-4">
             <img class="imgmenu" src="<?php echo (new config\generales())->url_base; ?>css/img/logo.jpg">
         </div>
@@ -66,7 +64,6 @@ use config\views;
             </div>
         </div>
     </div>
-
     <div class="row">
         <div class="row imgfondo">
             <div class="col-md-6 borde25">
@@ -79,7 +76,6 @@ use config\views;
                 <img class="imgcurso" src="<?php echo (new config\generales())->url_base; ?>css/img/doc1.png">
             </div>
         </div>
-
         <div class="row">
             <div class="col-md-6 borde25">
                 <h1 class="h-titular">¿Por qué estudiar en DV Educación?</h1>
@@ -112,8 +108,7 @@ use config\views;
             </div>
         </div>
     </div>
-
-    <div class="row grid-block divequipo">
+    <div class="row grid-block diplomados">
         <center><h1 class="col-md-4 encabezados">Nuestros diplomados</h1></center>
         <div class="borde40">
             <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
@@ -121,7 +116,6 @@ use config\views;
             <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso3.svg" class="imgcurso"></button></center></div>
         </div>
     </div>
-
     <div class="row">
         <div class="grid-block">
             <div class="row  borde25 bordeinfe">
@@ -147,21 +141,21 @@ use config\views;
             </div>
         </div>
     </div>
-
     <div class="row grid-block">
         <div class="row borde25">
             <h1 class="col-md-4 borde25">Recursos Gratis</h1>
             <p class="p-titular">Suscribete a nuestra cuenta en Youtube y recibe una alerta de nuestro
                 contenido reciente diseñado para mantener a nuestra comunidad al día.</p>
         </div>
-        <div class="row bordeinfe">
+        <div class="row conterecursos">
             <div class="col-md-3 divcont"><center><button type="button" class="btnarticulo"></button></center></div>
             <div class="col-md-3 divcont"><center><button type="button" class="btnarticulo"></button></center></div>
             <div class="col-md-3 divcont"><center><button type="button" class="btnarticulo"></button></center></div>
             <div class="col-md-3 divcont"><center><button type="button" class="btnarticulo"></button></center></div>
         </div>
     </div>
-
+    <div class="piepagina row border-red">
+    </div>
 </section>
 
 <div class="row titular border-azul">
@@ -181,12 +175,11 @@ use config\views;
 
 <section id="nosotros" class="container-fluid grid-block">
 
-    <div class="row grid-block port">
+    <div class="row grid-block nosotros">
         <div class="titular">
-            <h1 class="col-md-3 encabezados">Somos un equipo multidiciplinario</h1>
+            <h1 class="col-md-3 encabezado-nosotros">Somos un equipo multidiciplinario</h1>
         </div>
     </div>
-
     <div class="row">
         <div class="grid-block borde40">
             <!-- Miguel -->
@@ -244,8 +237,7 @@ use config\views;
             </div>
         </div>
     </div>
-
-    <div class="row grid-block divequipo">
+    <div class="row grid-block diplomados">
         <center><h1 class="col-md-4 encabezados">Nuestros diplomados</h1></center>
         <div class="borde40">
             <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso1.svg" class="imgcurso"></button></center></div>
@@ -253,16 +245,26 @@ use config\views;
             <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/curso3.svg" class="imgcurso"></button></center></div>
         </div>
     </div>
-
     <div class="row">
         <div class="grid-block borde25">
             <center><h1 class="col-md-3 encabezados bordeinfe">Preguntas frecuentes</h1></center>
-            <center><p class="p-titular ">Todo lo que necesitas saber sobre nuestros diplomados</p></center>
+            <center><p class="p-pregunta">Todo lo que necesitas saber sobre nuestros diplomados</p></center>
             <div class="borde40">
-                <center><p class="p-titular">¿Qué incluye mi diplomado DV Educación?</p></center>
-                <center><p class="p-titular">¿Cómo me inscribo a un diplomado</p></center>
-                <center><p class="p-titular">¿Dónde realizo el pago de inscripción?</p></center>
-                <center><p class="p-titular">¿Qué sigue después de realizar mi pago?</p></center>
+                <center><p onclick="mostrarPreguntaA()" class="p-pregunta">¿Qué aval o reconocimiento tiene el Diplomado?</p></center>
+                <div id="pregunta-a" style="display: none;">
+                    <center><p class="col-md-8">Tenemos el aval de la Secretaría de Innovación Jalisco, encargada de la Educación Continua en nuestro
+                    estado y con validez a nivel Federal.</p></center></div>
+
+                <center><p onclick="mostrarPreguntaB()" class="p-pregunta">¿Cuánto dura el Diplomado?</p></center>
+                <div id="pregunta-b" style="display: none;">
+                    <center><p class="col-md-8">El Básico dura 8 meses (9 módulos), 1 fin de semana al mes. El Avanzado
+                            dura 8 meses (8 módulos), 1 fin de semana al mes.</p></center></div>
+
+                <center><p onclick="mostrarPreguntaA()" class="p-pregunta">¿Qué aval o reconocimiento tiene el Diplomado?</p></center>
+                <div id="pregunta-a" style="display: none;">
+                    <center><p class="col-md-8">Tenemos el aval de la Secretaría de Innovación Jalisco, encargada de la Educación Continua en nuestro
+                            estado y con validez a nivel Federal.</p></center></div>
+
             </div>
 
             <div class="row">

@@ -93,8 +93,9 @@
     .img{
         margin-top:148px;
     }
-    .port{
-        margin-top:148px;
+    .nosotros{
+        width: 107%;
+        font-size: 65px;
     }
     .titular{
         width: 100%;
@@ -107,19 +108,30 @@
         text-align: center;
         width: 100%;
     }
+    .encabezado-nosotros{
+        padding-left: 1px;
+        padding-bottom: 35px;
+        font-size: 35px;
+        text-align: center;
+        width: 100%;
+    }
     .encabezados{
+        padding-top: 25px;
         padding-left: 1px;
         font-size: 40px;
         text-align: center;
         width: 100%;
     }
-    .divequipo{
+    .diplomados{
         padding: 2px;
     }
     .h-titular{
-        font-size: 40px;
+        font-size: 38px;
     }
     .p-titular{
+        font-size: 20px;
+    }
+    .p-pregunta{
         font-size: 20px;
     }
     .slider-container {
@@ -145,6 +157,6 @@
     width: 100%;
 }
 
-.port img{
+.nosotros img{
     width: 100%;
 }

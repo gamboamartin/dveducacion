@@ -37,3 +37,21 @@ function ocultarModalMargarita() {
     var modal = document.getElementById("modal-miguel");
     modal.style.display = "none";
 }
+
+//Preguntas
+function mostrarPreguntaA() {
+    var div = document.getElementById("pregunta-a");
+    if (div.style.display === "none") {
+        div.style.display = "block";
+    } else {
+        div.style.display = "none";
+    }
+}
+function mostrarPreguntaB() {
+    var div = document.getElementById("pregunta-b");
+    if (div.style.display === "none") {
+        div.style.display = "block";
+    } else {
+        div.style.display = "none";
+    }
+}

@@ -1,11 +1,11 @@
 .close{
     position: absolute;
     z-index: 1;
-    top: 15px;
-    right: 55px;
+    top: 25px;
+    right: 25px;
     color: #594e4e;
     background-color: rgba(24, 23, 23, 0.04);
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     transition: 0.3s;
 }
@@ -67,7 +67,6 @@
     border-radius: 5px;
     font-family: Confortaa;
 }
-
 #modal-daniel {
     position: fixed;
     z-index: 1;
@@ -107,6 +106,59 @@
     font-family: Confortaa;
 }
 
+/*Preguntas*/
+#pregunta-a {
+    padding: 10px;
+}
+#pregunta-a p {
+    font-family: Confortaa;
+    font-size: 20px;
+    color: #594e4e;
+}
+#pregunta-b {
+    padding: 10px;
+}
+#pregunta-b p {
+    font-family: Confortaa;
+    font-size: 20px;
+    color: #594e4e;
+}
+
 @media only screen and (max-width: 600px) {
+    #modal-miguel p {
+        Position: absolute;
+        width: 80%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+        border-radius: 5px;
+    }
+    #modal-rodolfo p {
+        Position: absolute;
+        width: 80%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+        border-radius: 5px;
+    }
+    #modal-daniel p {
+        Position: absolute;
+        width: 80%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+        border-radius: 5px;
+    }
+    #modal-margarita p {
+        Position: absolute;
+        width: 80%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    #pregunta-a p {
+        font-size: 15px;
+    }
+    #pregunta-b p {
+        font-size: 15px;
+    }
 
 }

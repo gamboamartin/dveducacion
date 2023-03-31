@@ -40,7 +40,7 @@ use config\views;
                         <a class="linkmenu" href="#">Intermedio</a>
                         <a class="linkmenu" href="#">Avanzado</a>
                         <a class="linkmenu" href="https://www.farmaciabiodam.com" target="_blank">Nutracéuticos</a>
-                        <a href="#nosotros">Quienes somos</a>
+                        <a href="#nosotros">¿Quiénes somos?</a>
                         <a href="#">Nuestro equipo</a>
                         <a href="#">Testimonio</a>
                         <a href="#">Preguntas frecuentes</a>
@@ -52,7 +52,7 @@ use config\views;
         <div class="col-md-4">
             <img class="imgmenu" src="<?php echo (new config\generales())->url_base; ?>css/img/logo.jpg">
         </div>
-        <div class="menudv navbar col-md-4"> <a href="https://escuela.dveducacion.com/" target="_blank">Perfil</a></div>
+        <div class="menudv navbar col-md-4"> <a href="https://escuela.dveducacion.com/" target="_blank">Plataforma</a></div>
     </div>
 </section>
 
@@ -68,9 +68,9 @@ use config\views;
         <div class="row imgfondo">
             <div class="col-md-6 borde25">
                 <h1 class="h-titular">¿Qué es la Medicina Funcional y Ortomolecular?</h1>
-                <p class="p-titular">La medicina funcional determina cómo y por qué ocurre la enfermedad y
+                <p class="p-titular">La Medicina Funcional determina cómo y por qué ocurre la enfermedad y
                     optimiza la salud al atender las causas de la enfermedad para cada individuo.</p>
-                <p class="p-titular">The Institute For Functional Medicine”</p>
+                <p class="p-titular">"The Institute For Functional Medicine"</p>
             </div>
             <div class="col-md-6 borde25">
                 <img class="imgcurso" src="<?php echo (new config\generales())->url_base; ?>css/img/doc1.png">
@@ -92,16 +92,16 @@ use config\views;
         </div>
         <div class="row">
             <div class="col-md-6 borde25">
-                <h1 class="h-titular">¿Beneficios de estudiar con DV Educación</h1>
+                <h1 class="h-titular">Beneficios de estudiar con DV Educación</h1>
                 <p class="p-titular">- Aval académico.</p>
                 <p class="p-titular">- Certiﬁcado de aprobación.</p>
                 <p class="p-titular">- Asistencia un ﬁn de semana al mes.</p>
                 <p class="p-titular">- Clases presencial y online.</p>
                 <p class="p-titular">- Contenido clases disponible online.</p>
                 <p class="p-titular">- Plataforma disponible 24/7.</p>
-                <p class="p-titular">- Acceso a nuestra comunidad.</p>
-                <p class="p-titular">- Conviértete en un experto desde</p>
-                <p class="p-titular">- el nivel básico al avanzado.</p>
+                <p class="p-titular">- Acceso a nuestra comunidad (Telegram).</p>
+                <p class="p-titular">- Conviértete en un experto desde el nivel básico al avanzado.</p>
+
             </div>
             <div class="col-md-6 borde25">
                 <img class="imgcurso" src="<?php echo (new config\generales())->url_base; ?>css/img/confe1.png">
@@ -144,7 +144,7 @@ use config\views;
     <div class="row grid-block">
         <div class="row borde25">
             <h1 class="col-md-4 borde25">Recursos Gratis</h1>
-            <p class="p-titular">Suscribete a nuestra cuenta en Youtube y recibe una alerta de nuestro
+            <p class="p-titular">Suscríbete a nuestra cuenta en Youtube y recibe una alerta de nuestro
                 contenido reciente diseñado para mantener a nuestra comunidad al día.</p>
         </div>
         <div class="row conterecursos">

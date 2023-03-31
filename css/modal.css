@@ -123,6 +123,14 @@
     font-size: 20px;
     color: #594e4e;
 }
+#pregunta-c {
+    padding: 10px;
+}
+#pregunta-c p {
+    font-family: Confortaa;
+    font-size: 20px;
+    color: #594e4e;
+}
 
 @media only screen and (max-width: 600px) {
     #modal-miguel p {
@@ -160,5 +168,7 @@
     #pregunta-b p {
         font-size: 15px;
     }
-
+    #pregunta-c p {
+        font-size: 15px;
+    }
 }

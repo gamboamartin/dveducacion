@@ -254,17 +254,42 @@ use config\views;
                 <div id="pregunta-a" style="display: none;">
                     <center><p class="col-md-8">Tenemos el aval de la Secretaría de Innovación Jalisco, encargada de la Educación Continua en nuestro
                     estado y con validez a nivel Federal.</p></center></div>
-
                 <center><p onclick="mostrarPreguntaB()" class="p-pregunta">¿Cuánto dura el Diplomado?</p></center>
                 <div id="pregunta-b" style="display: none;">
                     <center><p class="col-md-8">El Básico dura 8 meses (9 módulos), 1 fin de semana al mes. El Avanzado
                             dura 8 meses (8 módulos), 1 fin de semana al mes.</p></center></div>
-
-                <center><p onclick="mostrarPreguntaA()" class="p-pregunta">¿Qué aval o reconocimiento tiene el Diplomado?</p></center>
-                <div id="pregunta-a" style="display: none;">
+                <center><p onclick="mostrarPreguntaC()" class="p-pregunta">¿Puedo entrar directamente al Diplomado Avanzado?</p></center>
+                <div id="pregunta-c" style="display: none;">
+                    <center><p class="col-md-8">No, es necesario tomar el básico y completarlo.</p></center></div>
+                <!--<center><p onclick="mostrarPreguntaD()" class="p-pregunta">¿Qué aval o reconocimiento tiene el Diplomado?</p></center>
+                <div id="pregunta-d" style="display: none;">
                     <center><p class="col-md-8">Tenemos el aval de la Secretaría de Innovación Jalisco, encargada de la Educación Continua en nuestro
                             estado y con validez a nivel Federal.</p></center></div>
 
+                <center><p onclick="mostrarPreguntaE()" class="p-pregunta">¿Qué aval o reconocimiento tiene el Diplomado?</p></center>
+                <div id="pregunta-e" style="display: none;">
+                    <center><p class="col-md-8">Tenemos el aval de la Secretaría de Innovación Jalisco, encargada de la Educación Continua en nuestro
+                            estado y con validez a nivel Federal.</p></center></div>
+
+                <center><p onclick="mostrarPreguntaF()" class="p-pregunta">¿Qué aval o reconocimiento tiene el Diplomado?</p></center>
+                <div id="pregunta-f" style="display: none;">
+                    <center><p class="col-md-8">Tenemos el aval de la Secretaría de Innovación Jalisco, encargada de la Educación Continua en nuestro
+                            estado y con validez a nivel Federal.</p></center></div>
+
+                <center><p onclick="mostrarPreguntaG()" class="p-pregunta">¿Qué aval o reconocimiento tiene el Diplomado?</p></center>
+                <div id="pregunta-g" style="display: none;">
+                    <center><p class="col-md-8">Tenemos el aval de la Secretaría de Innovación Jalisco, encargada de la Educación Continua en nuestro
+                            estado y con validez a nivel Federal.</p></center></div>
+
+                <center><p onclick="mostrarPreguntaH()" class="p-pregunta">¿Qué aval o reconocimiento tiene el Diplomado?</p></center>
+                <div id="pregunta-h" style="display: none;">
+                    <center><p class="col-md-8">Tenemos el aval de la Secretaría de Innovación Jalisco, encargada de la Educación Continua en nuestro
+                            estado y con validez a nivel Federal.</p></center></div>
+
+                <center><p onclick="mostrarPreguntaI()" class="p-pregunta">¿Qué aval o reconocimiento tiene el Diplomado?</p></center>
+                <div id="pregunta-i" style="display: none;">
+                    <center><p class="col-md-8">Tenemos el aval de la Secretaría de Innovación Jalisco, encargada de la Educación Continua en nuestro
+                            estado y con validez a nivel Federal.</p></center></div>-->
             </div>
 
             <div class="row">

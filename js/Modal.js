@@ -55,3 +55,12 @@ function mostrarPreguntaB() {
         div.style.display = "none";
     }
 }
+
+function mostrarPreguntaC() {
+    var div = document.getElementById("pregunta-c");
+    if (div.style.display === "none") {
+        div.style.display = "block";
+    } else {
+        div.style.display = "none";
+    }
+}

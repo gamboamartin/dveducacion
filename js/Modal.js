@@ -30,11 +30,11 @@ function ocultarModalDaniel() {
 
 //Modal Margarita
 function mostrarModalMargarita() {
-    var modal = document.getElementById("modal-miguel");
+    var modal = document.getElementById("modal-margarita");
     modal.style.display = "block";
 }
 function ocultarModalMargarita() {
-    var modal = document.getElementById("modal-miguel");
+    var modal = document.getElementById("modal-margarita");
     modal.style.display = "none";
 }
 

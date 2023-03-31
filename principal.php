@@ -184,17 +184,16 @@ use config\views;
         <div class="grid-block borde40">
             <!-- Miguel -->
             <div class="col-md-3 divcont">
-                <center><img class="imgpersonal" src="<?php echo (new config\generales())->url_base; ?>css/img/miguel.jpg" id="img-miguel" onclick="mostrarModalMiguel()"></center>
+                <center><img class="imgpersonal" src="<?php echo (new config\generales())->url_base; ?>css/img/miguel.jpg"
+                             id="img-miguel" onclick="mostrarModalMiguel()"></center>
                 <div id="modal-miguel" style="display: none;">
                     <div>
-                        <div class="col-md-6">
-                            <p class="border-azul">Lic. En Desarrollo Educativo Institucional (Universidad La Salle), profesor de ciencias
-                                sociales y sociología durante 19 años, estudió la maestría en Filosofía y
-                                Ciencias Sociales (ITESO). Diplomado en Naturopatia.
-                                Director de Deporte y Cultura en preparatoria privada 4 años. Actual Director de DV Educación.</p>
-                        </div>
+                        <p class="border-azul">Lic. En Desarrollo Educativo Institucional (Universidad La Salle), profesor de ciencias
+                            sociales y sociología durante 19 años, estudió la maestría en Filosofía y
+                            Ciencias Sociales (ITESO). Diplomado en Naturopatia.
+                            Director de Deporte y Cultura en preparatoria privada 4 años. Actual Director de DV Educación.</p>
+                        <button class="close" onclick="ocultarModalMiguel()">x</button>
                     </div>
-                    <button class="close" onclick="ocultarModalMiguel()">x</button>
                 </div>
                 <div><centre><h3 class="nombres">Miguel</h3></centre></div>
             </div>
@@ -202,11 +201,13 @@ use config\views;
             <div class="col-md-3 divcont">
                 <center><img class="imgpersonal" src="<?php echo (new config\generales())->url_base; ?>css/img/rodolfo.jpg" id="img-rodolfo" onclick="mostrarModalRodolfo()"></center>
                 <div id="modal-rodolfo" style="display: none;">
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-                        euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
-                        veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
-                        ex ea commodo consequat. Duis autem vel</p>
-                    <button class="close" onclick="ocultarModalRodolfo()">x</button>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                            euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+                            veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+                            ex ea commodo consequat. Duis autem vel</p>
+                        <button class="close" onclick="ocultarModalRodolfo()">x</button>
+                    </div>
                 </div>
                 <div><centre><h3 class="nombres">Rodolfo</h3></centre></div>
             </div>
@@ -254,13 +255,16 @@ use config\views;
                 <div id="pregunta-a" style="display: none;">
                     <center><p class="col-md-8">Tenemos el aval de la Secretaría de Innovación Jalisco, encargada de la Educación Continua en nuestro
                     estado y con validez a nivel Federal.</p></center></div>
+
                 <center><p onclick="mostrarPreguntaB()" class="p-pregunta">¿Cuánto dura el Diplomado?</p></center>
                 <div id="pregunta-b" style="display: none;">
                     <center><p class="col-md-8">El Básico dura 8 meses (9 módulos), 1 fin de semana al mes. El Avanzado
                             dura 8 meses (8 módulos), 1 fin de semana al mes.</p></center></div>
+
                 <center><p onclick="mostrarPreguntaC()" class="p-pregunta">¿Puedo entrar directamente al Diplomado Avanzado?</p></center>
                 <div id="pregunta-c" style="display: none;">
                     <center><p class="col-md-8">No, es necesario tomar el básico y completarlo.</p></center></div>
+
                 <!--<center><p onclick="mostrarPreguntaD()" class="p-pregunta">¿Qué aval o reconocimiento tiene el Diplomado?</p></center>
                 <div id="pregunta-d" style="display: none;">
                     <center><p class="col-md-8">Tenemos el aval de la Secretaría de Innovación Jalisco, encargada de la Educación Continua en nuestro

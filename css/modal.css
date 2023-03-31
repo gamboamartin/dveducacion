@@ -27,7 +27,7 @@
 }
 
 #modal-miguel p {
-    Position: absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -35,17 +35,6 @@
     padding: 20px;
     border-radius: 5px;
     font-family: Confortaa;
-}
-#modal-miguel h1 {
-    Position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    color: #003366;
-    padding: 20px;
-    border-radius: 5px;
-    font-family: Montserrat;
 }
 
 #modal-rodolfo {
@@ -134,9 +123,9 @@
 
 @media only screen and (max-width: 600px) {
     #modal-miguel p {
-        Position: absolute;
+        /*Position: absolute;*/
         width: 80%;
-        transform: translate(-50%, -50%);
+        /*transform: translate(-50%, -50%);*/
         padding: 10px;
         border-radius: 5px;
     }

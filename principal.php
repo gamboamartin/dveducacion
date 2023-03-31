@@ -52,7 +52,7 @@ use config\views;
         <div class="col-md-4">
             <img class="imgmenu" src="<?php echo (new config\generales())->url_base; ?>css/img/logo.jpg">
         </div>
-        <div class="menudv navbar col-md-4"> <a href="https://escuela.dveducacion.com/">Perfil</a></div>
+        <div class="menudv navbar col-md-4"> <a href="https://escuela.dveducacion.com/" target="_blank">Perfil</a></div>
     </div>
 </section>
 

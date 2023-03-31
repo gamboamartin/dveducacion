@@ -182,6 +182,34 @@ use config\views;
     </div>
     <div class="row">
         <div class="grid-block borde40">
+
+            <!-- Daniel -->
+            <div class="col-md-3 divcont">
+                <center><img class="imgpersonal" src="<?php echo (new config\generales())->url_base; ?>css/img/daniel.jpg" id="img-daniel" onclick="mostrarModalDaniel()"></center>
+                <div id="modal-daniel" style="display: none;">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                        ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                        tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel
+                        eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum
+                        dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+                        blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                    <button class="close" onclick="ocultarModalDaniel()">x</button>
+                </div>
+                <div><centre><h3 class="nombres">Daniel</h3></centre></div>
+            </div>
+
+            <!-- Margarita -->
+            <div class="col-md-3 divcont">
+                <center><img class="imgpersonal" src="<?php echo (new config\generales())->url_base; ?>css/img/margarita.jpg" id="img-margarita" onclick="mostrarModalMargarita()"></center>
+                <div id="modal-margarita" style="display: none;">
+                    <p>Lic. En contabilidad. Health Coach certiﬁcada por el Instituto de Medicina
+                        Funcional (EUA), con gran experiencia como Terapeuta Naturista, Gerontología, Medicina
+                        Estética y Nutrición. Como empresaria ha desarrollado varios productos de nutrición funcional.</p>
+                    <button class="close" onclick="ocultarModalMargarita()">x</button>
+                </div>
+                <div><centre><h3 class="nombres">Margarita</h3></centre></div>
+            </div>
+
             <!-- Miguel -->
             <div class="col-md-3 divcont">
                 <center><img class="imgpersonal" src="<?php echo (new config\generales())->url_base; ?>css/img/miguel.jpg"
@@ -211,31 +239,9 @@ use config\views;
                 </div>
                 <div><centre><h3 class="nombres">Rodolfo</h3></centre></div>
             </div>
-            <!-- Daniel -->
-            <div class="col-md-3 divcont">
-                <center><img class="imgpersonal" src="<?php echo (new config\generales())->url_base; ?>css/img/daniel.jpg" id="img-daniel" onclick="mostrarModalDaniel()"></center>
-                <div id="modal-daniel" style="display: none;">
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-                        ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-                        tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel
-                        eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum
-                        dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
-                        blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-                    <button class="close" onclick="ocultarModalDaniel()">x</button>
-                </div>
-                <div><centre><h3 class="nombres">Daniel</h3></centre></div>
-            </div>
-            <!-- Margarita -->
-            <div class="col-md-3 divcont">
-                <center><img class="imgpersonal" src="<?php echo (new config\generales())->url_base; ?>css/img/margarita.jpg" id="img-margarita" onclick="mostrarModalMargarita()"></center>
-                <div id="modal-margarita" style="display: none;">
-                    <p>Lic. En contabilidad. Health Coach certiﬁcada por el Instituto de Medicina
-                        Funcional (EUA), con gran experiencia como Terapeuta Naturista, Gerontología, Medicina
-                        Estética y Nutrición. Como empresaria ha desarrollado varios productos de nutrición funcional.</p>
-                    <button class="close" onclick="ocultarModalMargarita()">x</button>
-                </div>
-                <div><centre><h3 class="nombres">Margarita</h3></centre></div>
-            </div>
+
+
+
         </div>
     </div>
     <div class="row grid-block diplomados">

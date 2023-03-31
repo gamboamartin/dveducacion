@@ -60,7 +60,7 @@ use config\views;
     <div class="row">
         <div class="img">
             <div class="col-md-7 titular">
-                <p class="encabezado">Es hora de optimizar tu salud </p>
+                <p class="encabezado">Es hora de aprender a optimizar tu salud </p>
             </div>
         </div>
     </div>
@@ -159,18 +159,7 @@ use config\views;
 </section>
 
 <div class="row titular border-azul">
-    <div class="div4">
-        <center><h1>FIN HOME</h1></center>
-    </div>
-    <div class="div4">
-        <center><h1>FIN HOME</h1></center>
-    </div>
-    <div class="div4">
-        <center><h1>FIN HOME</h1></center>
-    </div>
-    <div class="div4">
-        <center><h1>FIN HOME</h1></center>
-    </div>
+    
 </div>
 
 <section id="nosotros" class="container-fluid grid-block">

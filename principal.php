@@ -39,7 +39,7 @@ use config\views;
                         <a class="linkmenu" href="#">Básico</a>
                         <a class="linkmenu" href="#">Intermedio</a>
                         <a class="linkmenu" href="#">Avanzado</a>
-                        <a class="linkmenu" href="#">Nutracéuticos</a>
+                        <a class="linkmenu" href="https://www.farmaciabiodam.com" target="_blank">Nutracéuticos</a>
                         <a href="#nosotros">Quienes somos</a>
                         <a href="#">Nuestro equipo</a>
                         <a href="#">Testimonio</a>
@@ -125,7 +125,7 @@ use config\views;
                 <div class="col-md-8">
                     <div class="row conteyoutube borde25 divcont">
                         <div class="col-md-4">
-                            <a type="button" class="btnyoutube" href="https://www.youtube.com/watch?v=Ra-ix20BlQ0&list=PLCWA4ksG1ZllCwnPpJqekYjUKoSqnEmIa&index=1">
+                            <a type="button" class="btnyoutube" href="https://drive.google.com/file/d/1m2NX4coGuxemlfZ0AjG5Pgik9CMAU2lW/view?usp=share_link">
                                 <img class="imgtestimonio" src="css/img/tdv1.jpg"></a>
                         </div>
                         <div class="col-md-4">

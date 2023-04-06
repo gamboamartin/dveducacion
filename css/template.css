@@ -10,6 +10,12 @@
     font-style: normal;
     font-weight: 700;
 }
+@font-face{
+    font-family: 'MontserratFina';
+    src: url("fuentes/Montserrat/Montserrat-Italic-VariableFont_wght.ttf") format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
 
 @font-face{
     font-family: 'Confortaa';
@@ -41,11 +47,6 @@ p{
     font-size: 25px;
     color: #594e4e;
 }
-.p-pregunta{
-    font-family: Confortaa;
-    font-size: 30px;
-    color: #594e4e;
-}
 .p-parafo{
     font-family: Confortaa;
     font-size: 30px;
@@ -56,11 +57,10 @@ p{
     color: #003366;
     font-size: 55px;
 }
-.nombres{
-    text-align: center;
+.p-h1{
+    font-size: 80px;
+    font-family: MontserratIta;
     color: #003366;
-    font-family: Montserrat;
-    font-size: 35px;
 }
 /*Bordes*/
 .borde25{
@@ -73,7 +73,10 @@ p{
     padding-bottom: 25px;
 }
 .conterecursos{
-    padding-bottom: 55px;
+    /*padding-bottom: 55px;
+    padding-right: 40px;
+    padding-left: 40px;*/
+    padding: 20px 20px 30px 20px;
 }
 /*Div's*/
 
@@ -161,7 +164,7 @@ p{
     display: block;
 }
 .imgcurso{
-    width: 100%;
+    width: 105%;
     height: auto;
 }
 .btncursos{
@@ -170,12 +173,14 @@ p{
     height: auto;
     text-decoration: none;
     background-color: white;
-    box-shadow: 0px 8px 16px 0px rgb(0,0,0,0.2);
+    border: 2px solid #000000;
+    box-shadow: 4px 8px 16px 0px rgb(0,0,0,0.2);
+    overflow: hidden;
 }
 .btnarticulo{
     border-radius: 5px;
-    width: 75%;
-    height: 150px;
+    width: 95%;
+    height: 250px;
     text-decoration: none;
     box-shadow: 0px 8px 16px 0px rgb(0,0,0,0.2);
 }
@@ -314,14 +319,6 @@ p{
     background-color: #f0f0f0;
     text-align: left;
     padding: 60px;
-}
-
-.imgpersonal{
-    width: 65%;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: 0.3s;
-    position: center;
 }
 .modalimg{
     width: 45%;

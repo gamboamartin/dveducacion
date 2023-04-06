@@ -55,9 +55,56 @@ function mostrarPreguntaB() {
         div.style.display = "none";
     }
 }
-
 function mostrarPreguntaC() {
     var div = document.getElementById("pregunta-c");
+    if (div.style.display === "none") {
+        div.style.display = "block";
+    } else {
+        div.style.display = "none";
+    }
+}
+function mostrarPreguntaD() {
+    var div = document.getElementById("pregunta-d");
+    if (div.style.display === "none") {
+        div.style.display = "block";
+    } else {
+        div.style.display = "none";
+    }
+}
+function mostrarPreguntaE() {
+    var div = document.getElementById("pregunta-e");
+    if (div.style.display === "none") {
+        div.style.display = "block";
+    } else {
+        div.style.display = "none";
+    }
+}
+function mostrarPreguntaF() {
+    var div = document.getElementById("pregunta-f");
+    if (div.style.display === "none") {
+        div.style.display = "block";
+    } else {
+        div.style.display = "none";
+    }
+}
+function mostrarPreguntaG() {
+    var div = document.getElementById("pregunta-g");
+    if (div.style.display === "none") {
+        div.style.display = "block";
+    } else {
+        div.style.display = "none";
+    }
+}
+function mostrarPreguntaH() {
+    var div = document.getElementById("pregunta-h");
+    if (div.style.display === "none") {
+        div.style.display = "block";
+    } else {
+        div.style.display = "none";
+    }
+}
+function mostrarPreguntaI() {
+    var div = document.getElementById("pregunta-i");
     if (div.style.display === "none") {
         div.style.display = "block";
     } else {

@@ -15,149 +15,99 @@
     text-decoration: none;
     cursor: pointer;
 }
-
-#modal-miguel {
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+.imgpersonal{
+    width: 50%;
+    border-radius: 50%;
+    position: center;
 }
-
-#modal-miguel p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    padding: 20px;
+.imgpersonal-parafo{
+    width: 90%;
+    padding: 15px 10px 15px 10px;
+    border-radius: 50%;
+    position: center;
+}
+#educadores p{
     border-radius: 5px;
     font-family: Confortaa;
+    font-size: 25px;
 }
 
-#modal-rodolfo {
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-#modal-rodolfo p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    padding: 20px;
+#educadores h1{
+    color: #003366;
     border-radius: 5px;
-    font-family: Confortaa;
+    font-family: MontserratFina;
+    font-size: 55px;
 }
-#modal-daniel {
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
+
+#educadores h3{
+    text-align: center;
+    color: #003366;
+    font-family: Montserrat;
+    font-size: 35px;
+}
+
+.espacio-educadores{
     width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-#modal-daniel p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    font-family: Confortaa;
-}
-#modal-margarita {
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-#modal-margarita p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    font-family: Confortaa;
+    height: 60px;
 }
 
 /*Preguntas*/
-#pregunta-a {
-    padding: 10px;
-}
-#pregunta-a p {
+
+#preguntas{
     font-family: Confortaa;
-    font-size: 20px;
+    font-size: 30px;
     color: #594e4e;
 }
-#pregunta-b {
-    padding: 10px;
+#preguntas h1{
+    font-family: MontserratIta;
+    font-size: 80px;
+    color: #003366;
+    font-weight: lighter;
+    padding-right: 75px;
 }
-#pregunta-b p {
-    font-family: Confortaa;
-    font-size: 20px;
-    color: #594e4e;
+#preguntas h2{
+    font-family: MontserratFina;
+    font-size: 80px;
+    color: #003366;
+    font-weight: lighter;
+    padding-left: 75px;
 }
-#pregunta-c {
-    padding: 10px;
+#preguntas b{
+    color: yellow;
 }
-#pregunta-c p {
+.respuestas{
     font-family: Confortaa;
     font-size: 20px;
     color: #594e4e;
 }
 
 @media only screen and (max-width: 600px) {
-    #modal-miguel p {
-        /*Position: absolute;*/
-        width: 80%;
-        /*transform: translate(-50%, -50%);*/
-        padding: 10px;
+
+    #educadores p{
         border-radius: 5px;
+        font-size: 20px;
+        text-align: center;
     }
-    #modal-rodolfo p {
-        Position: absolute;
-        width: 80%;
-        transform: translate(-50%, -50%);
-        padding: 10px;
+    #educadores h1{
+        color: #003366;
         border-radius: 5px;
-    }
-    #modal-daniel p {
-        Position: absolute;
-        width: 80%;
-        transform: translate(-50%, -50%);
-        padding: 10px;
-        border-radius: 5px;
-    }
-    #modal-margarita p {
-        Position: absolute;
-        width: 80%;
-        transform: translate(-50%, -50%);
-        padding: 10px;
-        border-radius: 5px;
+        font-size: 40px;
+        text-align: center;
     }
 
-    #pregunta-a p {
-        font-size: 15px;
+    #preguntas{
+        font-size: 25px;
     }
-    #pregunta-b p {
-        font-size: 15px;
+    .respuestas{
+        font-size: 20px;
     }
-    #pregunta-c p {
-        font-size: 15px;
+
+    #preguntas h1{
+        font-size: 35px;
+        padding-right: 25px;
+    }
+    #preguntas h2{
+        font-size: 35px;
+        padding-left: 25px;
     }
 }

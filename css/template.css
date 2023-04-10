@@ -8,7 +8,7 @@
     font-family: 'MontserratIta';
     src: url("fuentes/Montserrat/Montserrat-Italic-VariableFont_wght.ttf") format('truetype');
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
 }
 @font-face{
     font-family: 'MontserratFina';
@@ -46,6 +46,8 @@ p{
     font-family: Confortaa;
     font-size: 25px;
     color: #594e4e;
+    padding-left: 25px;
+    padding-top: 25px;
 }
 .p-parafo{
     font-family: Confortaa;
@@ -56,6 +58,8 @@ p{
     font-family: MontserratIta;
     color: #003366;
     font-size: 55px;
+    padding-left: 25px;
+    padding-top: 25px;
 }
 .p-h1{
     font-size: 80px;
@@ -73,9 +77,6 @@ p{
     padding-bottom: 25px;
 }
 .conterecursos{
-    /*padding-bottom: 55px;
-    padding-right: 40px;
-    padding-left: 40px;*/
     padding: 20px 20px 30px 20px;
 }
 /*Div's*/
@@ -97,6 +98,7 @@ p{
     display: block;
     font-family: MontserratIta;
     text-align: center;
+    font-weight: 700;
 }
 .menudv{
     display: flex;
@@ -129,6 +131,7 @@ p{
     text-align: center;
     height: auto;
     width: 100%;
+    font-weight: 700;
 }
 .dropdown-content {
     display: none;
@@ -156,6 +159,19 @@ p{
 .linkmenu{
     font-size: 25px;
 }
+#opcionesMenu{
+    background-color: #efebeb;
+    padding-left: 25px;
+    transition: 5s;
+}
+#opcionesMenu a{
+    font-size: 20px;
+}
+
+#opcionesMenu b{
+    color: #FFCC00B7;
+    font-size: 25px;
+}
 .dropdown-content a:hover {
     background-color: rgba(255, 204, 0, 0.72);
     border-radius: 65px;
@@ -173,8 +189,8 @@ p{
     height: auto;
     text-decoration: none;
     background-color: white;
-    border: 2px solid #000000;
-    box-shadow: 4px 8px 16px 0px rgb(0,0,0,0.2);
+    border: 3px solid #000000;
+    box-shadow: 8px 10px 16px 0px rgb(0,0,0,0.2);
     overflow: hidden;
 }
 .btnarticulo{
@@ -209,15 +225,18 @@ p{
     object-fit: cover;
     scroll-snap-align: center;
 }
-.titular{
-    padding: 60px;
+
+#titular-home{
+    float: right;
+    padding: 60px 0px 20px 10px;
 }
-.encabezado{
-    padding-left: 40px;
+
+#titular-home h1{
+    font-family: MontserratIta;
     font-size: 65px;
-    color: #ffffff;
-    width: 65%;
+    color: #003366;
 }
+
 .encabezado-nosotros{
     padding-left: 40px;
     font-size: 65px;
@@ -239,7 +258,7 @@ p{
     height:100%;
     background-size: 100% 100%;
     background-repeat:no-repeat;
-    background-image: url("img/chicagua.jpg");
+    background-image: url("img/fondos/chicagua.jpg");
     background-size: cover;
 }
 .img img{
@@ -247,7 +266,7 @@ p{
 }
 
 .nosotros{
-    background-image: url("img/port.jpg");
+    background-image: url("img/fondos/port.jpg");
     padding-top:13px;
     width: 103%;
     height:100%;
@@ -261,21 +280,14 @@ p{
 
 .imgfondo{
     width: 100%;
-    height:100%;
+    height: auto;
     background-size: 100% 100%;
     background-repeat:no-repeat;
-    background-image: url("img/fondo2.jpg");
+    background-image: url("img/fondos/fondocir.png");
 }
 .img imgfondo{
     width: 100%;
 }
-.port1{
-    background-image: url("img/portada.jpg");
-    height: auto;
-    width: 1637px;
-    display: block;
-}
-
 .dnec{
     width: 700px;
     height: auto;
@@ -318,7 +330,6 @@ p{
 .diplomados{
     background-color: #f0f0f0;
     text-align: left;
-    padding: 60px;
 }
 .modalimg{
     width: 45%;
@@ -332,3 +343,15 @@ p{
     background-color: #003366;
     align-items: end;
 }
+
+#ndiplomados{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#ndiplomados h1{
+    font-family: MontserratFina;
+    color: #003366;
+    font-size: 70px;
+}
+

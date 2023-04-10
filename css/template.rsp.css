@@ -102,9 +102,13 @@
         padding: 10px;
         font-size: 65px;
     }
-    .encabezado{
-        padding-left: 1px;
-        font-size: 65px;
+
+    #titular-home{
+        padding: 30px 10px 30px 10px;
+    }
+
+    #titular-home h1{
+        font-size: 55px;
         text-align: center;
         width: 100%;
     }
@@ -152,7 +156,13 @@
         border-top: 15px;
     }
 
+    #ndiplomados h1{
+        font-size: 50px;
+    }
+
 }
+
+
 .img img{
     width: 100%;
 }

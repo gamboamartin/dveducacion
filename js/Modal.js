@@ -1,3 +1,11 @@
+function opcionMenu() {
+    var div = document.getElementById("opcionesMenu");
+    if (div.style.display === "none") {
+        div.style.display = "block";
+    } else {
+        div.style.display = "none";
+    }
+}
 //Modal Miguel
 function mostrarModalMiguel() {
     var modal = document.getElementById("modal-miguel");
@@ -111,3 +119,4 @@ function mostrarPreguntaI() {
         div.style.display = "none";
     }
 }
+

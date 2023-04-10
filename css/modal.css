@@ -64,6 +64,7 @@
     color: #003366;
     font-weight: lighter;
     padding-right: 75px;
+    padding-top: 30px;
 }
 #preguntas h2{
     font-family: MontserratFina;
@@ -71,6 +72,7 @@
     color: #003366;
     font-weight: lighter;
     padding-left: 75px;
+    padding-bottom: 20px;
 }
 #preguntas b{
     color: yellow;

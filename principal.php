@@ -17,7 +17,7 @@ use config\views;
     <link href="<?php (new \config\generales())->url_base ?>css/template.css" rel="stylesheet">
     <link href="<?php (new \config\generales())->url_base ?>css/template.rsp.css" rel="stylesheet">
     <link href="<?php (new \config\generales())->url_base ?>css/styles.css" rel="stylesheet">
-    <link href="<?php (new \config\generales())->url_base ?>css/modal.css" rel="stylesheet">
+    <link href="<?php (new \config\generales())->url_base ?>css/nosotros.css" rel="stylesheet">
     <script src="js/Modal.js"></script>
 
 

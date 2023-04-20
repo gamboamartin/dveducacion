@@ -10,8 +10,9 @@
         <div class="row imgfondo">
             <div class="col-md-6">
                 <h1 class="h-titular">¿Qué es <b>la Medicina Funcional y Ortomolecular?</b></h1>
-                <p class="p-titular">La Medicina Funcional determina cómo y por qué ocurre la enfermedad y
-                    optimiza la salud al atender las causas de la enfermedad para cada individuo.</p>
+                <p class="p-titular">Es un nuevo modelo de la medicina que busca la raíz del problema, centrado en
+                    el paciente y basado en la ciencia, buscando desde factores genéticos, bioquímicos y estilos
+                    de vida del paciente, para atenderle de manera individualizada.</p>
                 <p class="p-titular">"The Institute For Functional Medicine"</p>
             </div>
             <div class="col-md-6">
@@ -83,7 +84,7 @@
             </div>
         </div>
     </div>
-    <div class="row grid-block">
+    <!--<div class="row grid-block">
         <div class="row borde25">
             <h1 class="col-md-4 borde25">Recursos Gratis</h1>
             <p class="p-titular">Suscríbete a nuestra cuenta en Youtube y recibe una alerta de nuestro
@@ -95,16 +96,10 @@
             <div class="col-md-3 divcont"><center><button type="button" class="btnarticulo"></button></center></div>
             <div class="col-md-3 divcont"><center><button type="button" class="btnarticulo"></button></center></div>
         </div>
-    </div>
+    </div>-->
     <div class="piepagina row">
     </div>
 </section>
-
-
-
-
-
-
 
 <section id="preguntasFrecuentes">
     <div class="row">

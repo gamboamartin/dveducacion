@@ -93,10 +93,6 @@
     .img{
         margin-top:148px;
     }
-    .nosotros{
-        width: 107%;
-        font-size: 65px;
-    }
     .titular{
         width: 100%;
         padding: 10px;
@@ -160,13 +156,14 @@
         font-size: 50px;
     }
 
-}
+    .imgfondo{
+        background-size: 100%;
+        background-position-x: 120px;
+        background-position-y: -15%;
+    }
 
+}
 
 .img img{
-    width: 100%;
-}
-
-.nosotros img{
     width: 100%;
 }

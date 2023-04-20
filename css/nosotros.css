@@ -15,6 +15,27 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+.nosotros{
+    background-image: url("img/fondos/port.jpg");
+    width: 107%;
+    height:100%;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#titular-nosotros{
+    float: right;
+    padding: 80px 60px 60px 20px;
+}
+
+#titular-nosotros h1{
+    font-family: MontserratIta;
+    font-size: 65px;
+    color: #003366;
+}
+
 .imgpersonal{
     width: 50%;
     border-radius: 50%;
@@ -85,6 +106,10 @@
 
 @media only screen and (max-width: 600px) {
 
+    .nosotros{
+        margin-top:148px;
+    }
+
     #educadores p{
         border-radius: 5px;
         font-size: 20px;
@@ -112,4 +137,18 @@
         font-size: 35px;
         padding-left: 25px;
     }
+
+    #titular-nosotros{
+        padding: 25px 1px 1px 1px;
+        width: 100%;
+    }
+
+    #titular-nosotros h1{
+        font-size: 35px;
+        text-align: center;
+        width: 100%;
+    }
+}
+.nosotros img{
+    width: 100%;
 }

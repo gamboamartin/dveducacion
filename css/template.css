@@ -264,16 +264,6 @@ p{
 .img img{
     width: 100%;
 }
-
-.nosotros{
-    background-image: url("img/fondos/port.jpg");
-    padding-top:13px;
-    width: 103%;
-    height:100%;
-    background-size: 100% 100%;
-    background-repeat:no-repeat;
-    background-size: cover;
-}
 .port img{
     width: 100%;
 }
@@ -281,26 +271,16 @@ p{
 .imgfondo{
     width: 100%;
     height: auto;
-    background-size: 100% 100%;
+    background-size: 60%;
     background-repeat:no-repeat;
     background-image: url("img/fondos/fondocir.png");
+    background-position-x: 250px;
+    background-position-y: -250px;
 }
 .img imgfondo{
     width: 100%;
 }
-.dnec{
-    width: 700px;
-    height: auto;
-    float: right;
-    overflow: hidden;
-    z-index: -3;
-}
-.nec{
-    width: 1400px;
-    height: auto;
-    float: left;
-    overflow: hidden;
-}
+
 /*Bordes*/
 .bg-negro{
     background: #000;

@@ -1,8 +1,8 @@
 <section id="nosotros" class="container-fluid grid-block">
 
     <div class="row grid-block nosotros">
-        <div class="titular">
-            <h1 class="col-md-3 encabezado-nosotros">Somos un equipo multidisciplinario</h1>
+        <div id="titular-nosotros" class="border-azul">
+            <h1 class="col-md-3 encabezado-nosotros">Somos un <br>equipo <br>multidisciplinario</h1>
         </div>
     </div>
     <div id="educadores" class="row">

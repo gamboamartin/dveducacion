@@ -161,6 +161,9 @@
         background-position-x: 120px;
         background-position-y: -15%;
     }
+    .piepagina{
+        align-items: start;
+    }
 
 }
 

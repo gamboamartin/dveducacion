@@ -18,6 +18,8 @@ use config\views;
     <link href="<?php (new \config\generales())->url_base ?>css/template.rsp.css" rel="stylesheet">
     <link href="<?php (new \config\generales())->url_base ?>css/styles.css" rel="stylesheet">
     <link href="<?php (new \config\generales())->url_base ?>css/nosotros.css" rel="stylesheet">
+    <link href="<?php (new \config\generales())->url_base ?>css/contactos.css" rel="stylesheet">
+
     <script src="js/Modal.js"></script>
 
 
@@ -47,7 +49,7 @@ use config\views;
                         <a href="<?php echo (new \config\generales())->url_base."index.php?seccion=adm_session&accion=inicio"; ?>">¿Quiénes somos?</a>
                         <a href="<?php echo (new \config\generales())->url_base."index.php?seccion=adm_session&accion=nosotros"; ?>">Nuestro equipo</a>
                         <a href="#">Testimonio</a>
-                        <a href="#preguntasFrecuentes">Preguntas frecuentes</a>
+                        <a href="<?php echo (new \config\generales())->url_base."index.php?seccion=adm_session&accion=pregunta"; ?>">Preguntas frecuentes</a>
                         <a href="#">Contáctanos</a>
                     </div>
                 </div>
@@ -59,8 +61,6 @@ use config\views;
         <div class="menudv navbar col-md-4"> <a href="https://escuela.dveducacion.com/" target="_blank">Plataforma</a></div>
     </div>
 </section>
-
-
 
 <?php  include($data->include_action); ?>
 

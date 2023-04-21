@@ -189,8 +189,8 @@ p{
     height: auto;
     text-decoration: none;
     background-color: white;
-    border: 3px solid #000000;
-    box-shadow: 8px 10px 16px 0px rgb(0,0,0,0.2);
+    border: 1px solid rgba(89, 78, 78, 0.81);
+    box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.2);
     overflow: hidden;
 }
 .btnarticulo{
@@ -236,14 +236,15 @@ p{
     font-size: 65px;
     color: #003366;
 }
-
-.encabezado-nosotros{
+.encabezados{
     padding-left: 40px;
     font-size: 65px;
     color: #003366;
     width: 65%;
 }
-.encabezados{
+
+
+.encabezado-titular{
     padding-left: 40px;
     font-size: 65px;
     color: #003366;
@@ -274,7 +275,7 @@ p{
     background-size: 60%;
     background-repeat:no-repeat;
     background-image: url("img/fondos/fondocir.png");
-    background-position-x: 250px;
+    background-position-x: 70%;
     background-position-y: -250px;
 }
 .img imgfondo{
@@ -317,6 +318,7 @@ p{
     cursor: pointer;
     position: center;
 }
+
 .piepagina{
     width: 107%;
     height: 55px;
@@ -334,4 +336,3 @@ p{
     color: #003366;
     font-size: 70px;
 }
-

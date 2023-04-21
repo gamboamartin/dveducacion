@@ -1,0 +1,43 @@
+#contacto h1{
+    font-family: MontserratIta;
+    font-size: 65px;
+    color: #003366;
+}
+
+#contacto h3{
+    text-align: center;
+}
+
+#contacto p{
+    text-align: left;
+    font-size: 20px;
+}
+
+
+.contactos{
+    background-color: #f8f6f6;
+    /*background-image: url("img/fondos/port.jpg");*/
+    width: 107%;
+    height:100%;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.titular-contactos{
+    float: right;
+    padding: 80px 60px 60px 60px;
+    margin-left: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #contacto h1{
+        font-size: 35px;
+        text-align: center;
+        width: 100%;
+    }
+    .contactos{
+        width: 100%;
+    }
+}

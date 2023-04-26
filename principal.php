@@ -50,7 +50,7 @@ use config\views;
                         <a href="<?php echo (new \config\generales())->url_base."index.php?seccion=adm_session&accion=nosotros"; ?>">Nuestro equipo</a>
                         <a href="#">Testimonio</a>
                         <a href="<?php echo (new \config\generales())->url_base."index.php?seccion=adm_session&accion=pregunta"; ?>">Preguntas frecuentes</a>
-                        <a href="#">Contáctanos</a>
+                        <a href="<?php echo (new \config\generales())->url_base."index.php?seccion=adm_session&accion=contactos"; ?>"">Contáctanos</a>
                     </div>
                 </div>
             </div>

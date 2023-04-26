@@ -73,11 +73,11 @@
 }
 
 /*Preguntas*/
-
 #preguntas{
     font-family: Confortaa;
     font-size: 30px;
     color: #594e4e;
+    padding: 60px 0px 20px 10px;
 }
 #preguntas h1{
     font-family: MontserratIta;
@@ -124,17 +124,18 @@
 
     #preguntas{
         font-size: 25px;
+        padding: 150px 10px 30px 10px;
     }
     .respuestas{
         font-size: 20px;
     }
 
     #preguntas h1{
-        font-size: 35px;
+        font-size: 40px;
         padding-right: 25px;
     }
     #preguntas h2{
-        font-size: 35px;
+        font-size: 40px;
         padding-left: 25px;
     }
 

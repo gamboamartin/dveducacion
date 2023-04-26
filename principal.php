@@ -43,14 +43,14 @@ use config\views;
                         <a class="linkmenu" href="#">Avanzado</a>
                         <a class="linkmenu" onclick="opcionMenu()">Nutracéuticos</a>
                         <div id="opcionesMenu" style="display: none;">
-                            <a class="linkmenu" href="https://www.farmaciabiodam.com"><b> > </b>Farmacia Biodam</a>
-                            <a class="linkmenu" href="https://www.drvalencia.mx/"><b> > </b>Productos DV</a>
+                            <a class="linkmenu" href="https://www.farmaciabiodam.com" target="_blank"><b> > </b>Farmacia Biodam</a>
+                            <a class="linkmenu" href="https://www.drvalencia.mx/" target="_blank"><b> > </b>Productos DV</a>
                         </div>
                         <a href="<?php echo (new \config\generales())->url_base."index.php?seccion=adm_session&accion=inicio"; ?>">¿Quiénes somos?</a>
                         <a href="<?php echo (new \config\generales())->url_base."index.php?seccion=adm_session&accion=nosotros"; ?>">Nuestro equipo</a>
                         <a href="#">Testimonio</a>
                         <a href="<?php echo (new \config\generales())->url_base."index.php?seccion=adm_session&accion=pregunta"; ?>">Preguntas frecuentes</a>
-                        <a href="<?php echo (new \config\generales())->url_base."index.php?seccion=adm_session&accion=contactos"; ?>"">Contáctanos</a>
+                        <a href="<?php echo (new \config\generales())->url_base."index.php?seccion=adm_session&accion=contactos"; ?>">Contáctanos</a>
                     </div>
                 </div>
             </div>

@@ -1,19 +1,18 @@
 <section id="home" class="container-fluid grid-block">
     <div class="row">
         <div class="img">
-            <div id="titular-home" class="col-md-4">
-                <h1>Es hora de aprender a optimizar tu salud </h1>
+            <div id="titular-home" class="col-md-5">
+                <h1>¡Es momento de aprender a optimizar tu salud!</h1>
             </div>
         </div>
     </div>
     <div class="row grid-block">
         <div class="row imgfondo">
             <div class="col-md-6">
-                <h1 class="h-titular">¿Qué es <b>la Medicina Funcional y Ortomolecular?</b></h1>
-                <p class="p-titular">Es un nuevo modelo de la medicina que busca la raíz del problema, centrado en
-                    el paciente y basado en la ciencia, buscando desde factores genéticos, bioquímicos y estilos
-                    de vida del paciente, para atenderle de manera individualizada.</p>
-                <p class="p-titular">"The Institute For Functional Medicine"</p>
+                <h1 class="h-titular">¿Qué es <b>la Medicina Funcional?</b></h1>
+                <p class="p-titular">Es un nuevo modelo de la medicina que busca la raíz del problema, centrado en el
+                    paciente y basado en la ciencia, buscando desde factores genéticos, bioquímicos y estilos de vida
+                    del paciente, para atenderle de manera individualizada. <br> "The Institute For Functional Medicine"</p>
             </div>
             <div class="col-md-6">
                 <img class="imgcurso" src="<?php echo (new config\generales())->url_base; ?>css/img/recursos/doc1.png">
@@ -22,12 +21,11 @@
         <div class="row">
             <div class="col-md-6">
                 <h1 class="h-titular">¿Por qué estudiar en <b>DV Educación</b>?</h1>
-                <p class="p-titular">Nuestros diplomados están diseñados desde la ciencia, bioquímica, nutrición
-                    funcional... mostrándote cómo utilizar la Medicina Funcional desde las bases
-                    hasta la clínica.</p>
-                <p class="p-titular">Empezando por optimizar tu salud y
-                    después la de tus pacientes y seres
-                    queridos</p>
+                <p class="p-titular">- Porque nuestros Diplomados están basados en la ciencia, te compartimos los fundamentos y las referencias.
+                    <br>- Te mostraremos cómo optimizar tu salud, mejorando el terreno biológico, con el uso correcto de nutracéuticos y otras terapias integrativas.
+                    <br>- El Dr Daniel Valencia es un ponente internacional, experto en Medicina Funcional, Hormonas Bioidénticas, Bioquímica, Cambios de estilo de vida, etc.
+                    <br>- Sus clases son muy amenas y entendibles.
+                    <br>- Formas parte de una comunidad de profesionales de la salud funcionales, los cuales comparten casos y formas de atenderlos (Telegram)
             </div>
             <div class="col-md-6">
                 <img class="imgcurso" src="<?php echo (new config\generales())->url_base; ?>css/img/recursos/joven1.png">
@@ -37,13 +35,12 @@
             <div class="col-md-6">
                 <h1 class="h-titular">Beneficios de estudiar con <b>DV Educación</b>?</h1>
                 <p class="p-titular">- Aval académico.
-                    <br> - Certiﬁcado de aprobación.
-                    <br> - sistencia un ﬁn de semana al mes.
-                    <br> - Clases presencial y online.
-                    <br> - Contenido clases disponible online.
-                    <br> - Plataforma disponible 24/7.
-                    <br> - Acceso a nuestra comunidad (Telegram).
-                    <br> - Conviértete en un experto desde el nivel básico al avanzado.
+                    <br>- Entrega de diploma por cada Diplomado que curses.
+                    <br>- Presencial, en línea y clases grabadas en plataforma educativa.
+                    <br>- Contenido de clases 24/7.
+                    <br>- Clases en vivo una vez al mes.
+                    <br>- Desayunos y comidas congruente con la medicina funcional.
+                    <br>- Tu consulta mejorará exponencialmente al tener mayores herramientas.
                 </p>
             </div>
             <div class="col-md-6">

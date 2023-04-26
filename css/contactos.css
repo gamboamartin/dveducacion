@@ -11,13 +11,19 @@
 #contacto p{
     text-align: left;
     font-size: 20px;
+    color: #594e4e;
+}
+
+#contacto a{
+    text-decoration: none;
+    color: #594e4e;
 }
 
 
 .contactos{
     background-color: #f8f6f6;
     /*background-image: url("img/fondos/port.jpg");*/
-    width: 107%;
+    width: 103%;
     height:100%;
     background-size: 100%;
     background-repeat:no-repeat;
@@ -38,6 +44,7 @@
         width: 100%;
     }
     .contactos{
-        width: 100%;
+        padding-top: 150px;
+        width: 99%;
     }
 }

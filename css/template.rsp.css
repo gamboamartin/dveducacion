@@ -157,7 +157,13 @@
     }
 
     .imgfondo{
-        background-size: 100%;
+        background-size: 103%;
+        background-position-x: 120px;
+        background-position-y: -15%;
+    }
+
+    .imgfondo1{
+        background-size: 103%;
         background-position-x: 120px;
         background-position-y: -15%;
     }
@@ -166,7 +172,14 @@
     }
 
 }
-
+/*
 .img img{
     width: 100%;
 }
+.img imgfondo{
+    width: 100%;
+}
+.img imgfondo1{
+    width: 100%;
+}
+*/

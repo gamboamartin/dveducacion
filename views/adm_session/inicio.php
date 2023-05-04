@@ -53,12 +53,17 @@
         <div class="borde40">
             <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/recursos/curso1.svg" class="imgcurso"></button></center></div>
             <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/recursos/curso2.svg" class="imgcurso"></button></center></div>
-            <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/recursos/recursos.svg" class="imgcurso"></button></center></div>
+            <div class="col-md-4 divcont"><center><button onclick="ReelDV()" type="button" class="btncursos"><img src="css/img/recursos/recursos.svg" class="imgcurso"></button></center></div>
         </div>
     </div>
+    <center><div class="col-md-4 border-verde">
+        <video id="videoDV" controls autoplay>
+            <source src="<?php echo (new config\generales())->url_base; ?>css/img/recursos/reeldv.mp4" type="video/mp4">
+        </video>
+    </div></center>
     <div class="row">
         <div class="grid-block">
-            <div class="row  borde25 bordeinfe">
+            <div class="row imgfondo1 borde25 bordeinfe">
                 <div class="col-md-4 borde25">
                     <center><h1>Conoce algunas de las opiniones de nuestros alumnos y ex alumnos</h1></center>
                 </div>

@@ -83,6 +83,7 @@ p{
 
 .divcont{
     float: left;
+    align-items: center;
 }
 .d30{
     width: 35%;
@@ -180,7 +181,7 @@ p{
     display: block;
 }
 .imgcurso{
-    width: 105%;
+    width: 110%;
     height: auto;
 }
 .btncursos{
@@ -207,8 +208,8 @@ p{
 .conteyoutube{
     width: 100%;
     height: 100%;
-    border-radius: 25px;
-    box-shadow: 0px 8px 16px 0px rgb(0,0,0,0.2);
+    /*border-radius: 25px;
+    box-shadow: 0px 8px 16px 0px rgb(0,0,0,0.2);*/
 }
 .imgtestimonio{
     width: 103%;
@@ -270,7 +271,7 @@ p{
 }
 
 .imgfondo{
-    width: 100%;
+    width: 103%;
     height: auto;
     background-size: 60%;
     background-repeat:no-repeat;
@@ -279,6 +280,19 @@ p{
     background-position-y: -250px;
 }
 .img imgfondo{
+    width: 100%;
+}
+
+.imgfondo1{
+    width: 103%;
+    height: auto;
+    background-size: 50%;
+    background-repeat:no-repeat;
+    background-image: url("img/fondos/fondocir.png");
+    background-position-x: 1050px;
+    background-position-y: -325px;
+}
+.img imgfondo1{
     width: 100%;
 }
 
@@ -309,7 +323,6 @@ p{
     width: 200px;
 }
 .diplomados{
-    background-color: #f0f0f0;
     text-align: left;
 }
 .modalimg{
@@ -335,4 +348,11 @@ p{
     font-family: MontserratFina;
     color: #003366;
     font-size: 70px;
+}
+
+#videoDV{
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: center;
 }

@@ -120,3 +120,12 @@ function mostrarPreguntaI() {
     }
 }
 
+function ReelDV(){
+    var video = document.getElementById("videoDV");
+    video.play();
+/*if (video.play()){
+    video.stop();
+}else{
+    video.play();
+}*/
+}

@@ -121,11 +121,23 @@ function mostrarPreguntaI() {
 }
 
 function ReelDV(){
+    var div = document.getElementById("video");
+
     var video = document.getElementById("videoDV");
-    video.play();
-/*if (video.play()){
+
+    if (div.style.display === "none") {
+        div.style.display = "block";
+        video.play();
+    } else {
+        div.style.display = "none";
+        video.stop();
+    }
+
+}
+
+function ocultarVideo() {
+    var modal = document.getElementById("video");
+    var video = document.getElementById("videoDV");
+    modal.style.display = "none";
     video.stop();
-}else{
-    video.play();
-}*/
 }

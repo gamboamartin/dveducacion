@@ -122,7 +122,6 @@ function mostrarPreguntaI() {
 
 function ReelDV(){
     var div = document.getElementById("video");
-
     var video = document.getElementById("videoDV");
 
     if (div.style.display === "none") {
@@ -136,8 +135,8 @@ function ReelDV(){
 }
 
 function ocultarVideo() {
-    var modal = document.getElementById("video");
+    var div = document.getElementById("video");
     var video = document.getElementById("videoDV");
-    modal.style.display = "none";
+    div.style.display = "none";
     video.stop();
 }

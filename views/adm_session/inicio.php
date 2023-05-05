@@ -56,8 +56,8 @@
             <div class="col-md-4 divcont"><center><button onclick="ReelDV()" type="button" class="btncursos"><img src="css/img/recursos/recursos.svg" class="imgcurso"></button></center></div>
         </div>
     </div>
-    <center><div class="col-md-4 border-verde">
-        <video id="videoDV" controls autoplay>
+    <center><div id="video" class="col-md-4" style="display: none">
+        <video id="videoDV" controls>
             <source src="<?php echo (new config\generales())->url_base; ?>css/img/recursos/reeldv.mp4" type="video/mp4">
         </video>
     </div></center>

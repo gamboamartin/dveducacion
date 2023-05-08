@@ -129,14 +129,7 @@ function ReelDV(){
         video.play();
     } else {
         div.style.display = "none";
-        video.stop();
+        video.pause();
     }
 
-}
-
-function ocultarVideo() {
-    var div = document.getElementById("video");
-    var video = document.getElementById("videoDV");
-    div.style.display = "none";
-    video.stop();
 }

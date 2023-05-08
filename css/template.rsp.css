@@ -122,6 +122,10 @@
         text-align: center;
         width: 100%;
     }
+
+    .borde40{
+        padding: 20px;
+    }
     .diplomados{
         padding: 2px;
     }
@@ -164,11 +168,18 @@
 
     .imgfondo1{
         background-size: 103%;
-        background-position-x: 120px;
-        background-position-y: -15%;
+        background-position-x: 150px;
+        background-position-y: -30%;
     }
     .piepagina{
         align-items: start;
+    }
+
+    #videoDV{
+        align-items: center;
+        z-index: 1;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
     }
 
 }

@@ -41,18 +41,12 @@ h3{
 }
 p{
     font-family: Confortaa;
-}
-.p-titular{
-    font-family: Confortaa;
     font-size: 25px;
     color: #594e4e;
+}
+.p-titular{
     padding-left: 25px;
     padding-top: 25px;
-}
-.p-parafo{
-    font-family: Confortaa;
-    font-size: 30px;
-    color: #594e4e;
 }
 .h-titular{
     font-family: MontserratIta;
@@ -349,34 +343,9 @@ p{
 }
 
 #videoDV{
-    /*width: 30%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    left: 0;
-    top: 0;*/
-
     align-items: center;
     z-index: 1;
     width: 33.3%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-}
-
-.close{
-    position: absolute;
-    z-index: 1;
-    top: 15px;
-    right: 55px;
-    color: #594e4e;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
 }

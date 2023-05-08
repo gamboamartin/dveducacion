@@ -130,6 +130,7 @@ function ReelDV(){
     } else {
         div.style.display = "none";
         video.pause();
+        video.load();
     }
 
 }

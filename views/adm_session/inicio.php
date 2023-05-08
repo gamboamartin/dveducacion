@@ -53,7 +53,7 @@
         <div class="borde40">
             <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/recursos/curso1.svg" class="imgcurso"></button></center></div>
             <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/recursos/curso2.svg" class="imgcurso"></button></center></div>
-            <div class="col-md-4 divcont"><center><button onclick="ReelDV()" type="button" class="btncursos"><img src="css/img/recursos/recursos.svg" class="imgcurso"></button></center></div>
+            <div class="col-md-4 divcont"><center><button onclick="ReelDV()" type="button" class="btncursos" data-href="#videoDV"><img src="css/img/recursos/recursos.svg" class="imgcurso"></button></center></div>
         </div>
     </div>
     <center><div id="video" style="display: none">

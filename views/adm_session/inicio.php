@@ -58,7 +58,7 @@
     </div>
     <center><div id="video" style="display: none">
         <video id="videoDV" controls>
-            <source src="<?php echo (new config\generales())->url_base; ?>css/img/recursos/reelDV.mp4" type="video/mp4">
+            <source src="<?php echo (new config\generales())->url_base; ?>css/img/reel/reeldv.mp4" type="video/mp4">
         </video>
     </div></center>
     <div class="row">

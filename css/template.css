@@ -265,11 +265,11 @@ p{
 .imgfondo{
     width: 100%;
     height: auto;
-    background-size: 60%;
+    background-size: 55%;
     background-repeat:no-repeat;
     background-image: url("img/fondos/fondocir.png");
     background-position-x: 70%;
-    background-position-y: -250px;
+    background-position-y: -175px;
 }
 .img imgfondo{
     width: 100%;
@@ -353,4 +353,16 @@ p{
 .carrusel-vertical{
     height: 500Px;
     overflow-y: scroll;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#basico{
+    display: flex;
+    overflow: auto;
+}
+
+#basico p{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

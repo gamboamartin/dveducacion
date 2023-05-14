@@ -134,3 +134,22 @@ function ReelDV(){
     }
 
 }
+
+function Basico(){
+    var div = document.getElementById("basico");
+    if (div.style.display === "none") {
+        div.style.display = "block";
+    } else {
+        div.style.display = "none";
+    }
+
+}
+function Avanzado(){
+    var div = document.getElementById("avanzado");
+    if (div.style.display === "none") {
+        div.style.display = "block";
+    } else {
+        div.style.display = "none";
+    }
+
+}

@@ -137,8 +137,10 @@ function ReelDV(){
 
 function Basico(){
     var div = document.getElementById("basico");
+    var div2 = document.getElementById("avanzado");
     if (div.style.display === "none") {
         div.style.display = "block";
+        div2.style.display= "none";
     } else {
         div.style.display = "none";
     }
@@ -146,8 +148,10 @@ function Basico(){
 }
 function Avanzado(){
     var div = document.getElementById("avanzado");
+    var div2 = document.getElementById("basico");
     if (div.style.display === "none") {
         div.style.display = "block";
+        div2.style.display = "none";
     } else {
         div.style.display = "none";
     }

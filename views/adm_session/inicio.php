@@ -48,11 +48,10 @@
                 <img class="imgcurso" src="<?php echo (new config\generales())->url_base; ?>css/img/recursos/confe1.png">
             </div>
         </div>
-
     </div>
     <div id="ndiplomados" class="row grid-block diplomados">
         <center><h1 class="col-md-4 encabezados">Nuestros <b>Diplomados</b></h1></center>
-        <div class="borde40">
+        <div class="borde25">
             <div class="col-md-4 divcont"><center><button  onclick="Basico()" type="button" class="btncursos">
                 <img src="css/img/recursos/curso1.svg" class="imgcurso"></button></center></div>
 
@@ -62,8 +61,7 @@
                 data-href="#videoDV"><img src="css/img/recursos/recursos.svg" class="imgcurso"></button></center></div>
         </div>
     </div>
-
-    <div id="basico" style="display: none" class="col-md-12 borde25 border-verde">
+    <div id="basico" style="display: none" class="borde25">
         <center>
             <h2>Diplomado en Medicina Funcional <br>
                 Ortomolecular Módulos Básico: <br><br></h2>
@@ -79,8 +77,7 @@
                 9. Casos clínicos <br>
             </p></center>
     </div>
-
-    <div id="avanzado" style="display: none" class="borde25 border-verde">
+    <div id="avanzado" style="display: none" class="borde25">
         <center>
             <h2>Diplomado en Medicina Funcional <br>
                 Ortomolecular Módulos Avanzado:<br><br></h2>

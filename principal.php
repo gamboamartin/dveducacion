@@ -48,7 +48,7 @@ use config\views;
                         </div>
                         <a href="<?php echo (new \config\generales())->url_base."index.php?seccion=adm_session&accion=inicio"; ?>">¿Quiénes somos?</a>
                         <a href="<?php echo (new \config\generales())->url_base."index.php?seccion=adm_session&accion=nosotros"; ?>">Nuestro equipo</a>
-                        <a href="#">Testimonio</a>
+                        <a href="https://www.youtube.com/@dvnutraceuticos_educacion/videos" target="_blank">Testimonio</a>
                         <a href="<?php echo (new \config\generales())->url_base."index.php?seccion=adm_session&accion=pregunta"; ?>">Preguntas frecuentes</a>
                         <a href="<?php echo (new \config\generales())->url_base."index.php?seccion=adm_session&accion=contactos"; ?>">Contáctanos</a>
                     </div>
@@ -56,7 +56,7 @@ use config\views;
             </div>
         </div>
         <div class="col-md-4">
-            <img class="imgmenu" src="<?php echo (new config\generales())->url_base; ?>css/img/recursos/logo.jpg">
+            <a href="<?php echo (new \config\generales())->url_base."index.php?seccion=adm_session&accion=inicio"; ?>"><img class="imgmenu" src="<?php echo (new config\generales())->url_base; ?>css/img/recursos/logo.jpg"></a>
         </div>
         <div class="menudv navbar col-md-4"> <a href="https://escuela.dveducacion.com/" target="_blank">Plataforma</a></div>
     </div>

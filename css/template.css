@@ -169,7 +169,7 @@ p{
 }
 .dropdown-content a:hover {
     background-color: rgba(255, 204, 0, 0.72);
-    border-radius: 65px;
+    border-radius: 10px;
 }
 .dropdown:hover .dropdown-content {
     display: block;
@@ -361,8 +361,21 @@ p{
     display: flex;
     overflow: auto;
 }
-
 #basico p{
     padding-top: 10px;
     padding-bottom: 10px;
+}
+#basico h2{
+    font-size: 30Px;
+}
+#avanzado{
+    display: flex;
+    overflow: auto;
+}
+#avanzado p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#avanzado h2{
+    font-size: 30Px;
 }

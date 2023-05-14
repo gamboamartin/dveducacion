@@ -1,76 +1,32 @@
-.close{
-    position: absolute;
-    z-index: 1;
-    top: 25px;
-    right: 25px;
-    color: #594e4e;
-    background-color: rgba(24, 23, 23, 0.04);
-    font-size: 30px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.nosotros{
+.quienes{
     background-image: url("img/fondos/port.jpg");
-    width: 103.5%;
+    width: 103%;
     height:100%;
     background-size: 100%;
     background-repeat:no-repeat;
     background-size: cover;
 }
 
-#titular-nosotros{
+#titular-quienes{
     float: right;
-    padding: 80px 60px 60px 20px;
+    padding: 80px 60px 40px 40px;
 }
 
-#titular-nosotros h1{
+#titular-quienes h1{
     font-family: MontserratIta;
-    font-size: 65px;
-    color: #003366;
+    font-size: 75px;
 }
 
-.imgpersonal{
-    width: 50%;
-    border-radius: 50%;
-    position: center;
-}
-.imgpersonal-parafo{
-    width: 90%;
-    padding: 15px 10px 15px 10px;
-    border-radius: 50%;
-    position: center;
-}
-#educadores p{
-    border-radius: 5px;
-    font-family: Confortaa;
-    font-size: 25px;
-}
-
-#educadores h1{
-    color: #003366;
-    border-radius: 5px;
-    font-family: MontserratFina;
-    font-size: 55px;
-}
-
-#educadores h3{
-    text-align: center;
-    color: #003366;
-    font-family: Montserrat;
+.p-quienes p{
     font-size: 35px;
+    padding: 35px;
+    text-align: center;
+}
+#ndiplomados h1{
+    font-size: 45px;
+    color: #003366;
 }
 
-.espacio-educadores{
-    width: 100%;
-    height: 60px;
-}
 
 /*Preguntas*/
 #preguntas{
@@ -107,9 +63,32 @@
     color: #594e4e;
 }
 
+#basico{
+    display: flex;
+    overflow: auto;
+}
+#basico p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#basico h2{
+    font-size: 35Px;
+}
+#avanzado{
+    display: flex;
+    overflow: auto;
+}
+#avanzado p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#avanzado h2{
+    font-size: 35Px;
+}
+
 @media only screen and (max-width: 600px) {
 
-    .nosotros{
+    .quienes{
         margin-top:148px;
     }
 
@@ -142,17 +121,17 @@
         padding-left: 25px;
     }
 
-    #titular-nosotros{
+    #titular-quienes{
         padding: 25px 1px 1px 1px;
         width: 100%;
     }
 
-    #titular-nosotros h1{
-        font-size: 35px;
+    #titular-quienes h1{
+        font-size: 45px;
         text-align: center;
         width: 100%;
     }
 }
-.nosotros img{
+.quienes img{
     width: 100%;
 }

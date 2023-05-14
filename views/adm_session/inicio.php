@@ -92,11 +92,12 @@
                 8. Longevidad y masa muscular
         </p></center>
     </div>
-    <center><div id="video" style="display: none">
+    <center><div id="video" style="display: none" class="bordeinfe">
         <video id="videoDV" controls>
             <source src="<?php echo (new config\generales())->url_base; ?>css/img/reel/reeldv.mp4" type="video/mp4">
         </video>
     </div></center>
+
     <div class="row">
         <div class="grid-block">
             <div class="row imgfondo1 borde25 bordeinfe">

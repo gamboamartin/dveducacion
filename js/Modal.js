@@ -11,39 +11,21 @@ function mostrarModalMiguel() {
     var modal = document.getElementById("modal-miguel");
     modal.style.display = "block";
 }
-function ocultarModalMiguel() {
-    var modal = document.getElementById("modal-miguel");
-    modal.style.display = "none";
-}
 
 //Modal Rodolfo
 function mostrarModalRodolfo() {
     var modal = document.getElementById("modal-rodolfo");
     modal.style.display = "block";
 }
-function ocultarModalRodolfo() {
-    var modal = document.getElementById("modal-rodolfo");
-    modal.style.display = "none";
-}
-
 //Modal Daniel
 function mostrarModalDaniel() {
     var modal = document.getElementById("modal-daniel");
     modal.style.display = "block";
 }
-function ocultarModalDaniel() {
-    var modal = document.getElementById("modal-daniel");
-    modal.style.display = "none";
-}
-
 //Modal Margarita
 function mostrarModalMargarita() {
     var modal = document.getElementById("modal-margarita");
     modal.style.display = "block";
-}
-function ocultarModalMargarita() {
-    var modal = document.getElementById("modal-margarita");
-    modal.style.display = "none";
 }
 
 //Preguntas
@@ -123,18 +105,19 @@ function mostrarPreguntaI() {
 function ReelDV(){
     var div = document.getElementById("video");
     var video = document.getElementById("videoDV");
-
+    var div2 = document.getElementById("basico");
+    var div3 = document.getElementById("avanzado");
     if (div.style.display === "none") {
         div.style.display = "block";
+        div2.style.display = "none";
+        div3.style.display = "none";
         video.play();
     } else {
         div.style.display = "none";
         video.pause();
         video.load();
     }
-
 }
-
 function Basico(){
     var div = document.getElementById("basico");
     var div2 = document.getElementById("avanzado");
@@ -144,7 +127,6 @@ function Basico(){
     } else {
         div.style.display = "none";
     }
-
 }
 function Avanzado(){
     var div = document.getElementById("avanzado");
@@ -155,5 +137,4 @@ function Avanzado(){
     } else {
         div.style.display = "none";
     }
-
 }

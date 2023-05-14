@@ -19,6 +19,7 @@ use config\views;
     <link href="<?php (new \config\generales())->url_base ?>css/styles.css" rel="stylesheet">
     <link href="<?php (new \config\generales())->url_base ?>css/nosotros.css" rel="stylesheet">
     <link href="<?php (new \config\generales())->url_base ?>css/contactos.css" rel="stylesheet">
+    <link href="<?php (new \config\generales())->url_base ?>css/quienes.css" rel="stylesheet">
 
     <script src="js/Modal.js"></script>
 
@@ -46,7 +47,7 @@ use config\views;
                             <a class="linkmenu" href="https://www.farmaciabiodam.com" target="_blank"><b> > </b>Farmacia Biodam</a>
                             <a class="linkmenu" href="https://www.drvalencia.mx/" target="_blank"><b> > </b>Productos DV</a>
                         </div>
-                        <a href="<?php echo (new \config\generales())->url_base."index.php?seccion=adm_session&accion=inicio"; ?>">¿Quiénes somos?</a>
+                        <a href="<?php echo (new \config\generales())->url_base."index.php?seccion=adm_session&accion=quienes"; ?>">¿Quiénes somos?</a>
                         <a href="<?php echo (new \config\generales())->url_base."index.php?seccion=adm_session&accion=nosotros"; ?>">Nuestro equipo</a>
                         <a href="https://www.youtube.com/@dvnutraceuticos_educacion/videos" target="_blank">Testimonio</a>
                         <a href="<?php echo (new \config\generales())->url_base."index.php?seccion=adm_session&accion=pregunta"; ?>">Preguntas frecuentes</a>

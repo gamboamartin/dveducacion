@@ -171,17 +171,16 @@
     }
 
     .imgfondo1{
-        background-size: 103%;
+        background-size: 100%;
         background-position-x: 150px;
-        background-position-y: -40%;
+        background-position-y: -30%;
     }
     .piepagina{
         align-items: start;
     }
 
     #videoDV{
-        width: 90%;
-        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
     }
 
     .imgtestimonio{

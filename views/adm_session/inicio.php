@@ -7,7 +7,7 @@
         </div>
     </div>
     <div class="row grid-block">
-        <div class="row imgfondo">
+        <div class="row imgfondo carrusel-vertical">
             <div class="col-md-6">
                 <h1 class="h-titular">¿Qué es <b>la Medicina Funcional?</b></h1>
                 <p class="p-titular">Es un nuevo modelo de la medicina que busca la raíz del problema, centrado en el
@@ -17,8 +17,7 @@
             <div class="col-md-6">
                 <img class="imgcurso" src="<?php echo (new config\generales())->url_base; ?>css/img/recursos/doc1.png">
             </div>
-        </div>
-        <div class="row">
+
             <div class="col-md-6">
                 <h1 class="h-titular">¿Por qué estudiar en <b>DV Educación</b>?</h1>
                 <p class="p-titular">- Porque nuestros Diplomados están basados en la ciencia, te compartimos los fundamentos y las referencias.
@@ -30,8 +29,6 @@
             <div class="col-md-6">
                 <img class="imgcurso" src="<?php echo (new config\generales())->url_base; ?>css/img/recursos/joven1.png">
             </div>
-        </div>
-        <div class="row">
             <div class="col-md-6">
                 <h1 class="h-titular">Beneficios de estudiar con <b>DV Educación</b>?</h1>
                 <p class="p-titular">- Aval académico.
@@ -47,6 +44,7 @@
                 <img class="imgcurso" src="<?php echo (new config\generales())->url_base; ?>css/img/recursos/confe1.png">
             </div>
         </div>
+
     </div>
     <div id="ndiplomados" class="row grid-block diplomados">
         <center><h1 class="col-md-4 encabezados">Nuestros <b>Diplomados</b></h1></center>

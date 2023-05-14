@@ -55,10 +55,9 @@
             </div>
 
             <div class="row bordeinfe">
-                <div class="col-md-3 divcont"><center><button type="button" class="btncursos"><img src="css/img/recursos/curso1.svg" class="imgcurso"></button></center></div>
-                <div class="col-md-3 divcont"><center><button type="button" class="btncursos"><img src="css/img/recursos/curso2.svg" class="imgcurso"></button></center></div>
-                <div class="col-md-3 divcont"><center><button type="button" class="btncursos"><img src="css/img/recursos/recursos.svg" class="imgcurso"></button></center></div>
-                <div class="col-md-3 divcont"><center><button type="button" class="btncursos"><img src="css/img/recursos/recursos.svg" class="imgcurso"><p>WordPress</p></button></center></div>
+                <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/recursos/curso1.svg" class="imgcurso"></button></center></div>
+                <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/recursos/curso2.svg" class="imgcurso"></button></center></div>
+                <div class="col-md-4 divcont"><center><button type="button" class="btncursos"><img src="css/img/recursos/recursos.svg" class="imgcurso"></button></center></div>
             </div>
         </div>
     </div>

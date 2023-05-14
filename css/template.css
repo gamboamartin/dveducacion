@@ -175,7 +175,7 @@ p{
     display: block;
 }
 .imgcurso{
-    width: 110%;
+    width: 100%;
     height: auto;
 }
 .btncursos{
@@ -263,7 +263,7 @@ p{
 }
 
 .imgfondo{
-    width: 103%;
+    width: 100%;
     height: auto;
     background-size: 60%;
     background-repeat:no-repeat;
@@ -347,5 +347,10 @@ p{
     z-index: 1;
     width: 33.3%;
     height: auto;
-    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+}
+
+.carrusel-vertical{
+    height: 500Px;
+    overflow-y: scroll;
 }

@@ -6,7 +6,7 @@
         </div>
     </div>
     <div class="p-quienes">
-        <p>Somos un equipo de profesionales de la salud y expertos en educación que buscan dar herramientas para médicos, enfermeros, terapeutas físicos, homeópatas, que estén interesados en aplicar en su práctica profesional el modelo de la Medicina Funcional y Ortomolecular.
+        <p>Somos un equipo de profesionales de la salud y expertos en educación que buscan dar herramientas para médicos, enfermeros, terapeutas físicos, homeópatas, que estén interesados en aplicar en su práctica profesional el modelo de la Medicina Funcional y Ortomolecular.<br><br>
 
             Nos preocupamos por optimizar la salud tuya y de tus pacientes, con un diplomado basado en la ciencia y bajo éste novedoso paradigma que integra muchas visiones basadas en estudios e investigaciones que harán de ti un excelente profesional de la salud.</p>
     </div>

@@ -6,15 +6,9 @@
         </div>
     </div>
     <div class="p-quienes">
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-            diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-            aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
-            exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
-            commodo consequat. Duis autem vel eum iriure dolor in hendrerit
-            in vulputate velit esse molestie consequat, vel illum dolore eu
-            feugiat nulla facilisis at vero eros et accumsan et iusto odio
-            dignissim qui blandit praesent luptatum zzril delenit augue duis
-            dolore te feugait nulla facilisi.</p>
+        <p>Somos un equipo de profesionales de la salud y expertos en educación que buscan dar herramientas para médicos, enfermeros, terapeutas físicos, homeópatas, que estén interesados en aplicar en su práctica profesional el modelo de la Medicina Funcional y Ortomolecular.
+
+            Nos preocupamos por optimizar la salud tuya y de tus pacientes, con un diplomado basado en la ciencia y bajo éste novedoso paradigma que integra muchas visiones basadas en estudios e investigaciones que harán de ti un excelente profesional de la salud.</p>
     </div>
     <div id="preguntas" class="grid-block">
         <center><h1 class="col-md-4">Preguntas</h1></center>

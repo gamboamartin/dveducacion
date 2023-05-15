@@ -40,7 +40,6 @@ use config\views;
                 <div class="col-md-12">
                     <div class="dropdown-content">
                         <a class="linkmenu" href="<?php echo (new \config\generales())->url_base."index.php?seccion=adm_session&accion=basico"; ?>">Básico</a>
-                        <a class="linkmenu" href="<?php echo (new \config\generales())->url_base."index.php?seccion=adm_session&accion=intermedio"; ?>">Intermedio</a>
                         <a class="linkmenu" href="<?php echo (new \config\generales())->url_base."index.php?seccion=adm_session&accion=avanzado"; ?>">Avanzado</a>
                         <a class="linkmenu" onclick="opcionMenu()">Nutracéuticos</a>
                         <div id="opcionesMenu" style="display: none;">

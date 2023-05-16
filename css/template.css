@@ -379,3 +379,16 @@ p{
 #avanzado h2{
     font-size: 30Px;
 }
+
+#whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+}
+

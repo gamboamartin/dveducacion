@@ -63,17 +63,7 @@
     color: #594e4e;
 }
 
-#basico{
-    display: flex;
-    overflow: auto;
-}
-#basico p{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-#basico h2{
-    font-size: 35Px;
-}
+
 #avanzado{
     display: flex;
     overflow: auto;

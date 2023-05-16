@@ -2,3 +2,9 @@
     padding-left: 50px;
     padding-top: 50px;
 }
+@media only screen and (max-width: 600px) {
+
+    #titular-quienes h1{
+        font-size: 33px;
+    }
+}

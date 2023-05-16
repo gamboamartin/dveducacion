@@ -59,7 +59,7 @@
 
 
             <div class="col-md-4 divcont"><center><button type="button" class="btncursos" data-bs-toggle="modal" data-bs-target="#modal_avanzado">
-                <img src="css/img/recursos/curso3.png" class="imgcurso"></button></center></div>
+                <img src="css/img/recursos/curso2.jpeg" class="imgcurso"></button></center></div>
             <div class="col-md-4 divcont"><center><button onclick="ReelDV()" type="button" class="btncursos"
                 data-href="#videoDV"><img src="css/img/recursos/recursos.svg" class="imgcurso"></button></center></div>
         </div>

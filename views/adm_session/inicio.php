@@ -52,46 +52,77 @@
     <div id="ndiplomados" class="row grid-block diplomados">
         <center><h1 class="col-md-4 encabezados">Nuestros <b>Diplomados</b></h1></center>
         <div class="borde25">
-            <div class="col-md-4 divcont"><center><button  onclick="Basico()" type="button" class="btncursos">
+            <div class="col-md-4 divcont">
+                <center><button  type="button" class="btncursos" data-bs-toggle="modal" data-bs-target="#modal_basico">
                 <img src="css/img/recursos/curso1.svg" class="imgcurso"></button></center></div>
 
-            <div class="col-md-4 divcont"><center><button onclick="Avanzado()" type="button" class="btncursos">
+
+            <div class="col-md-4 divcont"><center><button type="button" class="btncursos" data-bs-toggle="modal" data-bs-target="#modal_avanzado">
                 <img src="css/img/recursos/curso3.png" class="imgcurso"></button></center></div>
             <div class="col-md-4 divcont"><center><button onclick="ReelDV()" type="button" class="btncursos"
                 data-href="#videoDV"><img src="css/img/recursos/recursos.svg" class="imgcurso"></button></center></div>
         </div>
+
+
     </div>
-    <div id="basico" style="display: none" class="borde25">
-        <center>
-            <h2>Diplomado en Medicina Funcional <br>
-                Ortomolecular Módulos Básico: <br><br></h2>
-            <p>1. El nuevo concepto de salud y enfermedad <br>
-                2. La medicina desde el punto de vista del terreno biológico <br>
-                3. La inflamación celular crónica <br>
-                4. Estrés oxidativo <br>
-                5. Microbiota intestinal e intestino permeable <br>
-                6. La carga tóxica y el proceso de biotransformación <br>
-                7. La importancia del equilibrio hormonal <br>
-                8. Disfuncion del eje Hipotálamo - Pituitaria - Adrenal <br>
-                (fatiga adrenal) y Tiroides <br>
-                9. Casos clínicos <br>
-            </p></center>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal_basico" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="exampleModalLabel">Diplomado en Medicina Funcional Ortomolecular Módulos Básico:</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>1. El nuevo concepto de salud y enfermedad <br><br>
+                        2. La medicina desde el punto de vista del terreno biológico <br><br>
+                        3. La inflamación celular crónica <br><br>
+                        4. Estrés oxidativo <br><br>
+                        5. Microbiota intestinal e intestino permeable <br><br>
+                        6. La carga tóxica y el proceso de biotransformación <br><br>
+                        7. La importancia del equilibrio hormonal <br><br>
+                        8. Disfuncion del eje Hipotálamo - Pituitaria - Adrenal <br><br>
+                        (fatiga adrenal) y Tiroides <br><br>
+                        9. Casos clínicos <br><br>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
     </div>
-    <div id="avanzado" style="display: none" class="borde25">
-        <center>
-            <h2>Diplomado en Medicina Funcional <br>
-                Ortomolecular Módulos Avanzado:<br><br></h2>
-            <p>1. El uso correcto de los nutracéuticos <br>
-                2. El uso correcto de los nutracéuticos II <br>
-                3. Terapias Intravenosas <br>
-                4. Terapias Intravenosas II <br>
-                5. La enfermedad cardiovascular como
-                problema metabólico <br>
-                6. Manejo hormona avanzado <br>
-                7. Manejo hormona avanzado II <br>
-                8. Longevidad y masa muscular
-        </p></center>
+
+    <div class="modal fade" id="modal_avanzado" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="exampleModalLabel">Diplomado en Medicina Funcional Ortomolecular Módulos Avanzado:</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>1. El uso correcto de los nutracéuticos <br><br>
+                        2. El uso correcto de los nutracéuticos II <br><br>
+                        3. Terapias Intravenosas <br><br>
+                        4. Terapias Intravenosas II <br><br>
+                        5. La enfermedad cardiovascular como
+                        problema metabólico <br><br>
+                        6. Manejo hormona avanzado <br><br>
+                        7. Manejo hormona avanzado II <br><br>
+                        8. Longevidad y masa muscular
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
     </div>
+
+
     <center><div id="video" style="display: none" class="bordeinfe">
         <video id="videoDV" controls>
             <source src="<?php echo (new config\generales())->url_base; ?>css/img/reel/reeldv.mp4" type="video/mp4">

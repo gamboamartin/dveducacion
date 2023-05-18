@@ -90,7 +90,8 @@
                     </p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-tertiary" data-bs-target="#modal_requisito">Requisitos</button>
+
+                    <button class="btn btn-tertiary" data-bs-target="#modal_requisito" data-bs-toggle="modal" data-bs-dismiss="modal">Requisitos</button>
                     <!-- Boton Requisito debe de abrir modal_requisito -->
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                 </div>
@@ -118,7 +119,7 @@
                     </p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-tertiary" data-bs-target="#modal_requisito">Requisitos</button>
+                    <button class="btn btn-tertiary" data-bs-target="#modal_requisito" data-bs-toggle="modal" data-bs-dismiss="modal">Requisitos</button>
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                 </div>
             </div>

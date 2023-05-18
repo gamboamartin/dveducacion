@@ -53,19 +53,15 @@
     <div id="ndiplomados" class="row grid-block diplomados">
         <center><h1 class="col-md-4 encabezados">Nuestros <b>Diplomados</b></h1></center>
         <div class="borde25">
-            <div class="col-md-3 divcont">
+            <div class="col-md-4 divcont">
                 <center><button  type="button" class="btncursos" data-bs-toggle="modal" data-bs-target="#modal_basico">
                 <img src="css/img/recursos/curso1.svg" class="imgcurso"></button></center></div>
 
 
-            <div class="col-md-3 divcont"><center><button type="button" class="btncursos" data-bs-toggle="modal" data-bs-target="#modal_avanzado">
+            <div class="col-md-4 divcont"><center><button type="button" class="btncursos" data-bs-toggle="modal" data-bs-target="#modal_avanzado">
                 <img src="css/img/recursos/curso2.jpeg" class="imgcurso"></button></center></div>
 
-            <div class="col-md-3 divcont"><center><button type="button" class="btncursos" data-bs-toggle="modal" data-bs-target="#modal_requisito">
-                <img src="css/img/recursos/curso3.svg" class="imgcurso"></button></center>
-                <h1>Requisitos</h1></div>
-
-            <div class="col-md-3 divcont"><center><button onclick="ReelDV()" type="button" class="btncursos"
+            <div class="col-md-4 divcont"><center><button onclick="ReelDV()" type="button" class="btncursos"
                 data-href="#videoDV"><img src="css/img/recursos/recursos.svg" class="imgcurso"></button></center></div>
         </div>
     </div>

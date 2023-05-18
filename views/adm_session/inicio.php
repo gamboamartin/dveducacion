@@ -62,7 +62,8 @@
                 <img src="css/img/recursos/curso2.jpeg" class="imgcurso"></button></center></div>
 
             <div class="col-md-3 divcont"><center><button type="button" class="btncursos" data-bs-toggle="modal" data-bs-target="#modal_requisito">
-                <img src="css/img/recursos/curso1.jpeg" class="imgcurso"></button></center></div>
+                <img src="css/img/recursos/curso3.svg" class="imgcurso"></button></center>
+                <h1>Requisitos</h1></div>
 
             <div class="col-md-3 divcont"><center><button onclick="ReelDV()" type="button" class="btncursos"
                 data-href="#videoDV"><img src="css/img/recursos/recursos.svg" class="imgcurso"></button></center></div>
@@ -89,10 +90,12 @@
                         7. La importancia del equilibrio hormonal <br>
                         8. Disfuncion del eje Hipotálamo - Pituitaria - Adrenal <br>
                         (fatiga adrenal) y Tiroides <br>
-                        9. Casos clínicos <br>
+                        9. Casos clínicos
                     </p>
                 </div>
                 <div class="modal-footer">
+                    <button type="button" class="btn btn-tertiary" data-bs-target="#modal_requisito">Requisitos</button>
+                    <!-- Boton Requisito debe de abrir modal_requisito -->
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                 </div>
             </div>
@@ -119,6 +122,7 @@
                     </p>
                 </div>
                 <div class="modal-footer">
+                    <button type="button" class="btn btn-tertiary" data-bs-target="#modal_requisito">Requisitos</button>
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                 </div>
             </div>

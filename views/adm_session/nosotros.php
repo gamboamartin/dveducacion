@@ -123,6 +123,11 @@
                         Módulo VIII: La importancia de la función hormonal<br>
                         Módulo IX: Estrés metabólico  <br>
                     </p>
+                    <p>
+                    <h4 class="letra-azul">Registro del Diplomado Básico:</h4>
+                    <b class="letra-azul">*Aval: ESDIP-2023-095
+                        Secretaría de Innovación, Ciencia y Tecnología de Jalisco</b>
+                    </p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -139,15 +144,18 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>1. El uso correcto de los nutracéuticos <br>
-                        2. El uso correcto de los nutracéuticos II <br>
-                        3. Terapias Intravenosas <br>
-                        4. Terapias Intravenosas II <br>
-                        5. La enfermedad cardiovascular como
-                        problema metabólico <br>
-                        6. Manejo hormona avanzado <br>
-                        7. Manejo hormona avanzado II <br>
-                        8. Longevidad y masa muscular
+                    <p>
+                        I y II. USO CORRECTO DE LOS NUTRACÉUTICOS <br>
+                        III Y IV. TERAPIAS INTRAVENOSAS<br>
+                        IV, VI Y VII. TERAPIAS HORMONALES AVANZADAS<br>
+                        VIII. SALUD CARDIOVASCULAR DESDE EL METABOLISMO.<br>
+                        <br>
+                        <b>Estos módulos se pueden elegir por separado.</b><br>
+                    </p>
+                    <p>
+                    <h4 class="letra-azul">Registro del Diplomado Avanzado:</h4>
+                    <b class="letra-azul">*Aval: ESDIP-2023-096
+                        Secretaría de Innovación, Ciencia y Tecnología de Jalisco</b>
                     </p>
                 </div>
                 <div class="modal-footer">

@@ -7,17 +7,24 @@
         </div>
     </div>
     <div class="col-md-12 p-basico">
+        <p>
+            Módulo I: El nuevo concepto de salud y enfermedad <br>
+            Módulo II: La medicina desde el terreno biológico <br>
+            Módulo III: La inflamación celular crónica<br>
+            Módulo IV: Estrés oxidativo <br>
+            Módulo V: Microbioma intestinal e intestino permeable<br>
+            Módulo VI: Detoxificación <br>
+            Módulo VII: Introducción a las Hormonas Bioidénticas<br>
+            Módulo VIII: La importancia de la función hormonal<br>
+            Módulo IX: Estrés metabólico <br>
+        </p>
 
-            <p> Módulo I: El nuevo concepto de salud y enfermedad <br>
-                Módulo II: La medicina desde el terreno biológico <br>
-                Módulo III: La inflamación celular crónica<br>
-                Módulo IV: Estrés oxidativo <br>
-                Módulo V: Microbioma intestinal e intestino permeable<br>
-                Módulo VI: Detoxificación <br>
-                Módulo VII: Introducción a las Hormonas Bioidénticas<br>
-                Módulo VIII: La importancia de la función hormonal<br>
-                Módulo IX: Estrés metabólico <br>
-            </p>
+        <p>
+            <h4 class="letra-azul">Registro del Diplomado Básico:</h4>
+            <b class="letra-azul">*Aval: ESDIP-2023-095
+                Secretaría de Innovación, Ciencia y Tecnología de Jalisco</b>
+        </p>
+
         <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modal_requisito">
             Requisitos
         </button>

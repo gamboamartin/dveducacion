@@ -79,22 +79,32 @@
                         Módulo VII: Introducción a las Hormonas Bioidénticas<br>
                         Módulo VIII: La importancia de la función hormonal<br>
                         Módulo IX: Estrés metabólico <br>
-                    </p></center>
+                    </p>
+                    <p>
+                    <h4 class="letra-azul">Registro del Diplomado Básico:</h4>
+                    <b class="letra-azul">*Aval: ESDIP-2023-095
+                        Secretaría de Innovación, Ciencia y Tecnología de Jalisco</b>
+                    </p>
+                </center>
             </div>
             <div id="avanzado" style="display: none" class="borde25">
                 <center>
                     <h3>Diplomado en Medicina Funcional <br>
                         Ortomolecular Módulos Avanzado:<br><br></h3>
-                    <p>1. El uso correcto de los nutracéuticos <br>
-                        2. El uso correcto de los nutracéuticos II <br>
-                        3. Terapias Intravenosas <br>
-                        4. Terapias Intravenosas II <br>
-                        5. La enfermedad cardiovascular como
-                        problema metabólico <br>
-                        6. Manejo hormona avanzado <br>
-                        7. Manejo hormona avanzado II <br>
-                        8. Longevidad y masa muscular
-                    </p></center>
+                    <p>
+                        I y II. USO CORRECTO DE LOS NUTRACÉUTICOS <br>
+                        III Y IV. TERAPIAS INTRAVENOSAS<br>
+                        IV, VI Y VII. TERAPIAS HORMONALES AVANZADAS<br>
+                        VIII. SALUD CARDIOVASCULAR DESDE EL METABOLISMO.<br>
+                        <br>
+                        <b>Estos módulos se pueden elegir por separado.</b><br>
+                    </p>
+                    <p>
+                    <h4 class="letra-azul">Registro del Diplomado Avanzado:</h4>
+                    <b class="letra-azul">*Aval: ESDIP-2023-096
+                        Secretaría de Innovación, Ciencia y Tecnología de Jalisco</b>
+                    </p>
+                </center>
             </div>
             <center><div id="video" style="display: none" class="bordeinfe">
                     <video id="videoDV" controls>

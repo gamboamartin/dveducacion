@@ -113,16 +113,15 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>1. El nuevo concepto de salud y enfermedad <br>
-                        2. La medicina desde el punto de vista del terreno biológico <br>
-                        3. La inflamación celular crónica <br>
-                        4. Estrés oxidativo <br>
-                        5. Microbiota intestinal e intestino permeable <br>
-                        6. La carga tóxica y el proceso de biotransformación <br>
-                        7. La importancia del equilibrio hormonal <br>
-                        8. Disfuncion del eje Hipotálamo - Pituitaria - Adrenal <br>
-                        (fatiga adrenal) y Tiroides <br>
-                        9. Casos clínicos <br>
+                    <p> Módulo I: El nuevo concepto de salud y enfermedad <br>
+                        Módulo II: La medicina desde el terreno biológico <br>
+                        Módulo III: La inflamación celular crónica<br>
+                        Módulo IV: Estrés oxidativo <br>
+                        Módulo V: Microbioma intestinal e intestino permeable<br>
+                        Módulo VI: Detoxificación <br>
+                        Módulo VII: Introducción a las Hormonas Bioidénticas<br>
+                        Módulo VIII: La importancia de la función hormonal<br>
+                        Módulo IX: Estrés metabólico  <br>
                     </p>
                 </div>
                 <div class="modal-footer">
